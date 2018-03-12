@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile Automation Test Suite" time="380" tests="1" failures="1" errors="0">
+   <testsuite name="Mobile Automation Test Suite" tests="1" failures="1" errors="0" time="380" timestamp="2017-09-07 12:34:16" hostname="sus - 10.152.0.212" id="Test Suites/Mobile Automation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_123404"/>
+         <property name="logFiles" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_123404/appium-proxy-server.log, /Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_123404/appium.log, /Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_123404/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sus - 10.152.0.212"/>
+         <property name="hostAddress" value="10.152.0.212"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.7.0.3"/>
+         <property name="appiumVersion" value="1.6.5"/>
+      </properties>
+      <testcase name="Test Cases/LogIn" classname="Test Cases/LogIn" status="PASSED">
+         <system-out><![CDATA[2017-09-07 12:34:16 - [TEST_CASE][PASSED] - Test Cases/LogIn: Test Cases/LogIn
+
+2017-09-07 12:34:17 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-07 12:34:47 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-07 12:34:47 - [TEST_STEP][PASSED] - startApplication: Started app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+
+2017-09-07 12:35:12 - [MESSAGE][PASSED] - Started app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+
+2017-09-07 12:35:12 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2017-09-07 12:36:12 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2017-09-07 12:36:12 - [TEST_STEP][PASSED] - setText: Text 'swati.pandey@smartusys.com' has been set to element 'Object Repository/SCM Mobile/LogIn/UserName TextBox'
+
+2017-09-07 12:36:20 - [MESSAGE][PASSED] - Text 'swati.pandey@smartusys.com' has been set to element 'Object Repository/SCM Mobile/LogIn/UserName TextBox'
+
+2017-09-07 12:36:20 - [TEST_STEP][PASSED] - setText: Text 'Demo@123' has been set to element 'Object Repository/SCM Mobile/LogIn/Password TextBox'
+
+2017-09-07 12:36:32 - [MESSAGE][PASSED] - Text 'Demo@123' has been set to element 'Object Repository/SCM Mobile/LogIn/Password TextBox'
+
+2017-09-07 12:36:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LogIn/SignIn Button'
+
+2017-09-07 12:36:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LogIn/SignIn Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Outages" classname="Test Cases/Outages" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-09-07 12:36:41 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found
+
+2017-09-07 12:36:42 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnListOutagesPage = null: null
+
+2017-09-07 12:36:42 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnOutagesDetailsPage = null: null
+
+2017-09-07 12:36:42 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-09-07 12:36:42 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 12:36:42 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-09-07 12:37:32 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-09-07 12:37:32 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Outages Menu), 3, CONTINUE_ON_FAILURE) == false): Element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' is visible
+
+2017-09-07 12:37:38 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' is visible
+
+2017-09-07 12:37:38 - [TEST_STEP][PASSED] - Statement - Else: Delayed 35 second(s)
+
+2017-09-07 12:37:38 - [TEST_STEP][PASSED] - Statement - bResult = true: null
+
+2017-09-07 12:37:38 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LandingPage/Outages Menu'
+
+2017-09-07 12:37:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LandingPage/Outages Menu'
+
+2017-09-07 12:37:45 - [TEST_STEP][PASSED] - delay: Delayed 40 second(s)
+
+2017-09-07 12:38:25 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2017-09-07 12:38:25 - [TEST_STEP][PASSED] - delay: Delayed 35 second(s)
+
+2017-09-07 12:39:00 - [MESSAGE][PASSED] - Delayed 35 second(s)
+
+2017-09-07 12:39:00 - [TEST_STEP][FAILED] - Statement - If (bResult == true): Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)
+
+2017-09-07 12:39:00 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Outages/Current Outages Text if Current Outages are not available), 3, CONTINUE_ON_FAILURE) == true): Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found
+
+2017-09-07 12:39:04 - [MESSAGE][FAILED] - Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found
+
+2017-09-07 12:39:04 - [TEST_STEP][FAILED] - Statement - Else: Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)
+
+2017-09-07 12:39:04 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Outages/Current Outages Tab), 10, CONTINUE_ON_FAILURE) == false): Element 'Object Repository/SCM Mobile/Outages/Current Outages Tab' is visible
+
+2017-09-07 12:39:08 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Outages/Current Outages Tab' is visible
+
+2017-09-07 12:39:08 - [TEST_STEP][FAILED] - Statement - Else: Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)
+
+2017-09-07 12:39:08 - [TEST_STEP][PASSED] - Statement - out.println("Current Outages Tab is displayed in the Outages Menu"): null
+
+2017-09-07 12:39:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Outages/Current Outages Tab'
+
+2017-09-07 12:39:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Outages/Current Outages Tab'
+
+2017-09-07 12:39:14 - [TEST_STEP][PASSED] - delay: Delayed 35 second(s)
+
+2017-09-07 12:39:49 - [MESSAGE][PASSED] - Delayed 35 second(s)
+
+2017-09-07 12:39:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Outages/Outages List View'
+
+2017-09-07 12:39:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Outages/Outages List View'
+
+2017-09-07 12:39:54 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnListOutagesPage = null: null
+
+2017-09-07 12:39:55 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnOutagesDetailsPage = null: null
+
+2017-09-07 12:39:55 - [TEST_STEP][FAILED] - Statement - sOutageTitleOnListOutagesPage = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Outages/Outage Title on Outage Details Page_Map), "value", 5, CONTINUE_ON_FAILURE): Object Object Repository/SCM Mobile/Outages/Outage Title on Outage Details Page_Map not found
+
+2017-09-07 12:40:00 - [MESSAGE][FAILED] - Object Object Repository/SCM Mobile/Outages/Outage Title on Outage Details Page_Map not found
+
+2017-09-07 12:40:00 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)
+
+2017-09-07 12:40:35 - [MESSAGE][FAILED] - Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found
+
+2017-09-07 12:40:35 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)]]></system-out>
+         <system-err><![CDATA[2017-09-07 12:36:41 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-07 12:34:16 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found]]></system-out>
+      <system-err><![CDATA[2017-09-07 12:34:16 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>PreLoginPayBill</description>
+   <name>PreLogin PayBill</name>
+   <tag>PreLoginPayBill</tag>
+   <comment>One Time Payment</comment>
+   <testCaseGuid>a3b1a734-e033-453d-815c-71316bf80e03</testCaseGuid>
+</TestCaseEntity>

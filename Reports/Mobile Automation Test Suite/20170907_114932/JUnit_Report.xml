@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile Automation Test Suite" time="32" tests="0" failures="3" errors="0">
+   <testsuite name="Mobile Automation Test Suite" tests="0" failures="3" errors="0" time="32" timestamp="2017-09-07 11:49:43" hostname="sus - 10.152.0.212" id="Test Suites/Mobile Automation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_114932"/>
+         <property name="logFiles" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_114932/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sus - 10.152.0.212"/>
+         <property name="hostAddress" value="10.152.0.212"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.7.0.3"/>
+      </properties>
+      <testcase name="Test Cases/LogIn" classname="Test Cases/LogIn" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-09-07 11:49:44 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2017-09-07 11:49:44 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-07 11:50:14 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-07 11:50:14 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)
+
+2017-09-07 11:50:15 - [MESSAGE][FAILED] - Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+         <system-err><![CDATA[2017-09-07 11:49:44 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Outages" classname="Test Cases/Outages" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-09-07 11:50:15 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' visible (Root cause: No application is started yet.)
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnListOutagesPage = null: null
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnOutagesDetailsPage = null: null
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 11:50:15 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Outages Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-09-07 11:50:15 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' visible (Root cause: No application is started yet.)
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - out.println("Outages is not displayed in the Dashboard/Landing Page"): null
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - If (bResult == true): null
+
+2017-09-07 11:50:15 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/Common Elements/PressBack' (Root cause: No application is started yet.)
+
+2017-09-07 11:50:15 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/Common Elements/PressBack' (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-09-07 11:50:15 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' visible (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Notifications" classname="Test Cases/Notifications" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-09-07 11:50:15 - [TEST_CASE][FAILED] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) No application is started yet.
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - x = 0: null
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - y = 0: null
+
+2017-09-07 11:50:15 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null]]></system-out>
+         <system-err><![CDATA[2017-09-07 11:50:15 - [TEST_CASE][FAILED] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) No application is started yet.]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-07 11:49:43 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/LogIn FAILED because (of) Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-out>
+      <system-err><![CDATA[2017-09-07 11:49:43 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/LogIn FAILED because (of) Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: java.lang.IllegalArgumentException: The mobile device is missing. Please select the mobile device to be executed and try again.)]]></system-err>
+   </testsuite>
+</testsuites>

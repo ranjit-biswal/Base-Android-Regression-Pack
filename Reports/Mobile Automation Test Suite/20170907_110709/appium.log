@@ -1,0 +1,1278 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 49199
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 49200
+[Appium]   tmpDir: /var/folders/5j/s3trxhds15v02p4tm7w_fw4w0000gn/T//Katalon/Appium/Temp1504762674190
+[Appium]   webkitDebugProxyPort: 49197
+[Appium] Appium REST http interface listener started on 0.0.0.0:49199
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 18 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa","noReset":true,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","newCommandTimeout":1800,"automationName":"XCUITest","waitForAppScript":"true;","udid":"c5c6be47b584c86a051ad5a0b33944fcb5c76609","platformName":"iOS","deviceName":"iPhone","fullReset":false,"wdaLocalPort":49196}}
+[Appium] Creating new XCUITestDriver (v2.30.0) session
+[Appium] Capabilities:
+[Appium]   app: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+[Appium]   noReset: true
+[Appium]   realDeviceLogger: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole'
+[Appium]   newCommandTimeout: 1800
+[Appium]   automationName: 'XCUITest'
+[Appium]   waitForAppScript: 'true;'
+[Appium]   udid: 'c5c6be47b584c86a051ad5a0b33944fcb5c76609'
+[Appium]   platformName: 'iOS'
+[Appium]   deviceName: 'iPhone'
+[Appium]   fullReset: false
+[Appium]   wdaLocalPort: 49196
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: realDeviceLogger.
+[BaseDriver] Session created with session id: 4b36f358-5014-4c76-bd6f-826eeed3e860
+[XCUITest] Determining device to run tests on: udid: 'c5c6be47b584c86a051ad5a0b33944fcb5c76609', real device: true
+[BaseDriver] Using local app '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+[BaseDriver] Unzipped local app to '/var/folders/5j/s3trxhds15v02p4tm7w_fw4w0000gn/T/201787-519-u271dy.jawe5klnmi/Payload/SCMBase.app'
+[XCUITest] Setting up real device
+[XCUITest] Using WDA path: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[XCUITest] Launching WebDriverAgent on the device
+[XCUITest] Carthage not found. Install using `brew install carthage`
+[XCUITest] Cannot parse major and minor version numbers from platformVersion "null". Will build for the default platform instead
+[XCUITest] Setting '555' permissions to '/Users/sus/Library/Developer/Xcode/DerivedData/WebDriverAgent-dikkwtrisltbeobjmfvpthwwekvs/Logs/Test/Attachments' folder
+[Appium] New XCUITestDriver session created successfully, session 4b36f358-5014-4c76-bd6f-826eeed3e860 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 23785 ms - 689 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 13 ms - 83 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 672 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeTextField"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 2559 ms - 169 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2835DC05-4358-4491-BC72-4295259CA61A/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2835DC05-4358-4491-BC72-4295259CA61A/location 200 543 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2835DC05-4358-4491-BC72-4295259CA61A/clear {"id":"2835DC05-4358-4491-BC72-4295259CA61A"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2835DC05-4358-4491-BC72-4295259CA61A/clear 200 533 ms - 76 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2835DC05-4358-4491-BC72-4295259CA61A/value {"id":"2835DC05-4358-4491-BC72-4295259CA61A","value":["swati.pandey@smartusys.com"]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2835DC05-4358-4491-BC72-4295259CA61A/value 200 3363 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 646 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeSecureTextField"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 4646 ms - 177 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E2D94F30-5D1A-4AD0-B816-2DAD4193CB69/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E2D94F30-5D1A-4AD0-B816-2DAD4193CB69/location 200 763 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E2D94F30-5D1A-4AD0-B816-2DAD4193CB69/clear {"id":"E2D94F30-5D1A-4AD0-B816-2DAD4193CB69"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E2D94F30-5D1A-4AD0-B816-2DAD4193CB69/clear 200 757 ms - 76 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E2D94F30-5D1A-4AD0-B816-2DAD4193CB69/value {"id":"E2D94F30-5D1A-4AD0-B816-2DAD4193CB69","value":["Demo@123"]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E2D94F30-5D1A-4AD0-B816-2DAD4193CB69/value 200 3219 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 670 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Sign In' and @name = 'Sign In']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 4752 ms - 173 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/7491BD2F-F351-4C60-A6D5-124B3D556A37/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/7491BD2F-F351-4C60-A6D5-124B3D556A37/location 200 838 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"7491BD2F-F351-4C60-A6D5-124B3D556A37"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 2436 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 631 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'My Account' and @name = 'My Account']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3451 ms - 180 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/53856502-580C-49A2-A374-0F4CB660164F/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/53856502-580C-49A2-A374-0F4CB660164F/location 200 562 ms - 87 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/53856502-580C-49A2-A374-0F4CB660164F/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/53856502-580C-49A2-A374-0F4CB660164F/displayed 200 594 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 440 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'My Account' and @name = 'My Account']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3461 ms - 180 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/89123407-5159-472B-8DC8-E85C26F6A1DC/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/89123407-5159-472B-8DC8-E85C26F6A1DC/location 200 551 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"89123407-5159-472B-8DC8-E85C26F6A1DC"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 2202 ms - 76 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"class name","value":"XCUIElementTypeStaticText"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 974 ms - 1396 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text 200 616 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text 200 431 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text 200 473 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text 200 460 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text 200 431 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/BAC71842-E4CE-4BAA-B979-94FD5A149D15/text 200 452 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/C2FA6B4E-F69F-4D88-B3E0-1CEC26A1DA58/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/C2FA6B4E-F69F-4D88-B3E0-1CEC26A1DA58/text 200 449 ms - 81 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/C2FA6B4E-F69F-4D88-B3E0-1CEC26A1DA58/click {"id":"C2FA6B4E-F69F-4D88-B3E0-1CEC26A1DA58"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/C2FA6B4E-F69F-4D88-B3E0-1CEC26A1DA58/click 200 947 ms - 118 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 971 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[3]/XCUIElementTypeTextField[1]"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3976 ms - 169 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E9456D5E-4583-4170-BD3E-3A75D5BAA130/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E9456D5E-4583-4170-BD3E-3A75D5BAA130/location 200 563 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E9456D5E-4583-4170-BD3E-3A75D5BAA130/clear {"id":"E9456D5E-4583-4170-BD3E-3A75D5BAA130"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E9456D5E-4583-4170-BD3E-3A75D5BAA130/clear 200 3500 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 672 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[3]/XCUIElementTypeTextField[1]"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 5326 ms - 169 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/5CC0D795-805B-42B6-B787-2ED22D7C4A0E/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/5CC0D795-805B-42B6-B787-2ED22D7C4A0E/location 200 794 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/5CC0D795-805B-42B6-B787-2ED22D7C4A0E/clear {"id":"5CC0D795-805B-42B6-B787-2ED22D7C4A0E"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/5CC0D795-805B-42B6-B787-2ED22D7C4A0E/clear 200 813 ms - 76 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/5CC0D795-805B-42B6-B787-2ED22D7C4A0E/value {"id":"5CC0D795-805B-42B6-B787-2ED22D7C4A0E","value":["999-999-9999"]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/5CC0D795-805B-42B6-B787-2ED22D7C4A0E/value 200 2261 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 660 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Ok' and @name = 'Ok']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 5437 ms - 168 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/46F3A537-EF9C-4ECD-ACA0-3DF5EF610CCC/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/46F3A537-EF9C-4ECD-ACA0-3DF5EF610CCC/location 200 780 ms - 89 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"46F3A537-EF9C-4ECD-ACA0-3DF5EF610CCC"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 2388 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 684 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3867 ms - 170 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/44A8A648-8092-4678-8DAA-FCABCE1CE528/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/44A8A648-8092-4678-8DAA-FCABCE1CE528/location 200 570 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"44A8A648-8092-4678-8DAA-FCABCE1CE528"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1862 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 793 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeStaticText"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 4799 ms - 2389 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/39C3D377-8364-476C-9144-3F9A5E2D48A0/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/39C3D377-8364-476C-9144-3F9A5E2D48A0/location 200 638 ms - 88 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/39C3D377-8364-476C-9144-3F9A5E2D48A0/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/39C3D377-8364-476C-9144-3F9A5E2D48A0/attribute/value 200 645 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 581 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[2]/XCUIElementTypeButton[1]"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 4274 ms - 168 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0D3589FD-892F-47E9-8048-8D8FA8463602/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0D3589FD-892F-47E9-8048-8D8FA8463602/location 200 675 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"0D3589FD-892F-47E9-8048-8D8FA8463602"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 2022 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 918 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3981 ms - 550 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/27005DA1-0F19-48F9-B490-D97F57BD3BBE/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/27005DA1-0F19-48F9-B490-D97F57BD3BBE/location 200 591 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"27005DA1-0F19-48F9-B490-D97F57BD3BBE"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1928 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text 200 648 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text 200 411 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text 200 421 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text 200 454 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text 200 483 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/955E4542-2F3E-4D0C-8D89-BD9CB39057C1/text 200 468 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text 200 436 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text 200 454 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text 200 467 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text 200 423 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text 200 459 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/012F2D6C-EE3B-46C2-86DC-EEF8D4EB6820/text 200 425 ms - 84 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text 200 442 ms - 107 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text 200 426 ms - 107 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text 200 458 ms - 107 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text 200 438 ms - 107 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text 200 451 ms - 107 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D051169E-5577-4C96-9C83-729C567BC964/text 200 475 ms - 107 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D77FFB30-2DB3-4790-BF8F-7AACF1CB0BB8/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D77FFB30-2DB3-4790-BF8F-7AACF1CB0BB8/text 200 444 ms - 93 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D77FFB30-2DB3-4790-BF8F-7AACF1CB0BB8/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D77FFB30-2DB3-4790-BF8F-7AACF1CB0BB8/text 200 437 ms - 93 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D77FFB30-2DB3-4790-BF8F-7AACF1CB0BB8/click {"id":"D77FFB30-2DB3-4790-BF8F-7AACF1CB0BB8"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/D77FFB30-2DB3-4790-BF8F-7AACF1CB0BB8/click 200 1017 ms - 118 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 506 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeImage"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 2097 ms - 167 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/62E71772-AD2B-4A7E-84A2-11A1CDB9AACB/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/62E71772-AD2B-4A7E-84A2-11A1CDB9AACB/location 200 403 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"62E71772-AD2B-4A7E-84A2-11A1CDB9AACB"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1393 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 547 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeTextField[1]"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3119 ms - 169 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/97AB34D3-5732-47A5-8397-BBB74E5501FA/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/97AB34D3-5732-47A5-8397-BBB74E5501FA/location 200 545 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/97AB34D3-5732-47A5-8397-BBB74E5501FA/clear {"id":"97AB34D3-5732-47A5-8397-BBB74E5501FA"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/97AB34D3-5732-47A5-8397-BBB74E5501FA/clear 200 510 ms - 76 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/97AB34D3-5732-47A5-8397-BBB74E5501FA/value {"id":"97AB34D3-5732-47A5-8397-BBB74E5501FA","value":["John Doe"]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/97AB34D3-5732-47A5-8397-BBB74E5501FA/value 200 2939 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 750 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Ok' and @name = 'Ok']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 5563 ms - 168 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/03B4B957-240A-44D0-B661-950ACBCDA0DC/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/03B4B957-240A-44D0-B661-950ACBCDA0DC/location 200 842 ms - 89 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"03B4B957-240A-44D0-B661-950ACBCDA0DC"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 2155 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 610 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[2]/XCUIElementTypeTextField[1]"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3203 ms - 169 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/1CA2C363-7E5A-44C1-9FF3-DB639BF89F84/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/1CA2C363-7E5A-44C1-9FF3-DB639BF89F84/location 200 522 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/1CA2C363-7E5A-44C1-9FF3-DB639BF89F84/clear {"id":"1CA2C363-7E5A-44C1-9FF3-DB639BF89F84"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/1CA2C363-7E5A-44C1-9FF3-DB639BF89F84/clear 200 540 ms - 76 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/1CA2C363-7E5A-44C1-9FF3-DB639BF89F84/value {"id":"1CA2C363-7E5A-44C1-9FF3-DB639BF89F84","value":["4111111111111111"]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/1CA2C363-7E5A-44C1-9FF3-DB639BF89F84/value 200 3412 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 739 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Ok' and @name = 'Ok']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 5718 ms - 168 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/42C1F9CF-7041-40A1-95F6-7D9456C489E8/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/42C1F9CF-7041-40A1-95F6-7D9456C489E8/location 200 794 ms - 89 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"42C1F9CF-7041-40A1-95F6-7D9456C489E8"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 2396 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 505 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[3]/XCUIElementTypeButton[1]"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3177 ms - 168 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/60FDC5A9-104B-41E7-A5E1-F84F93FF88E0/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/60FDC5A9-104B-41E7-A5E1-F84F93FF88E0/location 200 566 ms - 89 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"60FDC5A9-104B-41E7-A5E1-F84F93FF88E0"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1509 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 707 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Done' and @name = 'Done']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 4458 ms - 170 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/452676DB-FFEE-432A-AEAA-08B73C9CD093/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/452676DB-FFEE-432A-AEAA-08B73C9CD093/location 200 806 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"452676DB-FFEE-432A-AEAA-08B73C9CD093"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 2085 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 422 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeSecureTextField"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3188 ms - 177 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2845380E-83B7-49A8-9B70-D1E26826AA4F/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2845380E-83B7-49A8-9B70-D1E26826AA4F/location 200 534 ms - 89 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2845380E-83B7-49A8-9B70-D1E26826AA4F/clear {"id":"2845380E-83B7-49A8-9B70-D1E26826AA4F"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2845380E-83B7-49A8-9B70-D1E26826AA4F/clear 200 551 ms - 76 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2845380E-83B7-49A8-9B70-D1E26826AA4F/value {"id":"2845380E-83B7-49A8-9B70-D1E26826AA4F","value":["123"]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/2845380E-83B7-49A8-9B70-D1E26826AA4F/value 200 2766 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 642 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Ok' and @name = 'Ok']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 5518 ms - 168 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/23EA3B3E-BFFC-42AD-B363-4FEED568A7B3/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/23EA3B3E-BFFC-42AD-B363-4FEED568A7B3/location 200 773 ms - 89 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"23EA3B3E-BFFC-42AD-B363-4FEED568A7B3"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 2349 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 457 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Add' and @name = 'Add']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3333 ms - 169 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/AB1844D8-0E96-4111-AA8E-60E87EF884A4/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/AB1844D8-0E96-4111-AA8E-60E87EF884A4/location 200 534 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"AB1844D8-0E96-4111-AA8E-60E87EF884A4"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1816 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 683 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Your credit card details have been added successfully and will be validated once you choose to make a payment.' and @name = 'Your credit card details have been added successfully and will be validated once you choose to make a payment.']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3638 ms - 280 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/42266393-4EF8-46C4-B392-0A3A3A37108D/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/42266393-4EF8-46C4-B392-0A3A3A37108D/location 200 596 ms - 88 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/42266393-4EF8-46C4-B392-0A3A3A37108D/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/42266393-4EF8-46C4-B392-0A3A3A37108D/attribute/value 200 554 ms - 184 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 501 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'OK' and @name = 'OK']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3674 ms - 168 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/5470B5BE-4049-4139-89DC-14EBC9D72824/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/5470B5BE-4049-4139-89DC-14EBC9D72824/location 200 592 ms - 88 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"5470B5BE-4049-4139-89DC-14EBC9D72824"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1935 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 532 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 2399 ms - 453 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/87E79FC9-1604-4418-8F20-BD426B0E8A69/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/87E79FC9-1604-4418-8F20-BD426B0E8A69/location 200 451 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"87E79FC9-1604-4418-8F20-BD426B0E8A69"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1750 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text 200 605 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text 200 431 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text 200 467 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text 200 466 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text 200 453 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0EC02AB1-FCBA-46DC-A6A8-1B6010D7926D/text 200 465 ms - 112 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/82D134BD-03EB-4BB3-8AAA-A439ABB7081F/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/82D134BD-03EB-4BB3-8AAA-A439ABB7081F/text 200 485 ms - 95 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/82D134BD-03EB-4BB3-8AAA-A439ABB7081F/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/82D134BD-03EB-4BB3-8AAA-A439ABB7081F/text 200 473 ms - 95 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/82D134BD-03EB-4BB3-8AAA-A439ABB7081F/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/82D134BD-03EB-4BB3-8AAA-A439ABB7081F/text 200 497 ms - 95 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/82D134BD-03EB-4BB3-8AAA-A439ABB7081F/click {"id":"82D134BD-03EB-4BB3-8AAA-A439ABB7081F"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/82D134BD-03EB-4BB3-8AAA-A439ABB7081F/click 200 1043 ms - 118 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 730 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3441 ms - 550 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/3348BFE5-DD1A-494D-9469-4E73E0D73F4F/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/3348BFE5-DD1A-494D-9469-4E73E0D73F4F/location 200 558 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"3348BFE5-DD1A-494D-9469-4E73E0D73F4F"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1895 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text 200 683 ms - 114 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text 200 456 ms - 114 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text 200 497 ms - 114 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text 200 499 ms - 114 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text 200 481 ms - 114 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0AA65E81-A816-4A0F-A39E-23D94AA1FB5B/text 200 476 ms - 114 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/text 200 474 ms - 87 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/text 200 444 ms - 87 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/text 200 461 ms - 87 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/text 200 447 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/click {"id":"77D0B26C-946F-42E0-89CC-0C054FE37992"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/77D0B26C-946F-42E0-89CC-0C054FE37992/click 200 942 ms - 118 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 1186 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[Xcode]  accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   648.61s     Find: Descendants matching type Sheet
+[Xcode]     t =   648.61s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   648.61s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   648.75s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   648.75s     Find: Descendants matching type Alert
+[Xcode]     t =   648.75s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   648.76s     Find: Descendants matching type Sheet
+[Xcode]     t =   648.89s     Find the "About My Home" StaticText
+[Xcode]     t =   648.89s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   649.01s         Find: Descendants matching type StaticText
+[Xcode]     t =   649.02s         Find: Element at index 9
+[Xcode]     t =   649.02s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   649.02s     Find: Descendants matching type StaticText
+[Xcode]     t =   649.02s     Find: Element at index 9
+[Xcode]     t =   649.03s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   649.03s     Find: Descendants matching type StaticText
+[Xcode]     t =   649.03s     Find: Element at index 9
+[Xcode]     t =   649.14s     Find the "About My Home" StaticText
+[Xcode]     t =   649.14s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   649.27s         Find: Descendants matching type StaticText
+[Xcode]     t =   649.27s         Find: Element at index 9
+[Xcode]     t =   649.28s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   649.28s     Find: Descendants matching type StaticText
+[Xcode]     t =   649.28s     Find: Element at index 9
+[Xcode]     t =   649.28s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   649.29s     Find: Descendants matching type StaticText
+[Xcode]     t =   649.29s     Find: Element at index 9
+[Xcode]     t =   659.48s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   659.48s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   660.02s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   660.02s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   660.03s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   660.07s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   660.07s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   660.59s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   660.59s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   660.64s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   660.64s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   660.95s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   660.96s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode] 2017-09-07 11:19:29.719620+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170259770> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:29.720222+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17057d700: traits: 8589934593, {{0.0, 139.5}, {320.0, 66.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:29.816321+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e5e000> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:29.816856+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x1709705c0: traits: 8589934593, {{0.0, 205.5}, {320.0, 66.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:29.919040+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1710588a0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:29.919635+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17076e580: traits: 8589934593, {{0.0, 271.5}, {320.0, 66.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.028891+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170c57250> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.029370+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x170762640: traits: 8589934592, {{0.0, 337.5}, {320.0, 82.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.091210+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170450440> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.091919+0530 XCTRunner[306:22712] Failed to fetch hit point for TextField 0x170360900: traits: 146029150208, {{10.0, 391.5}, {300.0, 20.0}}, placeholderValue: 'Optional' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.106830+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e5c080> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.107357+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x170970740: traits: 8589934592, {{0.0, 420.0}, {320.0, 65.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.188828+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x171450f80> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.189298+0530 XCTRunner[306:22712] Failed to fetch hit point for TextField 0x17096d2c0: traits: 146029150208, {{10.0, 457.0}, {300.0, 20.0}}, placeholderValue: 'Optional' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.202002+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170a494e0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Err
+[Xcode] or copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.202413+0530 XCTRunner[306:22712] Failed to fetch hit point for Button 0x170970a40: traits: 8589934593, {{285.0, 442.5}, {20.0, 20.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.219550+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170658840> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.220632+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17077f140: traits: 8589934592, {{0.0, 485.5}, {320.0, 65.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.236018+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170c46090> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.237099+0530 XCTRunner[306:22712] Failed to fetch hit point for StaticText 0x17057e6c0: traits: 8589934656, {{0.0, 0.0}, {301.0, 17.0}}, label: 'How many floors does your home have?' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.253312+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17105b660> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.254549+0530 XCTRunner[306:22712] Failed to fetch hit point for TextField 0x170366240: traits: 146029150208, {{0.0, 0.0}, {300.0, 20.0}}, placeholderValue: 'Optional' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.268301+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1706483a0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.269512+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17097a640: traits: 8589934592, {{0.0, 551.0}, {320.0, 51.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.388497+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17164d710> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.389086+0530 XCTRunner[306:22712] Failed to fetch hit point for Switch 0x17096e1c0: traits: 9007207844675585, {{0.0, 0.0}, {51.0, 31.0}}, value: 0 - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.404230+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x171446690> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.404752+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17037f080: traits: 8589934592, {{0.0, 602.0}, {320.0, 65.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.570754+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e5b0f0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.573839+0530 XCTRunner[306:22712] Failed to fetch hit point for TextField 0x170577640: traits: 146029150208, {{0.0, 0.0}, {300.0, 20.0}}, placeholderValue: 'Optional' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.600035+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170c5d640> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.600488+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17076e400: traits: 8589934592, {{0.0, 667.5}, {320.0, 65.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.617096+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x171457a00> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.617503+0530 XCTRunner[306:22712] Failed to fetch hit point for StaticText 0x170570440: traits: 8589934656, {{0.0, 0.0}, {301.0, 17.0}}, label: 'How many bathrooms do you have?' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.634810+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1712569e0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.635205+0530 XCTRunner[306:22712] Failed to fetch hit point for TextField 0x170773500: traits: 146029150208, {{0.0, 0.0}, {300.0, 20.0}}, placeholderValue: 'Optional' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.653310+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170a44b30> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.a
+[Xcode] pp/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.653758+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17056e340: traits: 8589934592, {{0.0, 733.0}, {320.0, 82.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.879928+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1710408a0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.880529+0530 XCTRunner[306:22712] Failed to fetch hit point for Button 0x17056db00: traits: 8589934593, {{0.0, 0.0}, {20.0, 20.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.899867+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x171448d60> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.900417+0530 XCTRunner[306:22712] Failed to fetch hit point for TextField 0x170961740: traits: 146029150208, {{0.0, 0.0}, {300.0, 20.0}}, placeholderValue: 'Optional' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.915363+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x171648df0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.915763+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17056c540: traits: 8589934592, {{0.0, 815.5}, {320.0, 65.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:30.984986+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x171257370> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:30.986293+0530 XCTRunner[306:22712] Failed to fetch hit point for Button 0x170361c80: traits: 8589934593, {{0.0, 0.0}, {20.0, 20.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.103482+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17164b070> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.103942+0530 XCTRunner[306:22712] Failed to fetch hit point for TextField 0x170962c40: traits: 146029150208, {{0.0, 0.0}, {300.0, 20.0}}, placeholderValue: 'Optional' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.126305+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17165e570> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.126811+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17036fb40: traits: 8589934592, {{0.0, 881.0}, {320.0, 82.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.203242+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17085a190> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.203817+0530 XCTRunner[306:22712] Failed to fetch hit point for Button 0x17096f000: traits: 8589934593, {{0.0, 0.0}, {20.0, 20.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.241158+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17125a430> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.242030+0530 XCTRunner[306:22712] Failed to fetch hit point for TextField 0x17057cb00: traits: 146029150208, {{0.0, 0.0}, {300.0, 20.0}}, placeholderValue: 'Optional' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.269479+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17165bed0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.270030+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17096ef40: traits: 8589934592, {{0.0, 963.5}, {320.0, 65.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.396944+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x171656710> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.397549+0530 XCTRunner[306:22712] Failed to fetch hit point for StaticText 0x17096eac0: traits: 8589934656, {{0.0, 0.0}, {301.0, 17.0}}, label: 'What is the size of special landscape area?' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.415472+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1714444a0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentR
+[Xcode] unner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.415925+0530 XCTRunner[306:22712] Failed to fetch hit point for Button 0x17096ec40: traits: 8589934593, {{0.0, 0.0}, {20.0, 20.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.430249+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x171647890> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.430759+0530 XCTRunner[306:22712] Failed to fetch hit point for TextField 0x17056ee80: traits: 146029150208, {{0.0, 0.0}, {300.0, 20.0}}, placeholderValue: 'Optional' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.444908+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17164ae60> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.445330+0530 XCTRunner[306:22712] Failed to fetch hit point for Other 0x170570140: traits: 8589934592, {{0.0, 1029.0}, {320.0, 38.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.459421+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x175248c40> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.459847+0530 XCTRunner[306:22712] Failed to fetch hit point for Other 0x174b65a00: traits: 8589934592, {{0.0, 1029.0}, {320.0, 38.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.498055+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17504a650> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.503021+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x174b60300: traits: 8589934592, {{0.0, 1067.0}, {320.0, 45.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.591350+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17504f0f0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.592133+0530 XCTRunner[306:22712] Failed to fetch hit point for Button 0x174371700: traits: 8589934593, {{0.0, 0.0}, {20.0, 20.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.732980+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17565ea80> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.733524+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x174976800: traits: 8589934592, {{0.0, 1112.0}, {320.0, 45.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.799639+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17445d520> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.800142+0530 XCTRunner[306:22712] Failed to fetch hit point for Button 0x17496e040: traits: 8589934601, {{0.0, 0.0}, {20.0, 20.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:31.815544+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1746465a0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:31.816022+0530 XCTRunner[306:22712] Failed to fetch hit point for Cell 0x17496a740: traits: 8589934593, {{0.0, 1157.0}, {320.0, 66.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:32.187109+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170845340> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:32.187584+0530 XCTRunner[306:22712] Failed to fetch hit point for Other 0x17056d740: {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:32.196402+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x171449f30> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:32.196947+0530 XCTRunner[306:22712] Failed to fetch hit point for ActivityIndicator 0x17056edc0: {{142.0, 256.0}, {37.0, 37.0}}, label: 'In progress', value: 1 - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:19:32.205738+0530 XCTRunner[306:22712] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17144fff0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:19:32.206130+0530 XCTRunner[306:22712] Failed to fetch hit point for StaticText 0x17056fa80: traits: 64, {{125.0, 297.0}, {70.6, 16.0}}, label: 'Loading...' - *** -[__NSPlaceholderArr
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 5362 ms - 552 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0B5173C4-CE50-4582-8EAC-8A9118531F57/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/0B5173C4-CE50-4582-8EAC-8A9118531F57/location 200 774 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"0B5173C4-CE50-4582-8EAC-8A9118531F57"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1916 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[Xcode] ay initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode]     t =   664.62s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   664.67s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.15s         Find: Descendants matching type Button
+[Xcode]     t =   665.16s     Find the Button
+[Xcode]     t =   665.16s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.16s         Find: Descendants matching type Button
+[Xcode]     t =   665.16s         Find: Element at index 0
+[Xcode]     t =   665.17s     Find the Button
+[Xcode]     t =   665.17s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.17s         Find: Descendants matching type Button
+[Xcode]     t =   665.17s         Find: Element at index 1
+[Xcode]     t =   665.18s     Find the Button
+[Xcode]     t =   665.18s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.18s         Find: Descendants matching type Button
+[Xcode]     t =   665.18s         Find: Element at index 2
+[Xcode]     t =   665.19s     Find the Button
+[Xcode]     t =   665.19s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.19s         Find: Descendants matching type Button
+[Xcode]     t =   665.19s         Find: Element at index 3
+[Xcode]     t =   665.20s     Find the Button
+[Xcode]     t =   665.20s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.20s         Find: Descendants matching type Button
+[Xcode]     t =   665.20s         Find: Element at index 4
+[Xcode]     t =   665.21s     Find the Button
+[Xcode]     t =   665.21s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.21s         Find: Descendants matching type Button
+[Xcode]     t =   665.21s         Find: Element at index 5
+[Xcode]     t =   665.22s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.22s     Find: Descendants matching type Alert
+[Xcode]     t =   665.22s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.22s     Find: Descendants matching type Sheet
+[Xcode]     t =   665.23s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   665.23s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   665.35s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   665.36s     Find: Descendants matching type Alert
+[Xcode]     t =   665.36s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   665.36s     Find: Descendants matching type Sheet
+[Xcode]     t =   665.37s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.81s     Find: Descendants matching type Button
+[Xcode]     t =   665.82s     Find: Element at index 0
+[Xcode]     t =   665.82s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.82s     Find: Descendants matching type Button
+[Xcode]     t =   665.82s     Find: Element at index 0
+[Xcode]     t =   665.83s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.83s     Find: Descendants matching type Button
+[Xcode]     t =   665.83s     Find: Element at index 2
+[Xcode]     t =   665.83s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.84s     Find: Descendants matching type Button
+[Xcode]     t =   665.84s     Find: Element at index 2
+[Xcode]     t =   665.84s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.84s     Find: Descendants matching type Button
+[Xcode]     t =   665.85s     Find: Element at index 3
+[Xcode]     t =   665.85s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.85s     Find: Descendants matching type Button
+[Xcode]     t =   665.85s     Find: Element at index 3
+[Xcode]     t =   665.86s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.86s     Find: Descendants matching type Button
+[Xcode]     t =   665.86s     Find: Element at index 4
+[Xcode]     t =   665.87s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.87s     Find: Descendants matching type Button
+[Xcode]     t =   665.87s     Find: Element at index 4
+[Xcode]     t =   665.87s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.88s     Find: Descendants matching type Button
+[Xcode]     t =   665.88s     Find: Element at index 5
+[Xcode]     t =   665.88s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   665.88s     Find: Descendants matching type Button
+[Xcode]     t =   665.89s     Find: Element at index 5
+[Xcode]     t =   665.97s     Find the Button
+[Xcode]     t =   665.97s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   666.26s         Find: Descendants matching type Button
+[Xcode]     t =   666.26s         Find: Element at index 0
+[Xcode]     t =   666.27s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   666.27s     Find: Descendants matching type Alert
+[Xcode]     t =   666.27s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   666.27s     Find: Descendants matching type Sheet
+[Xcode]     t =   666.28s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   666.28s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   666.42s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   666.42s     Find: Descendants matching type Alert
+[Xcode]     t =   666.42s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   666.42s     Find: Descendants matching type Sheet
+[Xcode]     t =   666.43s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   666.73s     Find: Descendants matching type Button
+[Xcode]     t =   666.74s     Find: Element at index 0
+[Xcode]     t =   666.75s     Find the Button
+[Xcode]     t =   666.76s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   667.06s         Find: Descendants matching type Button
+[Xcode]     t =   667.06s         Find: Element at index 0
+[Xcode]     t =   667.06s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   667.06s     Find: Descendants matching type Alert
+[Xcode]     t =   667.07s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   667.07s     Find: Descendants matching type Sheet
+[Xcode]     t =   667.07s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   667.08s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   667.20s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   667.20s     Find: Descendants matching type Alert
+[Xcode]     t =   667.21s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   667.21s     Find: Descendants matching type Sheet
+[Xcode]     t =   667.21s     Long press Button
+[Xcode]     t =   667.21s         Wait for app to idle
+[Xcode]     t =   667.39s         Find the Button
+[Xcode]     t =   667.39s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   667.68s             Find: Descendants matching type Button
+[Xcode]     t =   667.68s             Find: Element at index 0
+[Xcode]     t =   667.82s             Wait for app to idle
+[Xcode]     t =   668.01s         Synthesize event
+[Xcode]     t =   668.09s             Scroll element to visible
+[Xcode] 2017-09-07 11:19:35.970441+0530 XCTRunner[306:24896] Enqueue Failure: Failed to scroll to visible (by AX action) Button 0x17496a200: traits: 8589934593, {{16.0, 27.0}, {30.0, 30.0}}, error: Error -25204 performing AXAction 2003 <unknown> 0 1
+[Xcode]     t =   668.11s             Find the Button
+[Xcode]     t =   668.11s                 Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   668.38s                 Find: Descendants matching type Button
+[Xcode]     t =   668.38s                 Find: Element at index 0
+[Xcode] 2017-09-07 11:19:36.281053+0530 XCTRunner[306:22712] Enqueue Failure: Unable to find hit point for Button 0x174976140: traits: 8589934593, {{16.0, 27.0}, {30.0, 30.0}} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode]     t =   668.48s         Wait for app to idle
+[Xcode]     t =   698.68s     Find the "View and edit About My Home" StaticText
+[Xcode]     t =   698.68s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.13s         Find: Descendants matching type StaticText
+[Xcode]     t =   699.13s         Find: Element at index 10
+[Xcode]     t =   699.13s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.14s     Find: Descendants matching type Alert
+[Xcode]     t =   699.14s     Use cached accessibility hierar
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text 200 916 ms - 110 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text 200 760 ms - 110 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text 200 760 ms - 110 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text 200 812 ms - 110 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text 200 751 ms - 110 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[Xcode] chy for com.ses.sesdev
+[Xcode]     t =   699.14s     Find: Descendants matching type Sheet
+[Xcode]     t =   699.15s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   699.15s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   699.29s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   699.29s     Find: Descendants matching type Alert
+[Xcode]     t =   699.29s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   699.30s     Find: Descendants matching type Sheet
+[Xcode]     t =   699.30s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.56s     Find: Descendants matching type StaticText
+[Xcode]     t =   699.56s     Find: Element at index 10
+[Xcode]     t =   699.57s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.57s     Find: Descendants matching type StaticText
+[Xcode]     t =   699.57s     Find: Element at index 10
+[Xcode]     t =   699.57s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.58s     Find: Descendants matching type StaticText
+[Xcode]     t =   699.58s     Find: Element at index 10
+[Xcode]     t =   699.59s     Find the "How many floors does your home have?" StaticText
+[Xcode]     t =   699.59s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.88s         Find: Descendants matching type StaticText
+[Xcode]     t =   699.88s         Find: Element at index 10
+[Xcode]     t =   699.89s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.89s     Find: Descendants matching type Alert
+[Xcode]     t =   699.89s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.90s     Find: Descendants matching type Sheet
+[Xcode]     t =   699.90s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   699.90s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   700.05s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   700.05s     Find: Descendants matching type Alert
+[Xcode]     t =   700.05s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   700.05s     Find: Descendants matching type Sheet
+[Xcode]     t =   700.06s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   700.32s     Find: Descendants matching type StaticText
+[Xcode]     t =   700.33s     Find: Element at index 10
+[Xcode]     t =   700.33s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   700.33s     Find: Descendants matching type StaticText
+[Xcode]     t =   700.33s     Find: Element at index 10
+[Xcode]     t =   700.34s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   700.34s     Find: Descendants matching type StaticText
+[Xcode]     t =   700.34s     Find: Element at index 10
+[Xcode]     t =   700.36s     Find the "How many floors does your home have?" StaticText
+[Xcode]     t =   700.36s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   700.65s         Find: Descendants matching type StaticText
+[Xcode]     t =   700.66s         Find: Element at index 10
+[Xcode]     t =   700.66s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   700.66s     Find: Descendants matching type Alert
+[Xcode]     t =   700.67s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   700.67s     Find: Descendants matching type Sheet
+[Xcode]     t =   700.67s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   700.67s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   700.80s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   700.80s     Find: Descendants matching type Alert
+[Xcode]     t =   700.81s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   700.81s     Find: Descendants matching type Sheet
+[Xcode]     t =   700.81s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.09s     Find: Descendants matching type StaticText
+[Xcode]     t =   701.09s     Find: Element at index 10
+[Xcode]     t =   701.09s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.10s     Find: Descendants matching type StaticText
+[Xcode]     t =   701.10s     Find: Element at index 10
+[Xcode]     t =   701.10s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.10s     Find: Descendants matching type StaticText
+[Xcode]     t =   701.11s     Find: Element at index 10
+[Xcode]     t =   701.12s     Find the "How many floors does your home have?" StaticText
+[Xcode]     t =   701.12s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.44s         Find: Descendants matching type StaticText
+[Xcode]     t =   701.44s         Find: Element at index 10
+[Xcode]     t =   701.45s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.45s     Find: Descendants matching type Alert
+[Xcode]     t =   701.45s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.45s     Find: Descendants matching type Sheet
+[Xcode]     t =   701.46s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   701.46s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   701.60s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   701.60s     Find: Descendants matching type Alert
+[Xcode]     t =   701.61s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   701.61s     Find: Descendants matching type Sheet
+[Xcode]     t =   701.61s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.90s     Find: Descendants matching type StaticText
+[Xcode]     t =   701.91s     Find: Element at index 10
+[Xcode]     t =   701.91s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.91s     Find: Descendants matching type StaticText
+[Xcode]     t =   701.92s     Find: Element at index 10
+[Xcode]     t =   701.92s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.92s     Find: Descendants matching type StaticText
+[Xcode]     t =   701.92s     Find: Element at index 10
+[Xcode]     t =   701.94s     Find the "How many floors does your home have?" StaticText
+[Xcode]     t =   701.94s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   702.20s         Find: Descendants matching type StaticText
+[Xcode]     t =   702.21s         Find: Element at index 10
+[Xcode]     t =   702.21s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   702.21s     Find: Descendants matching type Alert
+[Xcode]     t =   702.22s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   702.22s     Find: Descendants matching type Sheet
+[Xcode]     t =   702.22s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   702.22s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   702.35s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   702.36s     Find: Descendants matching type Alert
+[Xcode]     t =   702.36s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   702.36s     Find: Descendants matching type Sheet
+[Xcode]     t =   702.36s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   702.66s     Find: Descendants matching type StaticText
+[Xcode]     t =   702.66s     Find: Element at index 10
+[Xcode]     t =   702.67s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   702.67s     Find: Descendants matching type StaticText
+[Xcode]     t =   702.67s     Find: Element at index 10
+[Xcode]     t =   702.67s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   702.68s     Find: Descendants matching type StaticText
+[Xcode]     t =   702.68s     Find: Element at index 10
+[Xcode]     t =   702.69s     Find the "How many floors does your home have?" StaticText
+[Xcode]     t =   702.69s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   702.96s         Find: Descendants matching type StaticText
+[Xcode]     t =   702.96s         Find: Element at index 10
+[Xcode]     t =   702.97s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   702.97s     Find: Descendants matching type Alert
+[Xcode]     t =   702.97s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   702.98s     Find: Descendants matching type Sheet
+[Xcode]     t =   702.98s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   702.98s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   703.13s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   703.13s     Find:
+[JSONWP Proxy] Replacing sessionId 5B9C7B17-733C-47F0-84D5-11D3E460274D with 4b36f358-5014-4c76-bd6f-826eeed3e860
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/B4E937F9-DE85-4D6E-9479-B241F345DE54/text 200 774 ms - 110 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 593 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[Xcode]  Descendants matching type Alert
+[Xcode]     t =   703.14s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   703.14s     Find: Descendants matching type Sheet
+[Xcode]     t =   703.14s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   703.44s     Find: Descendants matching type StaticText
+[Xcode]     t =   703.44s     Find: Element at index 10
+[Xcode]     t =   703.44s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   703.45s     Find: Descendants matching type StaticText
+[Xcode]     t =   703.45s     Find: Element at index 10
+[Xcode]     t =   703.45s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   703.45s     Find: Descendants matching type StaticText
+[Xcode]     t =   703.46s     Find: Element at index 10
+[Xcode]     t =   703.51s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   703.51s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   703.76s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   703.77s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   703.77s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   703.81s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   703.82s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   704.05s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   704.06s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   704.10s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   704.11s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   704.38s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   704.38s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   707.65s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   707.71s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   707.98s         Find: Descendants matching type Button
+[Xcode]     t =   707.99s     Find the Button
+[Xcode]     t =   707.99s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   707.99s         Find: Descendants matching type Button
+[Xcode]     t =   707.99s         Find: Element at index 0
+[Xcode]     t =   708.00s     Find the Button
+[Xcode]     t =   708.00s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.00s         Find: Descendants matching type Button
+[Xcode]     t =   708.00s         Find: Element at index 1
+[Xcode]     t =   708.01s     Find the Button
+[Xcode]     t =   708.01s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.01s         Find: Descendants matching type Button
+[Xcode]     t =   708.01s         Find: Element at index 2
+[Xcode]     t =   708.02s     Find the Button
+[Xcode]     t =   708.02s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.02s         Find: Descendants matching type Button
+[Xcode]     t =   708.02s         Find: Element at index 3
+[Xcode]     t =   708.03s     Find the Button
+[Xcode]     t =   708.03s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.03s         Find: Descendants matching type Button
+[Xcode]     t =   708.03s         Find: Element at index 4
+[Xcode]     t =   708.03s     Find the Button
+[Xcode]     t =   708.04s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.04s         Find: Descendants matching type Button
+[Xcode]     t =   708.04s         Find: Element at index 5
+[Xcode]     t =   708.04s     Find the Button
+[Xcode]     t =   708.05s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.05s         Find: Descendants matching type Button
+[Xcode]     t =   708.05s         Find: Element at index 6
+[Xcode]     t =   708.05s     Find the Button
+[Xcode]     t =   708.06s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.06s         Find: Descendants matching type Button
+[Xcode]     t =   708.06s         Find: Element at index 7
+[Xcode]     t =   708.06s     Find the Button
+[Xcode]     t =   708.06s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.07s         Find: Descendants matching type Button
+[Xcode]     t =   708.07s         Find: Element at index 8
+[Xcode]     t =   708.07s     Find the Button
+[Xcode]     t =   708.07s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.08s         Find: Descendants matching type Button
+[Xcode]     t =   708.08s         Find: Element at index 9
+[Xcode]     t =   708.08s     Find the Button
+[Xcode]     t =   708.08s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.09s         Find: Descendants matching type Button
+[Xcode]     t =   708.09s         Find: Element at index 10
+[Xcode]     t =   708.09s     Find the Button
+[Xcode]     t =   708.09s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.10s         Find: Descendants matching type Button
+[Xcode]     t =   708.10s         Find: Element at index 11
+[Xcode]     t =   708.10s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.10s     Find: Descendants matching type Alert
+[Xcode]     t =   708.11s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.11s     Find: Descendants matching type Sheet
+[Xcode]     t =   708.11s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   708.11s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   708.25s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   708.25s     Find: Descendants matching type Alert
+[Xcode]     t =   708.25s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   708.25s     Find: Descendants matching type Sheet
+[Xcode]     t =   708.26s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.55s     Find: Descendants matching type Button
+[Xcode]     t =   708.55s     Find: Element at index 0
+[Xcode]     t =   708.56s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.56s     Find: Descendants matching type Button
+[Xcode]     t =   708.56s     Find: Element at index 0
+[Xcode]     t =   708.56s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.57s     Find: Descendants matching type Button
+[Xcode]     t =   708.57s     Find: Element at index 1
+[Xcode]     t =   708.57s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.57s     Find: Descendants matching type Button
+[Xcode]     t =   708.58s     Find: Element at index 1
+[Xcode]     t =   708.58s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.58s     Find: Descendants matching type Button
+[Xcode]     t =   708.59s     Find: Element at index 2
+[Xcode]     t =   708.59s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.59s     Find: Descendants matching type Button
+[Xcode]     t =   708.59s     Find: Element at index 2
+[Xcode]     t =   708.60s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.60s     Find: Descendants matching type Button
+[Xcode]     t =   708.60s     Find: Element at index 3
+[Xcode]     t =   708.60s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.60s     Find: Descendants matching type Button
+[Xcode]     t =   708.61s     Find: Element at index 3
+[Xcode]     t =   708.61s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.61s     Find: Descendants matching type Button
+[Xcode]     t =   708.62s     Find: Element at index 4
+[Xcode]     t =   708.62s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.62s     Find: Descendants matching type Button
+[Xcode]     t =   708.62s     Find: Element at index 4
+[Xcode]     t =   708.63s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.63s     Find: Descendants matching type Button
+[Xcode]     t =   708.63s     Find: Element at index 5
+[Xcode]     t =   708.63s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.64s     Find: Descendants matching type Button
+[Xcode]     t =   708.64s     Find: Element at index 5
+[Xcode]     t =   708.64s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.64s     Find: Descendants matching type Button
+[Xcode]     t =   708.65s     Find: Element at index 6
+[Xcode]     t =   708.65s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.65s     Find: Descendants matching type Button
+[Xcode]     t =   708.65s     Find: Element at index 6
+[Xcode]     t =   708.65s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.66s     Find: Descendants matching typ
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 4739 ms - 1217 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E64C7910-034A-495F-8E35-89BA12AC2A94/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/E64C7910-034A-495F-8E35-89BA12AC2A94/location 200 726 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"E64C7910-034A-495F-8E35-89BA12AC2A94"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1682 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 508 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Usage' and @name = 'Usage']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 1988 ms - 74 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Usage' and @name = 'Usage']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 2012 ms - 74 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 486 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Outages' and @name = 'Outages']"}
+[Xcode] e Button
+[Xcode]     t =   708.66s     Find: Element at index 7
+[Xcode]     t =   708.66s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.66s     Find: Descendants matching type Button
+[Xcode]     t =   708.67s     Find: Element at index 7
+[Xcode]     t =   708.67s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.67s     Find: Descendants matching type Button
+[Xcode]     t =   708.67s     Find: Element at index 8
+[Xcode]     t =   708.68s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.68s     Find: Descendants matching type Button
+[Xcode]     t =   708.68s     Find: Element at index 8
+[Xcode]     t =   708.68s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.69s     Find: Descendants matching type Button
+[Xcode]     t =   708.69s     Find: Element at index 9
+[Xcode]     t =   708.69s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.69s     Find: Descendants matching type Button
+[Xcode]     t =   708.70s     Find: Element at index 9
+[Xcode]     t =   708.70s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.70s     Find: Descendants matching type Button
+[Xcode]     t =   708.70s     Find: Element at index 10
+[Xcode]     t =   708.71s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.71s     Find: Descendants matching type Button
+[Xcode]     t =   708.71s     Find: Element at index 10
+[Xcode]     t =   708.71s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.72s     Find: Descendants matching type Button
+[Xcode]     t =   708.72s     Find: Element at index 11
+[Xcode]     t =   708.72s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.72s     Find: Descendants matching type Button
+[Xcode]     t =   708.73s     Find: Element at index 11
+[Xcode]     t =   708.82s     Find the Button
+[Xcode]     t =   708.82s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   709.08s         Find: Descendants matching type Button
+[Xcode]     t =   709.08s         Find: Element at index 0
+[Xcode]     t =   709.09s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   709.09s     Find: Descendants matching type Alert
+[Xcode]     t =   709.09s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   709.10s     Find: Descendants matching type Sheet
+[Xcode]     t =   709.10s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   709.10s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   709.23s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   709.24s     Find: Descendants matching type Alert
+[Xcode]     t =   709.24s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   709.24s     Find: Descendants matching type Sheet
+[Xcode]     t =   709.24s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   709.53s     Find: Descendants matching type Button
+[Xcode]     t =   709.53s     Find: Element at index 0
+[Xcode]     t =   709.55s     Find the Button
+[Xcode]     t =   709.55s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   709.81s         Find: Descendants matching type Button
+[Xcode]     t =   709.82s         Find: Element at index 0
+[Xcode]     t =   709.82s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   709.82s     Find: Descendants matching type Alert
+[Xcode]     t =   709.83s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   709.83s     Find: Descendants matching type Sheet
+[Xcode]     t =   709.83s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   709.83s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   709.97s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   709.97s     Find: Descendants matching type Alert
+[Xcode]     t =   709.97s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   709.98s     Find: Descendants matching type Sheet
+[Xcode]     t =   709.98s     Long press Button
+[Xcode]     t =   709.98s         Wait for app to idle
+[Xcode]     t =   710.17s         Find the Button
+[Xcode]     t =   710.17s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   710.47s             Find: Descendants matching type Button
+[Xcode]     t =   710.47s             Find: Element at index 0
+[Xcode]     t =   710.61s             Wait for app to idle
+[Xcode]     t =   710.80s         Synthesize event
+[Xcode]     t =   710.95s         Wait for app to idle
+[Xcode]     t =   741.78s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   741.78s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   741.99s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   741.99s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   741.99s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   742.04s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   742.04s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   742.17s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   742.17s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   742.22s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   742.22s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   742.33s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   742.33s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   743.87s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   743.98s     Find: Descendants matching type Alert
+[Xcode]     t =   743.99s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   743.99s     Find: Descendants matching type Sheet
+[Xcode]     t =   743.99s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   743.99s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   744.12s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   744.13s     Find: Descendants matching type Alert
+[Xcode]     t =   744.13s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   744.13s     Find: Descendants matching type Sheet
+[Xcode]     t =   744.22s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   744.22s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   744.34s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   744.34s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   745.90s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   746.01s     Find: Descendants matching type Alert
+[Xcode]     t =   746.02s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   746.02s     Find: Descendants matching type Sheet
+[Xcode]     t =   746.02s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   746.02s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   746.14s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   746.14s     Find: Descendants matching type Alert
+[Xcode]     t =   746.15s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   746.15s     Find: Descendants matching type Sheet
+[Xcode]     t =   746.70s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   746.70s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   746.90s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   746.90s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   746.91s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   746.95s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   746.95s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   747.08s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   747.08s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   747.12s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   747.13s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   747.24s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   747.24s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   748.82s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   748.94s     Find: Descendants matching type Alert
+[Xcode]     t =   748.94s     Use cached accessibility hierarchy for com.ses.s
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 2022 ms - 74 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Outages' and @name = 'Outages']"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 2041 ms - 74 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 336 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 2292 ms - 453 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/1366C0E3-F68A-4181-9EBD-E45B77979331/location {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/1366C0E3-F68A-4181-9EBD-E45B77979331/location 200 458 ms - 87 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform {"actions":[{"action":"press","options":{"element":"1366C0E3-F68A-4181-9EBD-E45B77979331"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[Xcode] esdev
+[Xcode]     t =   748.94s     Find: Descendants matching type Sheet
+[Xcode]     t =   748.94s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   748.94s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   749.07s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   749.07s     Find: Descendants matching type Alert
+[Xcode]     t =   749.07s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   749.08s     Find: Descendants matching type Sheet
+[Xcode]     t =   749.16s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   749.16s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   749.28s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   749.28s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   750.86s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   750.98s     Find: Descendants matching type Alert
+[Xcode]     t =   750.98s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   750.98s     Find: Descendants matching type Sheet
+[Xcode]     t =   750.98s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   750.98s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   751.11s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   751.12s     Find: Descendants matching type Alert
+[Xcode]     t =   751.12s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   751.12s     Find: Descendants matching type Sheet
+[Xcode]     t =   751.22s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   751.22s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   751.33s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   751.34s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   751.34s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   751.38s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   751.38s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   751.49s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   751.49s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   751.54s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   751.55s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   751.66s     Find the Application "com.ses.sesdev" 0x1740bda60
+[Xcode]     t =   751.67s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.22s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   753.28s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.39s         Find: Descendants matching type Button
+[Xcode]     t =   753.40s     Find the Button
+[Xcode]     t =   753.40s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.40s         Find: Descendants matching type Button
+[Xcode]     t =   753.40s         Find: Element at index 0
+[Xcode]     t =   753.41s     Find the Button
+[Xcode]     t =   753.41s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.41s         Find: Descendants matching type Button
+[Xcode]     t =   753.42s         Find: Element at index 1
+[Xcode]     t =   753.42s     Find the Button
+[Xcode]     t =   753.42s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.42s         Find: Descendants matching type Button
+[Xcode]     t =   753.42s         Find: Element at index 2
+[Xcode]     t =   753.43s     Find the Button
+[Xcode]     t =   753.43s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.43s         Find: Descendants matching type Button
+[Xcode]     t =   753.43s         Find: Element at index 3
+[Xcode]     t =   753.44s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.44s     Find: Descendants matching type Alert
+[Xcode]     t =   753.44s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.44s     Find: Descendants matching type Sheet
+[Xcode]     t =   753.45s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   753.45s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   753.57s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   753.58s     Find: Descendants matching type Alert
+[Xcode]     t =   753.58s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   753.58s     Find: Descendants matching type Sheet
+[Xcode]     t =   753.58s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.71s     Find: Descendants matching type Button
+[Xcode]     t =   753.71s     Find: Element at index 0
+[Xcode]     t =   753.71s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.71s     Find: Descendants matching type Button
+[Xcode]     t =   753.72s     Find: Element at index 0
+[Xcode]     t =   753.72s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.72s     Find: Descendants matching type Button
+[Xcode]     t =   753.72s     Find: Element at index 1
+[Xcode]     t =   753.73s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.73s     Find: Descendants matching type Button
+[Xcode]     t =   753.73s     Find: Element at index 1
+[Xcode]     t =   753.73s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.73s     Find: Descendants matching type Button
+[Xcode]     t =   753.74s     Find: Element at index 2
+[Xcode]     t =   753.74s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.74s     Find: Descendants matching type Button
+[Xcode]     t =   753.74s     Find: Element at index 2
+[Xcode]     t =   753.75s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.75s     Find: Descendants matching type Button
+[Xcode]     t =   753.75s     Find: Element at index 3
+[Xcode]     t =   753.75s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.76s     Find: Descendants matching type Button
+[Xcode]     t =   753.76s     Find: Element at index 3
+[Xcode]     t =   753.81s     Find the Button
+[Xcode]     t =   753.81s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.93s         Find: Descendants matching type Button
+[Xcode]     t =   753.94s         Find: Element at index 0
+[Xcode]     t =   753.94s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.94s     Find: Descendants matching type Alert
+[Xcode]     t =   753.95s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   753.95s     Find: Descendants matching type Sheet
+[Xcode]     t =   753.95s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   753.95s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   754.10s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   754.10s     Find: Descendants matching type Alert
+[Xcode]     t =   754.10s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   754.10s     Find: Descendants matching type Sheet
+[Xcode]     t =   754.11s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   754.25s     Find: Descendants matching type Button
+[Xcode]     t =   754.26s     Find: Element at index 0
+[Xcode]     t =   754.27s     Find the Button
+[Xcode]     t =   754.27s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   754.40s         Find: Descendants matching type Button
+[Xcode]     t =   754.40s         Find: Element at index 0
+[Xcode]     t =   754.40s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   754.41s     Find: Descendants matching type Alert
+[Xcode]     t =   754.41s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   754.41s     Find: Descendants matching type Sheet
+[Xcode]     t =   754.41s     Find the Application "com.apple.springboard" 0x1742b2d80
+[Xcode]     t =   754.41s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   754.55s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   754.56s     Find: Descendants matching type Alert
+[Xcode]     t =   754.56s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   754.56s     Find: Descendants matching type Sheet
+[Xcode]     t =   754.56s     Long press Button
+[Xcode]     t =   754.57s         Wait for app to idle
+[Xcode]     t =   754.74s         Find the Button
+[Xcode]     t =   754.74s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t = 
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/touch/perform 200 1397 ms - 76 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/window/current/size 200 719 ms - 98 
+[HTTP] --> POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/elements 200 3531 ms - 470 
+[HTTP] --> GET /wd/hub/session/4b36f358-5014-4c76-bd6f-826eeed3e860/element/948932B5-3FAF-4046-875C-435CCCD1F11E/location {}

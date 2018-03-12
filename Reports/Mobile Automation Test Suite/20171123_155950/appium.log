@@ -1,0 +1,7 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 51187
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 51189
+[Appium]   tmpDir: C:\Users\SAHIL~1.DHE\AppData\Local\Temp\\Katalon\Appium\Temp1511433023315
+[Appium] Appium REST http interface listener started on 0.0.0.0:51187

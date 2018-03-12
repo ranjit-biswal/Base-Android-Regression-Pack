@@ -1,0 +1,580 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 49465
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 49466
+[Appium]   tmpDir: /var/folders/5j/s3trxhds15v02p4tm7w_fw4w0000gn/T//Katalon/Appium/Temp1504765355696
+[Appium]   webkitDebugProxyPort: 49463
+[Appium] Appium REST http interface listener started on 0.0.0.0:49465
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 20 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa","noReset":true,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","newCommandTimeout":1800,"automationName":"XCUITest","waitForAppScript":"true;","udid":"c5c6be47b584c86a051ad5a0b33944fcb5c76609","platformName":"iOS","deviceName":"iPhone","fullReset":false,"wdaLocalPort":49462}}
+[Appium] Creating new XCUITestDriver (v2.30.0) session
+[Appium] Capabilities:
+[Appium]   app: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+[Appium]   noReset: true
+[Appium]   realDeviceLogger: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole'
+[Appium]   newCommandTimeout: 1800
+[Appium]   automationName: 'XCUITest'
+[Appium]   waitForAppScript: 'true;'
+[Appium]   udid: 'c5c6be47b584c86a051ad5a0b33944fcb5c76609'
+[Appium]   platformName: 'iOS'
+[Appium]   deviceName: 'iPhone'
+[Appium]   fullReset: false
+[Appium]   wdaLocalPort: 49462
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: realDeviceLogger.
+[BaseDriver] Session created with session id: 9cb78c86-fa82-4e17-b942-88e77fa128f1
+[XCUITest] Determining device to run tests on: udid: 'c5c6be47b584c86a051ad5a0b33944fcb5c76609', real device: true
+[BaseDriver] Using local app '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+[BaseDriver] Unzipped local app to '/var/folders/5j/s3trxhds15v02p4tm7w_fw4w0000gn/T/201787-815-uhjs2j.dbbrugcik9/Payload/SCMBase.app'
+[XCUITest] Setting up real device
+[XCUITest] Using WDA path: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[XCUITest] Launching WebDriverAgent on the device
+[XCUITest] Carthage not found. Install using `brew install carthage`
+[XCUITest] Cannot parse major and minor version numbers from platformVersion "null". Will build for the default platform instead
+[XCUITest] Setting '555' permissions to '/Users/sus/Library/Developer/Xcode/DerivedData/WebDriverAgent-dikkwtrisltbeobjmfvpthwwekvs/Logs/Test/Attachments' folder
+[Appium] New XCUITestDriver session created successfully, session 9cb78c86-fa82-4e17-b942-88e77fa128f1 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 21718 ms - 689 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 12 ms - 83 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size 200 693 ms - 98 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements {"using":"xpath","value":"//XCUIElementTypeTextField"}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements 200 2715 ms - 169 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/ED7E6ACF-A104-40C7-8EE3-5919EF8BAC5E/location {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/ED7E6ACF-A104-40C7-8EE3-5919EF8BAC5E/location 200 576 ms - 88 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/ED7E6ACF-A104-40C7-8EE3-5919EF8BAC5E/clear {"id":"ED7E6ACF-A104-40C7-8EE3-5919EF8BAC5E"}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/ED7E6ACF-A104-40C7-8EE3-5919EF8BAC5E/clear 200 516 ms - 76 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/ED7E6ACF-A104-40C7-8EE3-5919EF8BAC5E/value {"id":"ED7E6ACF-A104-40C7-8EE3-5919EF8BAC5E","value":["swati.pandey@smartusys.com"]}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/ED7E6ACF-A104-40C7-8EE3-5919EF8BAC5E/value 200 3468 ms - 76 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size 200 692 ms - 98 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements {"using":"xpath","value":"//XCUIElementTypeSecureTextField"}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements 200 4840 ms - 177 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/6E0D0E5F-F3FA-4826-A7AA-8A24F50FF157/location {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/6E0D0E5F-F3FA-4826-A7AA-8A24F50FF157/location 200 826 ms - 88 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/6E0D0E5F-F3FA-4826-A7AA-8A24F50FF157/clear {"id":"6E0D0E5F-F3FA-4826-A7AA-8A24F50FF157"}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/6E0D0E5F-F3FA-4826-A7AA-8A24F50FF157/clear 200 843 ms - 76 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/6E0D0E5F-F3FA-4826-A7AA-8A24F50FF157/value {"id":"6E0D0E5F-F3FA-4826-A7AA-8A24F50FF157","value":["Demo@123"]}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/6E0D0E5F-F3FA-4826-A7AA-8A24F50FF157/value 200 3383 ms - 76 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size 200 718 ms - 98 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Sign In' and @name = 'Sign In']"}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements 200 4871 ms - 173 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/10FA6F32-76FD-496B-8F7C-010B65D5E905/location {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/10FA6F32-76FD-496B-8F7C-010B65D5E905/location 200 835 ms - 88 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/touch/perform {"actions":[{"action":"press","options":{"element":"10FA6F32-76FD-496B-8F7C-010B65D5E905"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/touch/perform 200 2352 ms - 76 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size 200 548 ms - 98 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Outages' and @name = 'Outages']"}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements 200 3080 ms - 177 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/D67FF9B7-2304-43A3-98FD-9C73DCAC2FF7/location {}
+[Xcode] ngboard
+[Xcode]     t =    89.00s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    89.00s     Find: Descendants matching type Alert
+[Xcode]     t =    89.00s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    89.00s     Find: Descendants matching type Sheet
+[Xcode]     t =    89.01s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    89.31s     Find: Descendants matching type Button
+[Xcode]     t =    89.31s     Find: Element at index 3
+[Xcode]     t =    89.34s     Find the "Sign In" Button
+[Xcode]     t =    89.34s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    89.67s         Find: Descendants matching type Button
+[Xcode]     t =    89.68s         Find: Element at index 3
+[Xcode]     t =    89.68s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    89.68s     Find: Descendants matching type Alert
+[Xcode]     t =    89.69s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    89.69s     Find: Descendants matching type Sheet
+[Xcode]     t =    89.69s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =    89.69s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    89.85s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    89.85s     Find: Descendants matching type Alert
+[Xcode]     t =    89.85s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    89.85s     Find: Descendants matching type Sheet
+[Xcode]     t =    89.86s     Long press "Sign In" Button
+[Xcode]     t =    89.86s         Wait for app to idle
+[Xcode]     t =    90.09s         Find the "Sign In" Button
+[Xcode]     t =    90.09s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    90.40s             Find: Descendants matching type Button
+[Xcode]     t =    90.40s             Find: Element at index 3
+[Xcode]     t =    90.54s             Wait for app to idle
+[Xcode]     t =    90.79s         Synthesize event
+[Xcode]     t =    91.03s         Wait for app to idle
+[Xcode]     t =    92.20s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    92.20s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    92.40s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    92.40s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    92.40s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    92.47s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    92.47s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    92.67s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    92.67s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    92.72s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    92.72s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    92.93s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    92.93s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode] 2017-09-07 11:54:31.764866+0530 XCTRunner[324:30510] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174a459a0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:54:31.765446+0530 XCTRunner[324:30510] Failed to fetch hit point for Other 0x174767380: {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:54:31.774669+0530 XCTRunner[324:30510] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174a50620> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:54:31.775145+0530 XCTRunner[324:30510] Failed to fetch hit point for ActivityIndicator 0x1743636c0: {{142.0, 256.0}, {37.0, 37.0}}, label: 'In progress', value: 1 - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 11:54:31.783924+0530 XCTRunner[324:30510] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e56bc0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 11:54:31.784351+0530 XCTRunner[324:30510] Failed to fetch hit point for StaticText 0x17056c900: traits: 64, {{125.0, 297.0}, {70.6, 16.0}}, label: 'Loading...' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode]     t =    95.02s     Get all elements bound by index for: Descendants matching type StaticText
+[Xcode]     t =    95.10s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.30s         Find: Descendants matching type StaticText
+[Xcode]     t =    95.31s     Find the StaticText
+[Xcode]     t =    95.31s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.31s         Find: Descendants matching type StaticText
+[Xcode]     t =    95.31s         Find: Element at index 0
+[Xcode]     t =    95.32s     Find the StaticText
+[Xcode]     t =    95.32s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.32s         Find: Descendants matching type StaticText
+[Xcode]     t =    95.32s         Find: Element at index 1
+[Xcode]     t =    95.32s     Find the StaticText
+[Xcode]     t =    95.33s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.33s         Find: Descendants matching type StaticText
+[Xcode]     t =    95.33s         Find: Element at index 2
+[Xcode]     t =    95.33s     Find the StaticText
+[Xcode]     t =    95.34s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.34s         Find: Descendants matching type StaticText
+[Xcode]     t =    95.34s         Find: Element at index 3
+[Xcode]     t =    95.34s     Find the StaticText
+[Xcode]     t =    95.35s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.35s         Find: Descendants matching type StaticText
+[Xcode]     t =    95.35s         Find: Element at index 4
+[Xcode]     t =    95.35s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.36s     Find: Descendants matching type Alert
+[Xcode]     t =    95.36s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.36s     Find: Descendants matching type Sheet
+[Xcode]     t =    95.36s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =    95.36s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    95.52s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    95.52s     Find: Descendants matching type Alert
+[Xcode]     t =    95.52s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    95.52s     Find: Descendants matching type Sheet
+[Xcode]     t =    95.53s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.71s     Find: Descendants matching type StaticText
+[Xcode]     t =    95.72s     Find: Element at index 4
+[Xcode]     t =    95.72s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.72s     Find: Descendants matching type StaticText
+[Xcode]     t =    95.72s     Find: Element at index 4
+[Xcode]     t =    95.77s     Find the "Outages" StaticText
+[Xcode]     t =    95.77s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    96.00s         Find: Descendants matching type StaticText
+[Xcode]     t =    96.00s         Find: Element at index 4
+[Xcode]     t =    96.00s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    96.01s     Find: Descendants matching type Alert
+[Xcode]     t =    96.01s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    96.01s     Find: Descendants matching type Sheet
+[Xcode]     t =    96.01s
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/D67FF9B7-2304-43A3-98FD-9C73DCAC2FF7/location 200 617 ms - 88 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/D67FF9B7-2304-43A3-98FD-9C73DCAC2FF7/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 077EA191-9E11-49C1-AABC-064D42B7D3B9 with 9cb78c86-fa82-4e17-b942-88e77fa128f1
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/D67FF9B7-2304-43A3-98FD-9C73DCAC2FF7/displayed 200 663 ms - 77 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size 200 527 ms - 98 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements 200 3419 ms - 658 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/2D930D34-DC08-424A-B5D3-4A5015072201/location {}
+[Xcode]      Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =    96.02s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    96.15s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    96.15s     Find: Descendants matching type Alert
+[Xcode]     t =    96.16s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    96.16s     Find: Descendants matching type Sheet
+[Xcode]     t =    96.16s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    96.37s     Find: Descendants matching type StaticText
+[Xcode]     t =    96.38s     Find: Element at index 4
+[Xcode]     t =    96.40s     Find the "Outages" StaticText
+[Xcode]     t =    96.40s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    96.62s         Find: Descendants matching type StaticText
+[Xcode]     t =    96.62s         Find: Element at index 4
+[Xcode]     t =    96.63s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    96.63s     Find: Descendants matching type Alert
+[Xcode]     t =    96.63s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    96.63s     Find: Descendants matching type Sheet
+[Xcode]     t =    96.64s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =    96.64s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    96.78s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    96.78s     Find: Descendants matching type Alert
+[Xcode]     t =    96.78s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    96.78s     Find: Descendants matching type Sheet
+[Xcode]     t =    96.79s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.00s     Find: Descendants matching type StaticText
+[Xcode]     t =    97.00s     Find: Element at index 4
+[Xcode]     t =    97.11s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    97.11s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.31s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    97.31s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.32s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.37s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    97.37s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.59s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    97.59s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.65s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    97.65s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.87s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =    97.87s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.15s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   100.23s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.43s         Find: Descendants matching type Button
+[Xcode]     t =   100.44s     Find the Button
+[Xcode]     t =   100.44s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.45s         Find: Descendants matching type Button
+[Xcode]     t =   100.45s         Find: Element at index 0
+[Xcode]     t =   100.45s     Find the Button
+[Xcode]     t =   100.45s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.45s         Find: Descendants matching type Button
+[Xcode]     t =   100.46s         Find: Element at index 1
+[Xcode]     t =   100.46s     Find the Button
+[Xcode]     t =   100.46s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.46s         Find: Descendants matching type Button
+[Xcode]     t =   100.47s         Find: Element at index 2
+[Xcode]     t =   100.47s     Find the Button
+[Xcode]     t =   100.47s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.47s         Find: Descendants matching type Button
+[Xcode]     t =   100.48s         Find: Element at index 3
+[Xcode]     t =   100.48s     Find the Button
+[Xcode]     t =   100.48s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.48s         Find: Descendants matching type Button
+[Xcode]     t =   100.48s         Find: Element at index 4
+[Xcode]     t =   100.49s     Find the Button
+[Xcode]     t =   100.49s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.49s         Find: Descendants matching type Button
+[Xcode]     t =   100.49s         Find: Element at index 5
+[Xcode]     t =   100.50s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.50s     Find: Descendants matching type Alert
+[Xcode]     t =   100.50s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.50s     Find: Descendants matching type Sheet
+[Xcode]     t =   100.51s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =   100.51s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   100.64s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   100.65s     Find: Descendants matching type Alert
+[Xcode]     t =   100.65s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   100.65s     Find: Descendants matching type Sheet
+[Xcode]     t =   100.65s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.88s     Find: Descendants matching type Button
+[Xcode]     t =   100.89s     Find: Element at index 0
+[Xcode]     t =   100.89s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.89s     Find: Descendants matching type Button
+[Xcode]     t =   100.89s     Find: Element at index 0
+[Xcode]     t =   100.90s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.90s     Find: Descendants matching type Button
+[Xcode]     t =   100.90s     Find: Element at index 1
+[Xcode]     t =   100.90s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.91s     Find: Descendants matching type Button
+[Xcode]     t =   100.91s     Find: Element at index 1
+[Xcode]     t =   100.91s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.91s     Find: Descendants matching type Button
+[Xcode]     t =   100.92s     Find: Element at index 2
+[Xcode]     t =   100.92s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.93s     Find: Descendants matching type Button
+[Xcode]     t =   100.93s     Find: Element at index 2
+[Xcode]     t =   100.93s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.94s     Find: Descendants matching type Button
+[Xcode]     t =   100.94s     Find: Element at index 3
+[Xcode]     t =   100.94s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.95s     Find: Descendants matching type Button
+[Xcode]     t =   100.95s     Find: Element at index 3
+[Xcode]     t =   100.95s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.95s     Find: Descendants matching type Button
+[Xcode]     t =   100.96s     Find: Element at index 4
+[Xcode]     t =   100.96s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.96s     Find: Descendants matching type Button
+[Xcode]     t =   100.96s     Find: Element at index 4
+[Xcode]     t =   100.97s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.97s     Find: Descendants matching type Button
+[Xcode]     t =   100.97s     Find: Element at index 5
+[Xcode]     t =   100.97s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   100.98s     Find: Descendants matching type Button
+[Xcode]     t =   100.98s     Find: Element at index 5
+[Xcode]     t =   101.03s     Find the Button
+[Xcode]     t =   101.03s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   101.25s         Find: Descendants matching type Button
+[Xcode]     t =   101.25s         Find: Element at index 0
+[Xcode]     t =   101.25s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   101.26s     Find: Descendants matching type Alert
+[Xcode]     t =   101.26s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   101.26s     Find: Descendants matching type Sheet
+[Xcode]     t =   101.26s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =   101.26s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   101.40s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   101.40s     Find: Descendants matching type Alert
+[Xcode]     t =   101.40s     Use cached accessibility hierarch
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/2D930D34-DC08-424A-B5D3-4A5015072201/location 200 633 ms - 88 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/touch/perform {"actions":[{"action":"press","options":{"element":"2D930D34-DC08-424A-B5D3-4A5015072201"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/touch/perform 200 1871 ms - 76 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size 200 714 ms - 98 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements 200 3492 ms - 658 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/62FAADAE-4DED-4FDA-A4C6-906F59CEE00F/location {}
+[Xcode] y for com.apple.springboard
+[Xcode]     t =   101.41s     Find: Descendants matching type Sheet
+[Xcode]     t =   101.41s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   101.65s     Find: Descendants matching type Button
+[Xcode]     t =   101.65s     Find: Element at index 0
+[Xcode]     t =   101.67s     Find the Button
+[Xcode]     t =   101.67s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   101.89s         Find: Descendants matching type Button
+[Xcode]     t =   101.90s         Find: Element at index 0
+[Xcode]     t =   101.90s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   101.90s     Find: Descendants matching type Alert
+[Xcode]     t =   101.90s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   101.91s     Find: Descendants matching type Sheet
+[Xcode]     t =   101.91s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =   101.91s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   102.06s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   102.06s     Find: Descendants matching type Alert
+[Xcode]     t =   102.06s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   102.06s     Find: Descendants matching type Sheet
+[Xcode]     t =   102.07s     Long press Button
+[Xcode]     t =   102.07s         Wait for app to idle
+[Xcode]     t =   102.30s         Find the Button
+[Xcode]     t =   102.30s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.51s             Find: Descendants matching type Button
+[Xcode]     t =   102.51s             Find: Element at index 0
+[Xcode]     t =   102.65s             Wait for app to idle
+[Xcode]     t =   102.87s         Synthesize event
+[Xcode]     t =   102.98s             Scroll element to visible
+[Xcode] 2017-09-07 11:54:40.047788+0530 XCTRunner[324:30764] Enqueue Failure: Failed to scroll to visible (by AX action) Button 0x170775180: traits: 8589934593, {{270.0, 20.0}, {35.0, 45.0}}, error: Error -25204 performing AXAction 2003 <unknown> 0 1
+[Xcode]     t =   102.99s             Find the Button
+[Xcode]     t =   103.00s                 Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   103.20s                 Find: Descendants matching type Button
+[Xcode]     t =   103.20s                 Find: Element at index 0
+[Xcode] 2017-09-07 11:54:40.296453+0530 XCTRunner[324:30510] Enqueue Failure: Unable to find hit point for Button 0x1707618c0: traits: 8589934593, {{270.0, 20.0}, {35.0, 45.0}} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode]     t =   103.31s         Wait for app to idle
+[Xcode]     t =   113.67s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   113.67s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   113.98s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   113.98s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   113.98s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   114.02s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   114.02s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   114.26s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   114.26s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   114.31s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   114.31s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   114.52s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   114.52s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   116.86s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   116.94s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.19s         Find: Descendants matching type Button
+[Xcode]     t =   117.19s     Find the Button
+[Xcode]     t =   117.19s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.20s         Find: Descendants matching type Button
+[Xcode]     t =   117.20s         Find: Element at index 0
+[Xcode]     t =   117.20s     Find the Button
+[Xcode]     t =   117.20s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.20s         Find: Descendants matching type Button
+[Xcode]     t =   117.21s         Find: Element at index 1
+[Xcode]     t =   117.21s     Find the Button
+[Xcode]     t =   117.21s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.22s         Find: Descendants matching type Button
+[Xcode]     t =   117.22s         Find: Element at index 2
+[Xcode]     t =   117.22s     Find the Button
+[Xcode]     t =   117.22s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.22s         Find: Descendants matching type Button
+[Xcode]     t =   117.23s         Find: Element at index 3
+[Xcode]     t =   117.23s     Find the Button
+[Xcode]     t =   117.23s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.23s         Find: Descendants matching type Button
+[Xcode]     t =   117.24s         Find: Element at index 4
+[Xcode]     t =   117.24s     Find the Button
+[Xcode]     t =   117.24s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.24s         Find: Descendants matching type Button
+[Xcode]     t =   117.24s         Find: Element at index 5
+[Xcode]     t =   117.25s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.25s     Find: Descendants matching type Alert
+[Xcode]     t =   117.25s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.26s     Find: Descendants matching type Sheet
+[Xcode]     t =   117.26s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =   117.26s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   117.41s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   117.41s     Find: Descendants matching type Alert
+[Xcode]     t =   117.42s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   117.42s     Find: Descendants matching type Sheet
+[Xcode]     t =   117.42s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.64s     Find: Descendants matching type Button
+[Xcode]     t =   117.64s     Find: Element at index 0
+[Xcode]     t =   117.65s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.65s     Find: Descendants matching type Button
+[Xcode]     t =   117.65s     Find: Element at index 0
+[Xcode]     t =   117.65s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.65s     Find: Descendants matching type Button
+[Xcode]     t =   117.66s     Find: Element at index 1
+[Xcode]     t =   117.66s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.66s     Find: Descendants matching type Button
+[Xcode]     t =   117.66s     Find: Element at index 1
+[Xcode]     t =   117.67s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.67s     Find: Descendants matching type Button
+[Xcode]     t =   117.67s     Find: Element at index 2
+[Xcode]     t =   117.67s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.68s     Find: Descendants matching type Button
+[Xcode]     t =   117.68s     Find: Element at index 2
+[Xcode]     t =   117.68s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.68s     Find: Descendants matching type Button
+[Xcode]     t =   117.69s     Find: Element at index 3
+[Xcode]     t =   117.69s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.69s     Find: Descendants matching type Button
+[Xcode]     t =   117.69s     Find: Element at index 3
+[Xcode]     t =   117.70s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.70s     Find: Descendants matching type Button
+[Xcode]     t =   117.70s     Find: Element at index 4
+[Xcode]     t =   117.70s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.70s     Find: Descendants matching type Button
+[Xcode]     t =   117.71s     Find: Element at index 4
+[Xcode]     t =   117.71s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.71s     Find: Descendants matching type Button
+[Xcode]     t =   117.71s     Find: Element at index 5
+[Xcode]     t =   117.72s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.72s     Find: Descendants matching type Button
+[Xcode]     t =   117.72s     Find: Element at index 5
+[Xcode]     t =   117.77s     Find the Button
+[Xcode]     t =  
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/62FAADAE-4DED-4FDA-A4C6-906F59CEE00F/location 200 581 ms - 88 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/touch/perform {"actions":[{"action":"press","options":{"element":"62FAADAE-4DED-4FDA-A4C6-906F59CEE00F"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/touch/perform 200 1863 ms - 76 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size 200 644 ms - 98 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[Xcode]  117.78s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.98s         Find: Descendants matching type Button
+[Xcode]     t =   117.98s         Find: Element at index 0
+[Xcode]     t =   117.98s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.99s     Find: Descendants matching type Alert
+[Xcode]     t =   117.99s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   117.99s     Find: Descendants matching type Sheet
+[Xcode]     t =   118.00s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =   118.00s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   118.14s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   118.14s     Find: Descendants matching type Alert
+[Xcode]     t =   118.14s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   118.14s     Find: Descendants matching type Sheet
+[Xcode]     t =   118.15s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.34s     Find: Descendants matching type Button
+[Xcode]     t =   118.34s     Find: Element at index 0
+[Xcode]     t =   118.36s     Find the Button
+[Xcode]     t =   118.36s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.59s         Find: Descendants matching type Button
+[Xcode]     t =   118.59s         Find: Element at index 0
+[Xcode]     t =   118.59s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.59s     Find: Descendants matching type Alert
+[Xcode]     t =   118.60s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.60s     Find: Descendants matching type Sheet
+[Xcode]     t =   118.60s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =   118.60s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   118.76s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   118.77s     Find: Descendants matching type Alert
+[Xcode]     t =   118.77s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   118.77s     Find: Descendants matching type Sheet
+[Xcode]     t =   118.77s     Long press Button
+[Xcode]     t =   118.77s         Wait for app to idle
+[Xcode]     t =   119.00s         Find the Button
+[Xcode]     t =   119.00s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.22s             Find: Descendants matching type Button
+[Xcode]     t =   119.22s             Find: Element at index 0
+[Xcode]     t =   119.35s             Wait for app to idle
+[Xcode]     t =   119.57s         Synthesize event
+[Xcode]     t =   119.69s             Scroll element to visible
+[Xcode] 2017-09-07 11:54:56.750177+0530 XCTRunner[324:30933] Enqueue Failure: Failed to scroll to visible (by AX action) Button 0x170767f80: traits: 8589934593, {{270.0, 20.0}, {35.0, 45.0}}, error: Error -25204 performing AXAction 2003 <unknown> 0 1
+[Xcode]     t =   119.70s             Find the Button
+[Xcode]     t =   119.70s                 Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.90s                 Find: Descendants matching type Button
+[Xcode]     t =   119.91s                 Find: Element at index 0
+[Xcode] 2017-09-07 11:54:56.992237+0530 XCTRunner[324:30510] Enqueue Failure: Unable to find hit point for Button 0x17056c540: traits: 8589934593, {{270.0, 20.0}, {35.0, 45.0}} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode]     t =   119.99s         Wait for app to idle
+[Xcode]     t =   130.34s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   130.35s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   130.63s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   130.63s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   130.64s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   130.68s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   130.68s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   130.88s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   130.88s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   130.94s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   130.94s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   131.14s     Find the Application "com.ses.sesdev" 0x1702a7560
+[Xcode]     t =   131.14s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.44s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   133.52s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.73s         Find: Descendants matching type Button
+[Xcode]     t =   133.74s     Find the Button
+[Xcode]     t =   133.74s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.74s         Find: Descendants matching type Button
+[Xcode]     t =   133.74s         Find: Element at index 0
+[Xcode]     t =   133.75s     Find the Button
+[Xcode]     t =   133.75s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.75s         Find: Descendants matching type Button
+[Xcode]     t =   133.75s         Find: Element at index 1
+[Xcode]     t =   133.76s     Find the Button
+[Xcode]     t =   133.76s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.76s         Find: Descendants matching type Button
+[Xcode]     t =   133.76s         Find: Element at index 2
+[Xcode]     t =   133.77s     Find the Button
+[Xcode]     t =   133.77s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.77s         Find: Descendants matching type Button
+[Xcode]     t =   133.77s         Find: Element at index 3
+[Xcode]     t =   133.78s     Find the Button
+[Xcode]     t =   133.78s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.78s         Find: Descendants matching type Button
+[Xcode]     t =   133.78s         Find: Element at index 4
+[Xcode]     t =   133.79s     Find the Button
+[Xcode]     t =   133.79s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.79s         Find: Descendants matching type Button
+[Xcode]     t =   133.79s         Find: Element at index 5
+[Xcode]     t =   133.80s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.80s     Find: Descendants matching type Alert
+[Xcode]     t =   133.80s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   133.80s     Find: Descendants matching type Sheet
+[Xcode]     t =   133.80s     Find the Application "com.apple.springboard" 0x1742b3ec0
+[Xcode]     t =   133.81s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   133.94s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   133.94s     Find: Descendants matching type Alert
+[Xcode]     t =   133.94s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   133.94s     Find: Descendants matching type Sheet
+[Xcode]     t =   133.95s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   134.17s     Find: Descendants matching type Button
+[Xcode]     t =   134.18s     Find: Element at index 0
+[Xcode]     t =   134.18s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   134.18s     Find: Descendants matching type Button
+[Xcode]     t =   134.18s     Find: Element at index 0
+[Xcode]     t =   134.19s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   134.19s     Find: Descendants matching type Button
+[Xcode]     t =   134.19s     Find: Element at index 1
+[Xcode]     t =   134.19s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   134.20s     Find: Descendants matching type Button
+[Xcode]     t =   134.20s     Find: Element at index 1
+[Xcode]     t =   134.20s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   134.20s     Find: Descendants matching type Button
+[Xcode]     t =   134.21s     Find: Element at index 2
+[Xcode]     t =   134.21s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   134.21s     Find: Descendants matching type Button
+[Xcode]     t =   134.21s     Find: Element at index 2
+[Xcode]     t =   134.22s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   134.22s     Find: Descendants matching type Button
+[Xcode]     t =   134.22s     Find: Element at index 3
+[Xcode]     t =   134.22s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   134.22s     Find: Descendants matching type Button
+[Xcode]     t =   1
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements 200 3399 ms - 658 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/18DF9321-1115-4B3C-9D92-470F095B3D8E/location {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/element/18DF9321-1115-4B3C-9D92-470F095B3D8E/location 200 628 ms - 88 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/touch/perform {"actions":[{"action":"press","options":{"element":"18DF9321-1115-4B3C-9D92-470F095B3D8E"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/touch/perform 200 1813 ms - 76 
+[HTTP] --> GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/window/current/size 200 693 ms - 98 
+[HTTP] --> POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Usage' and @name = 'Usage']"}
+[HTTP] <-- POST /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1/elements 200 3001 ms - 74 
+[HTTP] --> DELETE /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1 {}
+[XCUITest] Shutting down sub-processes
+[XCUITest] Shutting down xcodebuild process (pid 844)
+[XCUITest] xcodebuild exited with code 'null' and signal 'SIGTERM'
+[XCUITest] Shutting down iproxy process (pid 843)
+[XCUITest] Setting '755' permissions to '/Users/sus/Library/Developer/Xcode/DerivedData/WebDriverAgent-dikkwtrisltbeobjmfvpthwwekvs/Logs/Test/Attachments' folder
+[Appium] Removing session 9cb78c86-fa82-4e17-b942-88e77fa128f1 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/9cb78c86-fa82-4e17-b942-88e77fa128f1 200 565 ms - 76 

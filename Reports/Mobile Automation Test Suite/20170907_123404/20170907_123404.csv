@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile Automation Test Suite,,,2017-09-07 12:34:16,2017-09-07 12:40:36,6m - 20.001s,FAILED
+,,,,,,
+Test Cases/LogIn,,LogIn,2017-09-07 12:34:16,2017-09-07 12:36:41,2m - 25.197s,PASSED
+delay,,,2017-09-07 12:34:17,2017-09-07 12:34:47,30.057s,PASSED
+startApplication,,Check Application is Already Installed on Device or Not,2017-09-07 12:34:47,2017-09-07 12:35:12,24.991s,PASSED
+delay,,Delay of 60 Sec,2017-09-07 12:35:12,2017-09-07 12:36:12,1m - 0.006s,PASSED
+setText,,Entering UserName,2017-09-07 12:36:12,2017-09-07 12:36:20,8.413s,PASSED
+setText,,Entering Password,2017-09-07 12:36:20,2017-09-07 12:36:32,11.411s,PASSED
+tap,,Clicking on SignIn Button,2017-09-07 12:36:32,2017-09-07 12:36:41,9.742s,PASSED
+,,,,,,
+Test Cases/Outages,,Outages,2017-09-07 12:36:41,2017-09-07 12:40:35,3m - 53.801s,FAILED
+Statement - sOutageTitleOnListOutagesPage = null,,,2017-09-07 12:36:42,2017-09-07 12:36:42,0.002s,PASSED
+Statement - sOutageTitleOnOutagesDetailsPage = null,,,2017-09-07 12:36:42,2017-09-07 12:36:42,0.001s,PASSED
+Statement - bResult = false,,,2017-09-07 12:36:42,2017-09-07 12:36:42,0.002s,PASSED
+Statement - messageText = null,,,2017-09-07 12:36:42,2017-09-07 12:36:42,0.001s,PASSED
+delay,,Delay of 50 seconds,2017-09-07 12:36:42,2017-09-07 12:37:32,50.007s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Outages Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking Outages Menu is Displayed on Dashboard or Not,2017-09-07 12:37:32,2017-09-07 12:37:38,5.772s,PASSED
+Statement - Else,,,2017-09-07 12:37:38,2017-09-07 12:39:00,1m - 22.446s,PASSED
+Statement - If (bResult == true),,,2017-09-07 12:39:00,2017-09-07 12:40:35,1m - 35.208s,FAILED

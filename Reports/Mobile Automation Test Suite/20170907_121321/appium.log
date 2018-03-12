@@ -1,0 +1,607 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 49612
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 49613
+[Appium]   tmpDir: /var/folders/5j/s3trxhds15v02p4tm7w_fw4w0000gn/T//Katalon/Appium/Temp1504766644875
+[Appium]   webkitDebugProxyPort: 49610
+[Appium] Appium REST http interface listener started on 0.0.0.0:49612
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 17 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa","noReset":true,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","newCommandTimeout":1800,"automationName":"XCUITest","waitForAppScript":"true;","udid":"c5c6be47b584c86a051ad5a0b33944fcb5c76609","platformName":"iOS","deviceName":"iPhone","fullReset":false,"wdaLocalPort":49609}}
+[Appium] Creating new XCUITestDriver (v2.30.0) session
+[Appium] Capabilities:
+[Appium]   app: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+[Appium]   noReset: true
+[Appium]   realDeviceLogger: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole'
+[Appium]   newCommandTimeout: 1800
+[Appium]   automationName: 'XCUITest'
+[Appium]   waitForAppScript: 'true;'
+[Appium]   udid: 'c5c6be47b584c86a051ad5a0b33944fcb5c76609'
+[Appium]   platformName: 'iOS'
+[Appium]   deviceName: 'iPhone'
+[Appium]   fullReset: false
+[Appium]   wdaLocalPort: 49609
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: realDeviceLogger.
+[BaseDriver] Session created with session id: 05166246-936a-4ce7-a257-0732241e6565
+[XCUITest] Determining device to run tests on: udid: 'c5c6be47b584c86a051ad5a0b33944fcb5c76609', real device: true
+[BaseDriver] Using local app '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+[BaseDriver] Unzipped local app to '/var/folders/5j/s3trxhds15v02p4tm7w_fw4w0000gn/T/201787-1173-1825ger.z70tn5qaor/Payload/SCMBase.app'
+[XCUITest] Setting up real device
+[XCUITest] Using WDA path: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[XCUITest] Launching WebDriverAgent on the device
+[XCUITest] Carthage not found. Install using `brew install carthage`
+[XCUITest] Cannot parse major and minor version numbers from platformVersion "null". Will build for the default platform instead
+[XCUITest] Setting '555' permissions to '/Users/sus/Library/Developer/Xcode/DerivedData/WebDriverAgent-dikkwtrisltbeobjmfvpthwwekvs/Logs/Test/Attachments' folder
+[Appium] New XCUITestDriver session created successfully, session 05166246-936a-4ce7-a257-0732241e6565 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 20519 ms - 689 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 13 ms - 83 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size 200 762 ms - 98 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements {"using":"xpath","value":"//XCUIElementTypeTextField"}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements 200 2947 ms - 169 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/E137BA67-9A4C-4712-9F44-3710E7EBBC6A/location {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/E137BA67-9A4C-4712-9F44-3710E7EBBC6A/location 200 575 ms - 88 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/E137BA67-9A4C-4712-9F44-3710E7EBBC6A/clear {"id":"E137BA67-9A4C-4712-9F44-3710E7EBBC6A"}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/E137BA67-9A4C-4712-9F44-3710E7EBBC6A/clear 200 565 ms - 76 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/E137BA67-9A4C-4712-9F44-3710E7EBBC6A/value {"id":"E137BA67-9A4C-4712-9F44-3710E7EBBC6A","value":["swati.pandey@smartusys.com"]}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/E137BA67-9A4C-4712-9F44-3710E7EBBC6A/value 200 3655 ms - 76 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size 200 727 ms - 98 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements {"using":"xpath","value":"//XCUIElementTypeSecureTextField"}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements 200 5236 ms - 177 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/3E91A583-5FCD-49A1-8D59-E1696D6BFB6B/location {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/3E91A583-5FCD-49A1-8D59-E1696D6BFB6B/location 200 865 ms - 88 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/3E91A583-5FCD-49A1-8D59-E1696D6BFB6B/clear {"id":"3E91A583-5FCD-49A1-8D59-E1696D6BFB6B"}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/3E91A583-5FCD-49A1-8D59-E1696D6BFB6B/clear 200 870 ms - 76 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/3E91A583-5FCD-49A1-8D59-E1696D6BFB6B/value {"id":"3E91A583-5FCD-49A1-8D59-E1696D6BFB6B","value":["Demo@123"]}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/3E91A583-5FCD-49A1-8D59-E1696D6BFB6B/value 200 3424 ms - 76 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size 200 768 ms - 98 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Sign In' and @name = 'Sign In']"}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements 200 5288 ms - 173 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/E41D8BB2-D743-4166-B419-183CDBB53DD1/location {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/E41D8BB2-D743-4166-B419-183CDBB53DD1/location 200 811 ms - 88 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/touch/perform {"actions":[{"action":"press","options":{"element":"E41D8BB2-D743-4166-B419-183CDBB53DD1"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/touch/perform 200 2487 ms - 76 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size 200 534 ms - 98 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Outages' and @name = 'Outages']"}
+[Xcode] rchy for com.apple.springboard
+[Xcode]     t =    90.96s     Find: Descendants matching type Alert
+[Xcode]     t =    90.97s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    90.97s     Find: Descendants matching type Sheet
+[Xcode]     t =    90.97s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    91.27s     Find: Descendants matching type Button
+[Xcode]     t =    91.28s     Find: Element at index 3
+[Xcode]     t =    91.31s     Find the "Sign In" Button
+[Xcode]     t =    91.32s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    91.70s         Find: Descendants matching type Button
+[Xcode]     t =    91.70s         Find: Element at index 3
+[Xcode]     t =    91.71s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    91.71s     Find: Descendants matching type Alert
+[Xcode]     t =    91.71s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    91.72s     Find: Descendants matching type Sheet
+[Xcode]     t =    91.72s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =    91.72s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    91.90s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    91.90s     Find: Descendants matching type Alert
+[Xcode]     t =    91.91s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    91.91s     Find: Descendants matching type Sheet
+[Xcode]     t =    91.91s     Long press "Sign In" Button
+[Xcode]     t =    91.91s         Wait for app to idle
+[Xcode]     t =    92.17s         Find the "Sign In" Button
+[Xcode]     t =    92.17s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    92.51s             Find: Descendants matching type Button
+[Xcode]     t =    92.52s             Find: Element at index 3
+[Xcode]     t =    92.65s             Wait for app to idle
+[Xcode]     t =    92.91s         Synthesize event
+[Xcode]     t =    93.12s         Wait for app to idle
+[Xcode]     t =    94.28s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    94.28s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    94.48s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    94.48s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    94.49s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    94.52s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    94.52s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    94.73s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    94.73s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    94.82s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    94.82s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    95.02s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    95.02s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode] 2017-09-07 12:16:00.686518+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174e575e0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.687523+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x174169e40: traits: 8589934592, {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.719627+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17424ca80> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.720587+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x17456f180: traits: 8589934592, {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.756579+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174249b10> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.757054+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x174167b00: traits: 8589934592, {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.802032+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174e52c30> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.802816+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x174169cc0: traits: 8589934592, {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.818072+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17424f1e0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.818996+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x174169d80: traits: 8589934592, {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.834301+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174a54ac0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.835245+0530 XCTRunner[349:34957] Failed to fetch hit point for Image 0x174169a80: traits: 8589934596, {{0.0, 0.0}, {320.0, 568.0}}, identifier: 'Login_bg_3.png' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.850070+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174252ff0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.851008+0530 XCTRunner[349:34957] Failed to fetch hit point for ScrollView 0x17416ae00: traits: 8589934592, {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.869702+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174053ec0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocaliz
+[Xcode] edDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.870369+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x17416ad40: traits: 8589934592, {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.889287+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174255b70> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.889793+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x17416a500: traits: 8589934592, {{0.0, 20.0}, {320.0, 454.5}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.908134+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17424f390> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.909031+0530 XCTRunner[349:34957] Failed to fetch hit point for Button 0x17416e340: traits: 8589934593, {{270.0, 20.0}, {35.0, 45.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:00.970090+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17005c020> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:00.990895+0530 XCTRunner[349:34957] Failed to fetch hit point for Image 0x170164d40: traits: 8589934596, {{27.0, 50.0}, {266.0, 68.0}}, identifier: 'logo-scm~iPhoneLogin' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.109877+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e4c3f0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.111008+0530 XCTRunner[349:34957] Failed to fetch hit point for TextField 0x17036f180: traits: 146029150208, {{10.5, 148.0}, {299.0, 45.0}}, placeholderValue: 'Username', value: swati.pandey@smart... - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.124362+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170241080> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.125321+0530 XCTRunner[349:34957] Failed to fetch hit point for SecureTextField 0x17016b100: traits: 146045927424, {{10.5, 201.0}, {299.0, 45.0}}, placeholderValue: 'Password', value: •••••••• - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.137209+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174e54e80> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.137653+0530 XCTRunner[349:34957] Failed to fetch hit point for Button 0x17416c180: traits: 8589934593, {{10.5, 260.0}, {25.0, 25.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.150335+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174e4c000> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.150784+0530 XCTRunner[349:34957] Failed to fetch hit point for StaticText 0x17416c900: traits: 8589934656, {{46.5, 262.5}, {69.0, 20.5}}, label: 'Touch ID' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.163172+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174e4eeb0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.163677+0530 XCTRunner[349:34957] Failed to fetch hit point for Button 0x174168040: traits: 8589934593, {{164.5, 260.0}, {21.0, 21.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.209746+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1742460c0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.210306+0530 XCTRunner[349:34957] Failed to fetch hit point for StaticText 0x174167d40: traits: 8589934656, {{196.5, 260.5}, {113.0, 20.5}}, label: 'Remember Me' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.323133+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174e44590> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.323689+0530 XCTRunner[349:34957] Failed to fetch hit point for Button 0x17416e1c0: traits: 8589934593, {{10.5, 303.0}, {299.0, 55.0}}, label: 'Sign In' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.338879+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1742408d0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDesc
+[Xcode] ription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.339367+0530 XCTRunner[349:34957] Failed to fetch hit point for StaticText 0x17416edc0: traits: 8589934656, {{148.0, 372.0}, {24.5, 21.5}}, label: 'OR' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.355412+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e4f330> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.355889+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x170170c80: traits: 8589934592, {{88.0, 382.5}, {50.0, 1.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.367780+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17084ff30> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.368359+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x170570740: traits: 8589934592, {{182.5, 382.5}, {50.0, 1.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.380472+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170c59860> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.380938+0530 XCTRunner[349:34957] Failed to fetch hit point for Button 0x170571dc0: traits: 8589934593, {{10.5, 407.5}, {299.0, 55.0}}, label: 'Register Now' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.392941+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174248f10> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.393379+0530 XCTRunner[349:34957] Failed to fetch hit point for CollectionView 0x174163540: traits: 35192962023424, {{0.0, 486.0}, {320.0, 80.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.405892+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17405dcd0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.406408+0530 XCTRunner[349:34957] Failed to fetch hit point for Cell 0x1741681c0: traits: 8589934592, {{2.0, 486.0}, {77.5, 80.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.419550+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174856770> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.420034+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x174162dc0: traits: 8589934592, {{2.0, 486.0}, {77.5, 80.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.555910+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17024a2c0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.556725+0530 XCTRunner[349:34957] Failed to fetch hit point for Image 0x17016a680: traits: 8589934596, {{23.5, 501.0}, {35.0, 35.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.570287+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e48910> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.570809+0530 XCTRunner[349:34957] Failed to fetch hit point for StaticText 0x17016f840: traits: 8589934656, {{2.0, 548.0}, {77.5, 15.0}}, label: 'Pay Bill' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.583714+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e43210> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.584087+0530 XCTRunner[349:34957] Failed to fetch hit point for Cell 0x17016f780: traits: 8589934592, {{81.5, 486.0}, {77.5, 80.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.594255+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174241290> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.594651+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x17456d8c0: traits: 8589934592, {{81.5, 486.0}, {77.5, 80.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.605999+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x17424dda0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITes
+[Xcode] tingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.606414+0530 XCTRunner[349:34957] Failed to fetch hit point for Image 0x174372a80: traits: 8589934596, {{103.0, 501.0}, {35.0, 35.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.617447+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174e57c10> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.617825+0530 XCTRunner[349:34957] Failed to fetch hit point for StaticText 0x174164c80: traits: 8589934656, {{81.5, 548.0}, {77.5, 15.0}}, label: 'Outages' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.628117+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174441c20> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.629358+0530 XCTRunner[349:34957] Failed to fetch hit point for Cell 0x174572900: traits: 8589934592, {{161.0, 486.0}, {77.5, 80.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.743073+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174a41b90> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.743737+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x174572840: traits: 8589934592, {{161.0, 486.0}, {77.5, 80.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.760983+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1742407e0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.761478+0530 XCTRunner[349:34957] Failed to fetch hit point for Image 0x17416eb80: traits: 8589934596, {{182.5, 501.0}, {35.0, 35.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.776135+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e465a0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.776748+0530 XCTRunner[349:34957] Failed to fetch hit point for StaticText 0x170170200: traits: 8589934656, {{161.0, 548.0}, {77.5, 15.0}}, label: 'Efficiency' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.790172+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e49840> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.790637+0530 XCTRunner[349:34957] Failed to fetch hit point for Cell 0x1701642c0: traits: 8589934592, {{240.5, 486.0}, {77.5, 80.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.806586+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174e5c320> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.811580+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x170164680: traits: 8589934592, {{240.5, 486.0}, {77.5, 80.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.827450+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x1742462d0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.828247+0530 XCTRunner[349:34957] Failed to fetch hit point for Image 0x17416f300: traits: 8589934596, {{262.0, 501.0}, {35.0, 35.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.844082+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x174845730> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.845792+0530 XCTRunner[349:34957] Failed to fetch hit point for StaticText 0x17416ba00: traits: 8589934656, {{240.5, 548.0}, {77.5, 15.0}}, label: 'Contact Us' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.955437+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e51580> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.956036+0530 XCTRunner[349:34957] Failed to fetch hit point for Other 0x1701663c0: {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.964416+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170a43ae0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.964861+0530 XCTRunner[349:34957] Failed to fetch hit point for ActivityIndicator 0x1701690c0: {{142.0, 256.0}, {37.0, 37.0}}, label: 'In progress', value: 1 - **
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements 200 3631 ms - 74 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size 200 557 ms - 98 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[Xcode] * -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode] 2017-09-07 12:16:01.973592+0530 XCTRunner[349:34957] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170245ca0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-07 12:16:01.973980+0530 XCTRunner[349:34957] Failed to fetch hit point for StaticText 0x170169480: traits: 64, {{125.0, 297.0}, {70.6, 16.0}}, label: 'Loading...' - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode]     t =    97.54s     Get all elements bound by index for: Descendants matching type StaticText
+[Xcode]     t =    97.64s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.88s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.89s     Find the StaticText
+[Xcode]     t =    97.89s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.89s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.90s         Find: Element at index 0
+[Xcode]     t =    97.90s     Find the StaticText
+[Xcode]     t =    97.90s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.90s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.91s         Find: Element at index 1
+[Xcode]     t =    97.91s     Find the StaticText
+[Xcode]     t =    97.91s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.91s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.92s         Find: Element at index 2
+[Xcode]     t =    97.92s     Find the StaticText
+[Xcode]     t =    97.92s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.92s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.93s         Find: Element at index 3
+[Xcode]     t =    97.93s     Find the StaticText
+[Xcode]     t =    97.93s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.93s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.93s         Find: Element at index 4
+[Xcode]     t =    97.94s     Find the StaticText
+[Xcode]     t =    97.94s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.94s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.94s         Find: Element at index 5
+[Xcode]     t =    97.95s     Find the StaticText
+[Xcode]     t =    97.95s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.95s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.95s         Find: Element at index 6
+[Xcode]     t =    97.96s     Find the StaticText
+[Xcode]     t =    97.96s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.96s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.97s         Find: Element at index 7
+[Xcode]     t =    97.97s     Find the StaticText
+[Xcode]     t =    97.97s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.97s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.98s         Find: Element at index 8
+[Xcode]     t =    97.98s     Find the StaticText
+[Xcode]     t =    97.98s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.98s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.99s         Find: Element at index 9
+[Xcode]     t =    97.99s     Find the StaticText
+[Xcode]     t =    97.99s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    97.99s         Find: Descendants matching type StaticText
+[Xcode]     t =    97.99s         Find: Element at index 10
+[Xcode]     t =    98.00s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    98.00s     Find: Descendants matching type Alert
+[Xcode]     t =    98.00s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    98.01s     Find: Descendants matching type Sheet
+[Xcode]     t =    98.01s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =    98.01s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    98.33s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    98.33s     Find: Descendants matching type Alert
+[Xcode]     t =    98.33s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =    98.34s     Find: Descendants matching type Sheet
+[Xcode]     t =    98.46s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    98.46s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    98.67s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    98.67s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    98.67s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    98.75s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    98.75s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    98.95s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    98.95s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    99.05s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    99.05s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =    99.25s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =    99.25s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.13s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   102.22s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.40s         Find: Descendants matching type Button
+[Xcode]     t =   102.41s     Find the Button
+[Xcode]     t =   102.41s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.41s         Find: Descendants matching type Button
+[Xcode]     t =   102.41s         Find: Element at index 0
+[Xcode]     t =   102.42s     Find the Button
+[Xcode]     t =   102.42s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.42s         Find: Descendants matching type Button
+[Xcode]     t =   102.42s         Find: Element at index 1
+[Xcode]     t =   102.43s     Find the Button
+[Xcode]     t =   102.43s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.44s         Find: Descendants matching type Button
+[Xcode]     t =   102.44s         Find: Element at index 2
+[Xcode]     t =   102.45s     Find the Button
+[Xcode]     t =   102.45s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.45s         Find: Descendants matching type Button
+[Xcode]     t =   102.46s         Find: Element at index 3
+[Xcode]     t =   102.47s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.47s     Find: Descendants matching type Alert
+[Xcode]     t =   102.47s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.48s     Find: Descendants matching type Sheet
+[Xcode]     t =   102.48s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =   102.48s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   102.60s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   102.61s     Find: Descendants matching type Alert
+[Xcode]     t =   102.61s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   102.61s     Find: Descendants matching type Sheet
+[Xcode]     t =   102.62s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.86s     Find: Descendants matching type Button
+[Xcode]     t =   102.86s     Find: Element at index 0
+[Xcode]     t =   102.86s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.86s     Find: Descendants matching type Button
+[Xcode]     t =   102.87s     Find: Element at index 0
+[Xcode]     t =   102.87s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.87s     Find: Descendants matching type Button
+[Xcode]     t =   102.87s     Find: Element at index 1
+[Xcode]     t =   102.88s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.88s     Find: Descendants matching type Button
+[Xcode]     t =   102.88s     Find: Element at index 1
+[Xcode]     t =   102.88s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.89s     Find: Descendants matc
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements 200 4011 ms - 470 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/3B7841E0-F617-4503-B006-937AD1A980EC/location {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/3B7841E0-F617-4503-B006-937AD1A980EC/location 200 666 ms - 87 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/touch/perform {"actions":[{"action":"press","options":{"element":"3B7841E0-F617-4503-B006-937AD1A980EC"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/touch/perform 200 1959 ms - 76 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size 200 672 ms - 98 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements 200 3001 ms - 453 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/6B5655F7-E22D-46F8-B06B-BB9C147D85AF/location {}
+[Xcode] hing type Button
+[Xcode]     t =   102.89s     Find: Element at index 2
+[Xcode]     t =   102.89s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.89s     Find: Descendants matching type Button
+[Xcode]     t =   102.90s     Find: Element at index 2
+[Xcode]     t =   102.90s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.90s     Find: Descendants matching type Button
+[Xcode]     t =   102.90s     Find: Element at index 3
+[Xcode]     t =   102.90s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   102.91s     Find: Descendants matching type Button
+[Xcode]     t =   102.91s     Find: Element at index 3
+[Xcode]     t =   103.00s     Find the Button
+[Xcode]     t =   103.00s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   103.19s         Find: Descendants matching type Button
+[Xcode]     t =   103.19s         Find: Element at index 0
+[Xcode]     t =   103.20s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   103.20s     Find: Descendants matching type Alert
+[Xcode]     t =   103.20s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   103.21s     Find: Descendants matching type Sheet
+[Xcode]     t =   103.21s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =   103.21s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   103.40s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   103.41s     Find: Descendants matching type Alert
+[Xcode]     t =   103.41s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   103.41s     Find: Descendants matching type Sheet
+[Xcode]     t =   103.41s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   103.64s     Find: Descendants matching type Button
+[Xcode]     t =   103.64s     Find: Element at index 0
+[Xcode]     t =   103.66s     Find the Button
+[Xcode]     t =   103.66s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   103.93s         Find: Descendants matching type Button
+[Xcode]     t =   103.93s         Find: Element at index 0
+[Xcode]     t =   103.93s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   103.94s     Find: Descendants matching type Alert
+[Xcode]     t =   103.94s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   103.94s     Find: Descendants matching type Sheet
+[Xcode]     t =   103.95s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =   103.95s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   104.11s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   104.12s     Find: Descendants matching type Alert
+[Xcode]     t =   104.12s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   104.12s     Find: Descendants matching type Sheet
+[Xcode]     t =   104.13s     Long press Button
+[Xcode]     t =   104.13s         Wait for app to idle
+[Xcode]     t =   104.36s         Find the Button
+[Xcode]     t =   104.36s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   104.56s             Find: Descendants matching type Button
+[Xcode]     t =   104.56s             Find: Element at index 0
+[Xcode]     t =   104.71s             Wait for app to idle
+[Xcode]     t =   104.94s         Synthesize event
+[Xcode]     t =   105.14s         Wait for app to idle
+[Xcode]     t =   115.77s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   115.77s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   116.05s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   116.06s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   116.06s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   116.10s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   116.10s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   116.29s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   116.29s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   116.35s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   116.35s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   116.53s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   116.53s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.55s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   118.61s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.78s         Find: Descendants matching type Button
+[Xcode]     t =   118.79s     Find the Button
+[Xcode]     t =   118.79s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.79s         Find: Descendants matching type Button
+[Xcode]     t =   118.80s         Find: Element at index 0
+[Xcode]     t =   118.80s     Find the Button
+[Xcode]     t =   118.80s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.80s         Find: Descendants matching type Button
+[Xcode]     t =   118.80s         Find: Element at index 1
+[Xcode]     t =   118.81s     Find the Button
+[Xcode]     t =   118.81s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.81s         Find: Descendants matching type Button
+[Xcode]     t =   118.81s         Find: Element at index 2
+[Xcode]     t =   118.82s     Find the Button
+[Xcode]     t =   118.82s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.82s         Find: Descendants matching type Button
+[Xcode]     t =   118.82s         Find: Element at index 3
+[Xcode]     t =   118.83s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.83s     Find: Descendants matching type Alert
+[Xcode]     t =   118.83s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   118.84s     Find: Descendants matching type Sheet
+[Xcode]     t =   118.84s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =   118.84s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   119.03s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   119.03s     Find: Descendants matching type Alert
+[Xcode]     t =   119.03s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   119.04s     Find: Descendants matching type Sheet
+[Xcode]     t =   119.04s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.20s     Find: Descendants matching type Button
+[Xcode]     t =   119.20s     Find: Element at index 0
+[Xcode]     t =   119.20s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.21s     Find: Descendants matching type Button
+[Xcode]     t =   119.21s     Find: Element at index 0
+[Xcode]     t =   119.21s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.21s     Find: Descendants matching type Button
+[Xcode]     t =   119.22s     Find: Element at index 1
+[Xcode]     t =   119.22s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.22s     Find: Descendants matching type Button
+[Xcode]     t =   119.22s     Find: Element at index 1
+[Xcode]     t =   119.23s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.23s     Find: Descendants matching type Button
+[Xcode]     t =   119.23s     Find: Element at index 2
+[Xcode]     t =   119.23s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.23s     Find: Descendants matching type Button
+[Xcode]     t =   119.24s     Find: Element at index 2
+[Xcode]     t =   119.24s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.24s     Find: Descendants matching type Button
+[Xcode]     t =   119.25s     Find: Element at index 3
+[Xcode]     t =   119.25s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.25s     Find: Descendants matching type Button
+[Xcode]     t =   119.26s     Find: Element at index 3
+[Xcode]     t =   119.32s     Find the Button
+[Xcode]     t =   119.32s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.46s         Find: Descendants matching type Button
+[Xcode]     t =   119.47s         Find: Element at index 0
+[Xcode]     t =   119.47s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.47s     Find: Descendants matching type Alert
+[Xcode]     t =   119.48s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.48s     Find: Descendants matching type Sheet
+[Xcode]     t =   119.48s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =   119.48s         Snapshot accessibility hierarchy for com.apple.springboa
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/6B5655F7-E22D-46F8-B06B-BB9C147D85AF/location 200 522 ms - 87 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/touch/perform {"actions":[{"action":"press","options":{"element":"6B5655F7-E22D-46F8-B06B-BB9C147D85AF"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/touch/perform 200 1557 ms - 76 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size 200 671 ms - 98 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements 200 4009 ms - 470 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/95F73696-7691-4BE3-AB57-B91D9808821A/location {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/element/95F73696-7691-4BE3-AB57-B91D9808821A/location 200 622 ms - 87 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/touch/perform {"actions":[{"action":"press","options":{"element":"95F73696-7691-4BE3-AB57-B91D9808821A"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[Xcode] rd
+[Xcode]     t =   119.64s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   119.64s     Find: Descendants matching type Alert
+[Xcode]     t =   119.64s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   119.65s     Find: Descendants matching type Sheet
+[Xcode]     t =   119.65s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   119.83s     Find: Descendants matching type Button
+[Xcode]     t =   119.83s     Find: Element at index 0
+[Xcode]     t =   119.85s     Find the Button
+[Xcode]     t =   119.85s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   120.05s         Find: Descendants matching type Button
+[Xcode]     t =   120.05s         Find: Element at index 0
+[Xcode]     t =   120.05s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   120.05s     Find: Descendants matching type Alert
+[Xcode]     t =   120.06s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   120.06s     Find: Descendants matching type Sheet
+[Xcode]     t =   120.06s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =   120.06s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   120.24s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   120.24s     Find: Descendants matching type Alert
+[Xcode]     t =   120.24s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   120.25s     Find: Descendants matching type Sheet
+[Xcode]     t =   120.25s     Long press Button
+[Xcode]     t =   120.25s         Wait for app to idle
+[Xcode]     t =   120.44s         Find the Button
+[Xcode]     t =   120.45s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   120.58s             Find: Descendants matching type Button
+[Xcode]     t =   120.58s             Find: Element at index 0
+[Xcode]     t =   120.76s             Wait for app to idle
+[Xcode]     t =   120.96s         Synthesize event
+[Xcode]     t =   121.11s         Wait for app to idle
+[Xcode]     t =   131.56s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   131.56s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   131.83s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   131.83s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   131.83s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   131.87s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   131.87s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   132.08s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   132.08s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   132.15s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   132.15s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   132.36s     Find the Application "com.ses.sesdev" 0x1740a24c0
+[Xcode]     t =   132.36s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.24s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   135.33s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.54s         Find: Descendants matching type Button
+[Xcode]     t =   135.55s     Find the Button
+[Xcode]     t =   135.55s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.55s         Find: Descendants matching type Button
+[Xcode]     t =   135.56s         Find: Element at index 0
+[Xcode]     t =   135.56s     Find the Button
+[Xcode]     t =   135.56s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.56s         Find: Descendants matching type Button
+[Xcode]     t =   135.56s         Find: Element at index 1
+[Xcode]     t =   135.57s     Find the Button
+[Xcode]     t =   135.57s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.57s         Find: Descendants matching type Button
+[Xcode]     t =   135.57s         Find: Element at index 2
+[Xcode]     t =   135.58s     Find the Button
+[Xcode]     t =   135.58s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.58s         Find: Descendants matching type Button
+[Xcode]     t =   135.58s         Find: Element at index 3
+[Xcode]     t =   135.59s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.59s     Find: Descendants matching type Alert
+[Xcode]     t =   135.59s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.59s     Find: Descendants matching type Sheet
+[Xcode]     t =   135.60s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =   135.60s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   135.76s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   135.76s     Find: Descendants matching type Alert
+[Xcode]     t =   135.76s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   135.76s     Find: Descendants matching type Sheet
+[Xcode]     t =   135.77s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.99s     Find: Descendants matching type Button
+[Xcode]     t =   135.99s     Find: Element at index 0
+[Xcode]     t =   135.99s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   135.99s     Find: Descendants matching type Button
+[Xcode]     t =   136.00s     Find: Element at index 0
+[Xcode]     t =   136.00s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.00s     Find: Descendants matching type Button
+[Xcode]     t =   136.00s     Find: Element at index 1
+[Xcode]     t =   136.01s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.01s     Find: Descendants matching type Button
+[Xcode]     t =   136.01s     Find: Element at index 1
+[Xcode]     t =   136.01s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.02s     Find: Descendants matching type Button
+[Xcode]     t =   136.02s     Find: Element at index 2
+[Xcode]     t =   136.02s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.02s     Find: Descendants matching type Button
+[Xcode]     t =   136.03s     Find: Element at index 2
+[Xcode]     t =   136.03s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.03s     Find: Descendants matching type Button
+[Xcode]     t =   136.04s     Find: Element at index 3
+[Xcode]     t =   136.04s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.04s     Find: Descendants matching type Button
+[Xcode]     t =   136.04s     Find: Element at index 3
+[Xcode]     t =   136.13s     Find the Button
+[Xcode]     t =   136.13s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.35s         Find: Descendants matching type Button
+[Xcode]     t =   136.36s         Find: Element at index 0
+[Xcode]     t =   136.36s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.36s     Find: Descendants matching type Alert
+[Xcode]     t =   136.37s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.37s     Find: Descendants matching type Sheet
+[Xcode]     t =   136.37s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =   136.37s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   136.50s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   136.50s     Find: Descendants matching type Alert
+[Xcode]     t =   136.51s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   136.51s     Find: Descendants matching type Sheet
+[Xcode]     t =   136.51s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.73s     Find: Descendants matching type Button
+[Xcode]     t =   136.74s     Find: Element at index 0
+[Xcode]     t =   136.76s     Find the Button
+[Xcode]     t =   136.77s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.98s         Find: Descendants matching type Button
+[Xcode]     t =   136.98s         Find: Element at index 0
+[Xcode]     t =   136.99s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.99s     Find: Descendants matching type Alert
+[Xcode]     t =   136.99s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   136.99s     Find: Descendants matching type Sheet
+[Xcode]     t =   137.00s     Find the Application "com.apple.springboard" 0x1700b7b20
+[Xcode]     t =   137.00s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   137.12s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   137.12s     Find: Descendants matching type Alert
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/touch/perform 200 1949 ms - 76 
+[HTTP] --> GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/window/current/size 200 654 ms - 98 
+[HTTP] --> POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Usage' and @name = 'Usage']"}
+[HTTP] <-- POST /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565/elements 200 2639 ms - 74 
+[HTTP] --> DELETE /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565 {}
+[XCUITest] Shutting down sub-processes
+[XCUITest] Shutting down xcodebuild process (pid 1202)
+[Xcode] ** BUILD INTERRUPTED **
+[Xcode] 
+[XCUITest] xcodebuild exited with code 'null' and signal 'SIGTERM'
+[XCUITest] Shutting down iproxy process (pid 1201)
+[XCUITest] Setting '755' permissions to '/Users/sus/Library/Developer/Xcode/DerivedData/WebDriverAgent-dikkwtrisltbeobjmfvpthwwekvs/Logs/Test/Attachments' folder
+[Appium] Removing session 05166246-936a-4ce7-a257-0732241e6565 from our master session list
+[HTTP] <-- DELETE /wd/hub/session/05166246-936a-4ce7-a257-0732241e6565 200 570 ms - 76 

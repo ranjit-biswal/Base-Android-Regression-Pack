@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>PreLogin Outages</description>
+   <name>PreLogin Outages</name>
+   <tag>PreLogin Outages</tag>
+   <comment></comment>
+   <testCaseGuid>c748f83f-7bf9-46df-b735-ad4c8efde825</testCaseGuid>
+</TestCaseEntity>

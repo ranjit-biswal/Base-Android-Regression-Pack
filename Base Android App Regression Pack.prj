@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Base Android App Regression Pack</description>
+   <name>Base Android App Regression Pack</name>
+   <tag></tag>
+   <UUID>165e06fc-496e-472f-84ae-03dc65c36df4</UUID>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

@@ -1,0 +1,81 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile Automation Test Suite,,,2017-09-08 14:44:22,2017-09-08 15:20:12,35m - 49.772s,PASSED
+,,,,,,
+Test Cases/PreLogIn,,PreLogIn,2017-09-08 14:44:22,2017-09-08 14:47:49,3m - 27.058s,PASSED
+Statement - messageText = null,,,2017-09-08 14:44:23,2017-09-08 14:44:23,0.002s,PASSED
+Statement - transactionId = null,,,2017-09-08 14:44:23,2017-09-08 14:44:23,0.002s,PASSED
+startApplication,,Installing the Application on the Device,2017-09-08 14:44:23,2017-09-08 14:44:47,24.326s,PASSED
+delay,,Delay of 30 Sec,2017-09-08 14:44:47,2017-09-08 14:45:17,30.030s,PASSED
+getCurrentOrientation,,Getting Device Current Orientation,2017-09-08 14:45:17,2017-09-08 14:45:18,0.644s,PASSED
+getDeviceHeight,,Getting Device Height,2017-09-08 14:45:18,2017-09-08 14:45:18,0.607s,PASSED
+getDeviceOS,,Getting Device OS,2017-09-08 14:45:18,2017-09-08 14:45:18,0.011s,PASSED
+getDeviceOSVersion,,Getting Device OS Version,2017-09-08 14:45:18,2017-09-08 14:45:18,0.015s,PASSED
+delay,,Delay of 30 Sec,2017-09-08 14:45:18,2017-09-08 14:45:48,30.005s,PASSED
+getDeviceWidth,,Getting Device Width,2017-09-08 14:45:48,2017-09-08 14:45:49,0.773s,PASSED
+delay,,Delay of 60 Sec,2017-09-08 14:45:49,2017-09-08 14:46:49,1m - 0.006s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/PreLogin Client Logo), 3) == true)",,Verifying Client Logo is Displayed or Not,2017-09-08 14:46:49,2017-09-08 14:46:54,5.107s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu), 3) == true)",,Verifying More Option Icon is Displayed or Not,2017-09-08 14:46:54,2017-09-08 14:47:00,5.225s,PASSED
+tap,,Clicking on More Options Icon,2017-09-08 14:47:00,2017-09-08 14:47:06,6.361s,PASSED
+delay,,Delay of 12 Sec,2017-09-08 14:47:06,2017-09-08 14:47:18,12.006s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text), 3) == true)",,Verifying CopyRight is Displayed on Not,2017-09-08 14:47:18,2017-09-08 14:47:24,6.359s,PASSED
+"Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text), ""value"", 5, CONTINUE_ON_FAILURE)",,Getting CopyRight in the String Variable,2017-09-08 14:47:24,2017-09-08 14:47:30,6.186s,PASSED
+"Statement - If (messageText.equals(""Copyright © 2017 Smart Energy Systems | All rights reserved.""))",,Checking CopyRight is matching with the Expeced Text or Not,2017-09-08 14:47:30,2017-09-08 14:47:30,0.007s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application Version), 3) == true)",,Verifying Application Version is Displayed on Not,2017-09-08 14:47:30,2017-09-08 14:47:37,6.229s,PASSED
+"Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application Version), ""value"", 5, CONTINUE_ON_FAILURE)",,Getting Application Version in the String Variable,2017-09-08 14:47:37,2017-09-08 14:47:43,6.288s,PASSED
+"Statement - If (messageText.equals(""Version: 7.0""))",,Checking Application Version is matching with the Expeced Text or Not,2017-09-08 14:47:43,2017-09-08 14:47:43,0.001s,PASSED
+Statement - Else,,,2017-09-08 14:47:43,2017-09-08 14:47:43,0.012s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Company Logo), 3) == true)",,Verifying Company Logo is Displayed on Not,2017-09-08 14:47:43,2017-09-08 14:47:49,6.149s,PASSED
+,,,,,,
+Test Cases/LogIn,,LogIn,2017-09-08 14:47:49,2017-09-08 14:48:31,42.152s,PASSED
+setText,,Entering UserName,2017-09-08 14:47:49,2017-09-08 14:48:09,19.912s,PASSED
+setText,,Entering Password,2017-09-08 14:48:09,2017-09-08 14:48:21,11.953s,PASSED
+tap,,Clicking on SignIn Button,2017-09-08 14:48:21,2017-09-08 14:48:31,10.159s,PASSED
+,,,,,,
+Test Cases/LandingPage,,LandingPage,2017-09-08 14:48:31,2017-09-08 14:48:40,8.591s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2017-09-08 14:48:32,2017-09-08 14:48:32,0.001s,PASSED
+"Statement - ls = driver.findElementsByClassName(""XCUIElementTypeStaticText"")",,,2017-09-08 14:48:32,2017-09-08 14:48:33,1.284s,PASSED
+"Statement - println(""Below are the Tabs available on the Dashboard : "")",,,2017-09-08 14:48:33,2017-09-08 14:48:33,0.004s,PASSED
+"Statement - For ([index = 0, index < ls.size(), (index++)])",,,2017-09-08 14:48:33,2017-09-08 14:48:40,7.132s,PASSED
+,,,,,,
+Test Cases/My Account,,My Account,2017-09-08 14:48:40,2017-09-08 15:00:41,12m - 0.505s,PASSED
+Statement - messageText = null,,,2017-09-08 14:48:40,2017-09-08 14:48:40,0.000s,PASSED
+delay,,,2017-09-08 14:48:40,2017-09-08 14:49:30,50.004s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/My Account Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking My Account Menu is Displayed on Dashboard or Not,2017-09-08 14:49:30,2017-09-08 14:49:37,6.312s,PASSED
+Statement - Else,,,2017-09-08 14:49:37,2017-09-08 15:00:41,11m - 3.890s,PASSED
+,,,,,,
+Test Cases/Usage,,Usage,2017-09-08 15:00:41,2017-09-08 15:04:13,3m - 32.351s,PASSED
+Statement - messageText = null,,,2017-09-08 15:00:41,2017-09-08 15:00:41,0.001s,PASSED
+delay,,,2017-09-08 15:00:41,2017-09-08 15:01:31,50.012s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking Usage Menu is Displayed on Dashboard or Not,2017-09-08 15:01:31,2017-09-08 15:01:37,6.289s,PASSED
+Statement - Else,,,2017-09-08 15:01:37,2017-09-08 15:04:13,2m - 35.773s,PASSED
+,,,,,,
+Test Cases/Notifications,,Notifications,2017-09-08 15:04:13,2017-09-08 15:15:04,10m - 51.358s,PASSED
+Statement - messageText = null,,,2017-09-08 15:04:13,2017-09-08 15:04:13,0.001s,PASSED
+Statement - x = 0,,,2017-09-08 15:04:13,2017-09-08 15:04:13,0.001s,PASSED
+Statement - y = 0,,,2017-09-08 15:04:13,2017-09-08 15:04:13,0.001s,PASSED
+delay,,Delay of 50 seconds,2017-09-08 15:04:13,2017-09-08 15:05:03,50.011s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2017-09-08 15:05:03,2017-09-08 15:05:03,0.000s,PASSED
+"Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20)",,,2017-09-08 15:05:03,2017-09-08 15:05:09,5.420s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2017-09-08 15:05:09,2017-09-08 15:05:09,0.012s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Notifications Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking Notifications Menu is Displayed on Dashboard or Not,2017-09-08 15:05:09,2017-09-08 15:05:15,6.335s,PASSED
+Statement - Else,,,2017-09-08 15:05:15,2017-09-08 15:15:04,9m - 49.270s,PASSED
+,,,,,,
+Test Cases/Electric Vehicle,,Electric Vehicle,2017-09-08 15:15:04,2017-09-08 15:20:12,5m - 7.056s,PASSED
+Statement - messageText = null,,,2017-09-08 15:15:05,2017-09-08 15:15:05,0.000s,PASSED
+Statement - bResult = false,,,2017-09-08 15:15:05,2017-09-08 15:15:05,0.001s,PASSED
+Statement - bResult1 = true,,,2017-09-08 15:15:05,2017-09-08 15:15:05,0.000s,PASSED
+Statement - iBeforeCarCount = 0,,,2017-09-08 15:15:05,2017-09-08 15:15:05,0.000s,PASSED
+Statement - iAfterCarCount = 0,,,2017-09-08 15:15:05,2017-09-08 15:15:05,0.000s,PASSED
+Statement - sCar = null,,,2017-09-08 15:15:05,2017-09-08 15:15:05,0.000s,PASSED
+delay,,,2017-09-08 15:15:05,2017-09-08 15:15:55,50.004s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2017-09-08 15:15:55,2017-09-08 15:15:55,0.000s,PASSED
+"Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20)",,,2017-09-08 15:15:55,2017-09-08 15:16:00,5.391s,PASSED
+Statement - x = UsageMenu.getLocation().getX(),,,2017-09-08 15:16:00,2017-09-08 15:16:01,0.700s,PASSED
+Statement - y = UsageMenu.getLocation().getY(),,,2017-09-08 15:16:01,2017-09-08 15:16:01,0.649s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2017-09-08 15:16:01,2017-09-08 15:16:01,0.000s,PASSED
+"Statement - action.press(x, y).moveTo(x - 450, y).release().perform()",,,2017-09-08 15:16:01,2017-09-08 15:16:05,4.091s,PASSED
+"Statement - action.press(x, y).moveTo(x - 500, y).release().perform()",,,2017-09-08 15:16:05,2017-09-08 15:16:10,4.451s,PASSED
+delay,,,2017-09-08 15:16:10,2017-09-08 15:16:40,30.014s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/EV Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking EV Menu is Displayed on Dashboard or Not,2017-09-08 15:16:40,2017-09-08 15:16:48,7.646s,PASSED
+Statement - Else,,,2017-09-08 15:16:48,2017-09-08 15:20:11,3m - 23.031s,PASSED
+closeApplication,,Installing the Application on the Device,2017-09-08 15:20:11,2017-09-08 15:20:12,0.888s,PASSED

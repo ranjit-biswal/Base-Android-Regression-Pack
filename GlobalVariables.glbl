@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <tag></tag>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Copyright © 2017 Smart Energy Systems | All rights reserved.'</initValue>
+      <name>sCopyRight</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Version 7.0'</initValue>
+      <name>sApplicationVersion</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'demo'</initValue>
+      <name>sUserName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Demo@123'</initValue>
+      <name>sPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'E:/SCM7.0_QA_22Nov2017 .apk'</initValue>
+      <name>sApplicationPath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'FAQs'</initValue>
+      <name>sFAQsModuleExpectedTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Terms and Conditions'</initValue>
+      <name>sTandCExpectedTitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'‎smartenergywater.com'</initValue>
+      <name>sCompanyUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I want to..'</initValue>
+      <name>sMoreOptionsMenuHeadingText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'The Email Address you entered has been verified. The Username has been e-mailed to you.'</initValue>
+      <name>sForgotUserNameText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'The Email Address you entered has been verified. A link to reset password has been e-mailed to you.'</initValue>
+      <name>sForgotPasswordText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Thank you for writing in. We will get back to you in 2 working days.'</initValue>
+      <name>sProblemSignInText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'999-999-9999'</initValue>
+      <name>sAlternateNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'John Doe'</initValue>
+      <name>sCardHolderName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4111111111111111'</initValue>
+      <name>sCardNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your Marketing Preferences have been updated successfully.'</initValue>
+      <name>sMarketingPreferencesMessageText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'100'</initValue>
+      <name>sMonthlyBudget</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your budget limit has been set. A notification will be sent on registered Email Address when your monthly budget exceeds the budget limit.'</initValue>
+      <name>sBudgetMyBillMessageText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You have successfully enrolled for Level Pay.'</initValue>
+      <name>sLevelEnrollmentMessageText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'You have successfully disenrolled for Level Pay Plan.'</initValue>
+      <name>sLevelDisEnrollmentMessageText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C002002003'</initValue>
+      <name>sUtilityAccountNumber</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'I want to..'</initValue>
+      <name>sHamburgerSubMenu1HeadingText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Shortcuts'</initValue>
+      <name>sHamburgerSubMenu2HeadingText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sahil.dheer@smartusys.com'</initValue>
+      <name>sEmailAddress</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Configured setting have been changed successfully.'</initValue>
+      <name>sNotificationPreferencesUpdationMessageText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Demo@1234'</initValue>
+      <name>sNewPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Demo@12345'</initValue>
+      <name>sNewPassword1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Your password has been changed successfully.'</initValue>
+      <name>sPasswordUpdationMessageText</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4322222248'</initValue>
+      <name>sCustomerMobileNumber</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

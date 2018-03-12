@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile Automation Test Suite,,,2017-09-07 12:20:05,2017-09-07 12:33:31,13m - 25.338s,FAILED
+,,,,,,
+Test Cases/LogIn,,LogIn,2017-09-07 12:20:06,2017-09-07 12:22:31,2m - 25.902s,PASSED
+delay,,,2017-09-07 12:20:06,2017-09-07 12:20:36,30.051s,PASSED
+startApplication,,Check Application is Already Installed on Device or Not,2017-09-07 12:20:36,2017-09-07 12:21:01,24.704s,PASSED
+delay,,Delay of 60 Sec,2017-09-07 12:21:01,2017-09-07 12:22:01,1m - 0.010s,PASSED
+setText,,Entering UserName,2017-09-07 12:22:01,2017-09-07 12:22:10,8.811s,PASSED
+setText,,Entering Password,2017-09-07 12:22:10,2017-09-07 12:22:22,11.989s,PASSED
+tap,,Clicking on SignIn Button,2017-09-07 12:22:22,2017-09-07 12:22:31,9.884s,PASSED
+,,,,,,
+Test Cases/Outages,,Outages,2017-09-07 12:22:32,2017-09-07 12:23:28,56.901s,FAILED
+Statement - sOutageTitleOnListOutagesPage = null,,,2017-09-07 12:22:32,2017-09-07 12:22:32,0.002s,PASSED
+Statement - sOutageTitleOnOutagesDetailsPage = null,,,2017-09-07 12:22:32,2017-09-07 12:22:32,0.001s,PASSED
+Statement - bResult = false,,,2017-09-07 12:22:32,2017-09-07 12:22:32,0.001s,PASSED
+Statement - messageText = null,,,2017-09-07 12:22:32,2017-09-07 12:22:32,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Outages Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking Outages Menu is Displayed on Dashboard or Not,2017-09-07 12:22:32,2017-09-07 12:22:36,4.235s,FAILED
+Statement - If (bResult == true),,,2017-09-07 12:22:36,2017-09-07 12:22:36,0.001s,PASSED
+tap,,,2017-09-07 12:22:36,2017-09-07 12:22:43,7.310s,PASSED
+delay,,Delay,2017-09-07 12:22:43,2017-09-07 12:22:53,10.003s,PASSED
+tap,,PressBack,2017-09-07 12:22:53,2017-09-07 12:23:02,8.209s,PASSED
+delay,,Delay,2017-09-07 12:23:02,2017-09-07 12:23:12,10.005s,PASSED
+tap,,PressBack,2017-09-07 12:23:12,2017-09-07 12:23:18,6.803s,PASSED
+delay,,Delay,2017-09-07 12:23:18,2017-09-07 12:23:28,10.005s,PASSED
+,,,,,,
+Test Cases/Notifications,,Notifications,2017-09-07 12:23:28,2017-09-07 12:33:30,10m - 1.273s,PASSED
+Statement - messageText = null,,,2017-09-07 12:23:29,2017-09-07 12:23:29,0.002s,PASSED
+Statement - x = 0,,,2017-09-07 12:23:29,2017-09-07 12:23:29,0.001s,PASSED
+Statement - y = 0,,,2017-09-07 12:23:29,2017-09-07 12:23:29,0.002s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2017-09-07 12:23:29,2017-09-07 12:23:29,0.006s,PASSED
+"Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20)",,,2017-09-07 12:23:29,2017-09-07 12:23:34,5.568s,PASSED
+Statement - x = UsageMenu.getLocation().getX(),,,2017-09-07 12:23:34,2017-09-07 12:23:35,0.567s,PASSED
+Statement - y = UsageMenu.getLocation().getY(),,,2017-09-07 12:23:35,2017-09-07 12:23:36,0.628s,PASSED
+Statement - action = new io.appium.java_client.TouchAction(driver),,,2017-09-07 12:23:36,2017-09-07 12:23:36,0.003s,PASSED
+"Statement - action.press(x, y).moveTo(x - 290, y).release().perform()",,,2017-09-07 12:23:36,2017-09-07 12:23:39,3.594s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Notifications Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking Notifications Menu is Displayed on Dashboard or Not,2017-09-07 12:23:39,2017-09-07 12:23:47,7.960s,PASSED
+Statement - Else,,,2017-09-07 12:23:47,2017-09-07 12:33:30,9m - 42.563s,PASSED

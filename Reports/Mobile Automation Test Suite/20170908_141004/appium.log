@@ -1,0 +1,754 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 49853
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 49854
+[Appium]   tmpDir: /var/folders/5j/s3trxhds15v02p4tm7w_fw4w0000gn/T//Katalon/Appium/Temp1504860018121
+[Appium]   webkitDebugProxyPort: 49851
+[Appium] Appium REST http interface listener started on 0.0.0.0:49853
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 15 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa","noReset":true,"realDeviceLogger":"/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole","newCommandTimeout":1800,"automationName":"XCUITest","waitForAppScript":"true;","udid":"c5c6be47b584c86a051ad5a0b33944fcb5c76609","platformName":"iOS","deviceName":"iPhone","fullReset":false,"wdaLocalPort":49850}}
+[Appium] Creating new XCUITestDriver (v2.30.0) session
+[Appium] Capabilities:
+[Appium]   app: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+[Appium]   noReset: true
+[Appium]   realDeviceLogger: '/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole/deviceconsole'
+[Appium]   newCommandTimeout: 1800
+[Appium]   automationName: 'XCUITest'
+[Appium]   waitForAppScript: 'true;'
+[Appium]   udid: 'c5c6be47b584c86a051ad5a0b33944fcb5c76609'
+[Appium]   platformName: 'iOS'
+[Appium]   deviceName: 'iPhone'
+[Appium]   fullReset: false
+[Appium]   wdaLocalPort: 49850
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: realDeviceLogger.
+[BaseDriver] Session created with session id: 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[XCUITest] Determining device to run tests on: udid: 'c5c6be47b584c86a051ad5a0b33944fcb5c76609', real device: true
+[BaseDriver] Using local app '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+[BaseDriver] Unzipped local app to '/var/folders/5j/s3trxhds15v02p4tm7w_fw4w0000gn/T/201788-1582-mtkeue.5aylj714i/Payload/SCMBase.app'
+[XCUITest] Setting up real device
+[XCUITest] Using WDA path: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+[XCUITest] Using WDA agent: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+[XCUITest] Launching WebDriverAgent on the device
+[XCUITest] Carthage not found. Install using `brew install carthage`
+[XCUITest] Cannot parse major and minor version numbers from platformVersion "null". Will build for the default platform instead
+[XCUITest] Setting '555' permissions to '/Users/sus/Library/Developer/Xcode/DerivedData/WebDriverAgent-dikkwtrisltbeobjmfvpthwwekvs/Logs/Test/Attachments' folder
+[Appium] New XCUITestDriver session created successfully, session 72542936-d2f3-40fa-b8cb-eb478a74fe9f added to master session list
+[HTTP] <-- POST /wd/hub/session 200 21404 ms - 689 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 14 ms - 83 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context 200 9 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/contexts {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/contexts 200 24 ms - 86 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context 200 6 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/orientation {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/orientation 200 452 ms - 82 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context 200 2 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context 200 4 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/contexts {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/contexts 200 11 ms - 86 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context 200 4 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 527 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context 200 3 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context 200 3 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/contexts {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/contexts 200 10 ms - 86 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context 200 2 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 730 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/context 200 2 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 657 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeImage[@name = 'logo-scm~iPhoneLogin']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2983 ms - 167 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/B795D152-9A31-4A35-BF22-A1313D80F9B5/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/B795D152-9A31-4A35-BF22-A1313D80F9B5/location 200 601 ms - 87 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/B795D152-9A31-4A35-BF22-A1313D80F9B5/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/B795D152-9A31-4A35-BF22-A1313D80F9B5/displayed 200 686 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 541 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3099 ms - 563 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/AAD3E81C-8E0C-4198-913B-05C7AEC94C08/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/AAD3E81C-8E0C-4198-913B-05C7AEC94C08/location 200 622 ms - 88 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/AAD3E81C-8E0C-4198-913B-05C7AEC94C08/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/AAD3E81C-8E0C-4198-913B-05C7AEC94C08/displayed 200 638 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 505 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3182 ms - 563 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/351CA307-682B-4096-BA1C-9A2F0E8A46A0/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/351CA307-682B-4096-BA1C-9A2F0E8A46A0/location 200 706 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"351CA307-682B-4096-BA1C-9A2F0E8A46A0"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 1855 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 821 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Copyright © 2017 Smart Energy Systems | All rights reserved.' and @name = 'Copyright © 2017 Smart Energy Systems | All rights reserved.']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3924 ms - 231 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FE335834-3087-4D26-8DE0-2B51DF80DC03/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FE335834-3087-4D26-8DE0-2B51DF80DC03/location 200 745 ms - 87 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FE335834-3087-4D26-8DE0-2B51DF80DC03/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FE335834-3087-4D26-8DE0-2B51DF80DC03/displayed 200 723 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 660 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Copyright © 2017 Smart Energy Systems | All rights reserved.' and @name = 'Copyright © 2017 Smart Energy Systems | All rights reserved.']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3803 ms - 231 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2FC80123-467C-4966-9985-3D6EB646187E/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2FC80123-467C-4966-9985-3D6EB646187E/location 200 672 ms - 87 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2FC80123-467C-4966-9985-3D6EB646187E/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2FC80123-467C-4966-9985-3D6EB646187E/attribute/value 200 734 ms - 135 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 595 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Version 7.0' and @name = 'Version 7.0']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3895 ms - 181 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3B62B954-8FE8-44F5-A7C0-54068C9E823B/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3B62B954-8FE8-44F5-A7C0-54068C9E823B/location 200 736 ms - 89 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3B62B954-8FE8-44F5-A7C0-54068C9E823B/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3B62B954-8FE8-44F5-A7C0-54068C9E823B/displayed 200 737 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 642 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Version 7.0' and @name = 'Version 7.0']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3922 ms - 181 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/68E09CF1-ABA1-4408-9363-CEA07A8A8ACA/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/68E09CF1-ABA1-4408-9363-CEA07A8A8ACA/location 200 731 ms - 89 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/68E09CF1-ABA1-4408-9363-CEA07A8A8ACA/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/68E09CF1-ABA1-4408-9363-CEA07A8A8ACA/attribute/value 200 874 ms - 85 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 614 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeImage[@name = 'footer-logo-icon']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3764 ms - 167 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/D89F17E5-235C-45CC-A223-9E4157AB49C3/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/D89F17E5-235C-45CC-A223-9E4157AB49C3/location 200 748 ms - 87 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/D89F17E5-235C-45CC-A223-9E4157AB49C3/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/D89F17E5-235C-45CC-A223-9E4157AB49C3/displayed 200 778 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 651 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeTextField"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3889 ms - 169 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3198559F-486C-4289-9D91-68A6A0FA8816/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3198559F-486C-4289-9D91-68A6A0FA8816/location 200 868 ms - 89 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3198559F-486C-4289-9D91-68A6A0FA8816/clear {"id":"3198559F-486C-4289-9D91-68A6A0FA8816"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3198559F-486C-4289-9D91-68A6A0FA8816/clear 200 804 ms - 76 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3198559F-486C-4289-9D91-68A6A0FA8816/value {"id":"3198559F-486C-4289-9D91-68A6A0FA8816","value":["swati.pandey@smartusys.com"]}
+[XCUITest] Cannot type in the text field because of UnknownError: An unknown server-side error occurred while processing the command. Original error: Error Domain=com.ses.sesdev Code=1 "Keyboard is not present" UserInfo={NSLocalizedDescription=Keyboard is not present}.
+Trying to apply a workaround...
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3198559F-486C-4289-9D91-68A6A0FA8816/value 200 13461 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 747 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeSecureTextField"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 5556 ms - 177 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FD7A1CB5-134F-479D-BABB-8DEC7B7F79BC/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FD7A1CB5-134F-479D-BABB-8DEC7B7F79BC/location 200 915 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FD7A1CB5-134F-479D-BABB-8DEC7B7F79BC/clear {"id":"FD7A1CB5-134F-479D-BABB-8DEC7B7F79BC"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FD7A1CB5-134F-479D-BABB-8DEC7B7F79BC/clear 200 923 ms - 76 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FD7A1CB5-134F-479D-BABB-8DEC7B7F79BC/value {"id":"FD7A1CB5-134F-479D-BABB-8DEC7B7F79BC","value":["Demo@123"]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FD7A1CB5-134F-479D-BABB-8DEC7B7F79BC/value 200 3777 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 743 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Sign In' and @name = 'Sign In']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 5549 ms - 173 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/1A79D990-650C-4C96-B44A-3E08939F286F/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/1A79D990-650C-4C96-B44A-3E08939F286F/location 200 926 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"1A79D990-650C-4C96-B44A-3E08939F286F"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2580 ms - 76 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"class name","value":"XCUIElementTypeStaticText"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 1326 ms - 915 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/6FB9461F-76BF-46C8-B757-9F34E3B7743E/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/6FB9461F-76BF-46C8-B757-9F34E3B7743E/text 200 717 ms - 82 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/7EFB0198-5A8E-438E-853F-0CE9A63330AC/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/7EFB0198-5A8E-438E-853F-0CE9A63330AC/text 200 716 ms - 85 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/A496598E-4853-42D0-9816-E5F1415E2E7C/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/A496598E-4853-42D0-9816-E5F1415E2E7C/text 200 689 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/E0ED99A1-EE10-4A69-8BD5-FF0603DA1BC3/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/E0ED99A1-EE10-4A69-8BD5-FF0603DA1BC3/text 200 732 ms - 82 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FB437096-B824-44FD-B564-1E9CA02D07C3/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FB437096-B824-44FD-B564-1E9CA02D07C3/text 200 636 ms - 81 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/57935BFB-9B80-4359-B570-DAF0E61A26F9/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/57935BFB-9B80-4359-B570-DAF0E61A26F9/text 200 805 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/CAC9D91A-3630-4DF3-B1FC-5F9B31DD21DC/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/CAC9D91A-3630-4DF3-B1FC-5F9B31DD21DC/text 200 1345 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/E4C92743-ACBC-4C7F-998E-15800439D01B/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/E4C92743-ACBC-4C7F-998E-15800439D01B/text 200 828 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 689 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'My Account' and @name = 'My Account']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 4014 ms - 180 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3056D669-C796-46F8-998F-0B5430C9A26F/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3056D669-C796-46F8-998F-0B5430C9A26F/location 200 688 ms - 87 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3056D669-C796-46F8-998F-0B5430C9A26F/displayed {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3056D669-C796-46F8-998F-0B5430C9A26F/displayed 200 747 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 497 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'My Account' and @name = 'My Account']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 4126 ms - 180 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/4EC0136E-3CF1-42C6-848A-E5DCA3AEE326/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/4EC0136E-3CF1-42C6-848A-E5DCA3AEE326/location 200 638 ms - 87 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"4EC0136E-3CF1-42C6-848A-E5DCA3AEE326"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2260 ms - 76 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"class name","value":"XCUIElementTypeStaticText"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 1162 ms - 1396 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text 200 690 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text 200 551 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text 200 470 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text 200 548 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text 200 546 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/0DB4B50C-77ED-44CB-8811-C57E4EFA42EC/text 200 525 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/41B7D8D4-7618-4FDD-823D-0194CFBE1086/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/41B7D8D4-7618-4FDD-823D-0194CFBE1086/text 200 515 ms - 81 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/41B7D8D4-7618-4FDD-823D-0194CFBE1086/click {"id":"41B7D8D4-7618-4FDD-823D-0194CFBE1086"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/41B7D8D4-7618-4FDD-823D-0194CFBE1086/click 200 1197 ms - 118 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 1068 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[3]/XCUIElementTypeTextField[1]"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 4529 ms - 169 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/C810CD69-5353-4F97-9D25-44A5B75B8388/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/C810CD69-5353-4F97-9D25-44A5B75B8388/location 200 729 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/C810CD69-5353-4F97-9D25-44A5B75B8388/clear {"id":"C810CD69-5353-4F97-9D25-44A5B75B8388"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/C810CD69-5353-4F97-9D25-44A5B75B8388/clear 200 3882 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 737 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[3]/XCUIElementTypeTextField[1]"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 6259 ms - 169 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/92E42994-AD29-4314-BEC9-8079977F52E0/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/92E42994-AD29-4314-BEC9-8079977F52E0/location 200 960 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/92E42994-AD29-4314-BEC9-8079977F52E0/clear {"id":"92E42994-AD29-4314-BEC9-8079977F52E0"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/92E42994-AD29-4314-BEC9-8079977F52E0/clear 200 1040 ms - 76 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/92E42994-AD29-4314-BEC9-8079977F52E0/value {"id":"92E42994-AD29-4314-BEC9-8079977F52E0","value":["999-999-9999"]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/92E42994-AD29-4314-BEC9-8079977F52E0/value 200 2636 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 756 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Ok' and @name = 'Ok']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 6420 ms - 168 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/42071392-DA69-48C2-8607-FF8D4BDA8D3D/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/42071392-DA69-48C2-8607-FF8D4BDA8D3D/location 200 1038 ms - 89 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"42071392-DA69-48C2-8607-FF8D4BDA8D3D"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2356 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 737 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeButton[1]"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 4522 ms - 170 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/52BC9BCC-EE5A-4A4D-8581-450EE9ADB9E1/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/52BC9BCC-EE5A-4A4D-8581-450EE9ADB9E1/location 200 740 ms - 87 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"52BC9BCC-EE5A-4A4D-8581-450EE9ADB9E1"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2010 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 791 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 5492 ms - 2389 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3CC6742E-2C9C-4DFB-95B3-E67C19DF34DD/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3CC6742E-2C9C-4DFB-95B3-E67C19DF34DD/location 200 789 ms - 88 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3CC6742E-2C9C-4DFB-95B3-E67C19DF34DD/attribute/value {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/3CC6742E-2C9C-4DFB-95B3-E67C19DF34DD/attribute/value 200 838 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 683 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[2]/XCUIElementTypeButton[1]"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 4842 ms - 168 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/4B30003E-3686-47DB-900D-3B21B3573B22/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/4B30003E-3686-47DB-900D-3B21B3573B22/location 200 780 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"4B30003E-3686-47DB-900D-3B21B3573B22"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2226 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 1080 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 4668 ms - 550 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FA471F23-107D-447A-99C3-DF3FC4C16DEF/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/FA471F23-107D-447A-99C3-DF3FC4C16DEF/location 200 775 ms - 87 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"FA471F23-107D-447A-99C3-DF3FC4C16DEF"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2122 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text 200 713 ms - 112 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text 200 544 ms - 112 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text 200 607 ms - 112 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text 200 565 ms - 112 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text 200 472 ms - 112 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/5B7C26B5-46D0-4B79-8EB1-A99F27F84E5E/text 200 563 ms - 112 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text 200 566 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text 200 545 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text 200 513 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text 200 595 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text 200 514 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/98D7697F-2735-4C3C-B886-60D357100A06/text 200 536 ms - 84 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text 200 603 ms - 107 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text 200 542 ms - 107 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text 200 552 ms - 107 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text 200 622 ms - 107 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text 200 498 ms - 107 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/F20D6174-BB35-479D-9D23-B37120A30274/text 200 593 ms - 107 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/7B30C107-FAB5-47CD-9ACB-6723555DDB3B/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/7B30C107-FAB5-47CD-9ACB-6723555DDB3B/text 200 575 ms - 93 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/7B30C107-FAB5-47CD-9ACB-6723555DDB3B/text {}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/7B30C107-FAB5-47CD-9ACB-6723555DDB3B/text 200 589 ms - 93 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/7B30C107-FAB5-47CD-9ACB-6723555DDB3B/click {"id":"7B30C107-FAB5-47CD-9ACB-6723555DDB3B"}
+[MJSONWP] Driver proxy active, passing request on via HTTP proxy
+[JSONWP Proxy] Replacing sessionId 0E716903-0123-4BAD-B7C4-93EBDE3C1611 with 72542936-d2f3-40fa-b8cb-eb478a74fe9f
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/7B30C107-FAB5-47CD-9ACB-6723555DDB3B/click 200 929 ms - 118 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 578 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeImage"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2698 ms - 167 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/DF2E00A8-2111-4EC7-9A30-51BFCEE9CB83/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/DF2E00A8-2111-4EC7-9A30-51BFCEE9CB83/location 200 523 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"DF2E00A8-2111-4EC7-9A30-51BFCEE9CB83"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 1505 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 587 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[1]/XCUIElementTypeTextField[1]"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3585 ms - 169 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/6E7ACD8B-83A0-4C21-81C0-A7F857A1ECAF/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/6E7ACD8B-83A0-4C21-81C0-A7F857A1ECAF/location 200 640 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/6E7ACD8B-83A0-4C21-81C0-A7F857A1ECAF/clear {"id":"6E7ACD8B-83A0-4C21-81C0-A7F857A1ECAF"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/6E7ACD8B-83A0-4C21-81C0-A7F857A1ECAF/clear 200 609 ms - 76 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/6E7ACD8B-83A0-4C21-81C0-A7F857A1ECAF/value {"id":"6E7ACD8B-83A0-4C21-81C0-A7F857A1ECAF","value":["John Doe"]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/6E7ACD8B-83A0-4C21-81C0-A7F857A1ECAF/value 200 3417 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 906 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Ok' and @name = 'Ok']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 6612 ms - 168 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/CC1D40DB-FF8B-4E34-8CFF-7547DB5D572C/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/CC1D40DB-FF8B-4E34-8CFF-7547DB5D572C/location 200 1008 ms - 89 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"CC1D40DB-FF8B-4E34-8CFF-7547DB5D572C"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2449 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 459 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[2]/XCUIElementTypeTextField[1]"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3668 ms - 169 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2CEB2170-5FF9-4797-909D-C33EABCB70C8/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2CEB2170-5FF9-4797-909D-C33EABCB70C8/location 200 650 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2CEB2170-5FF9-4797-909D-C33EABCB70C8/clear {"id":"2CEB2170-5FF9-4797-909D-C33EABCB70C8"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2CEB2170-5FF9-4797-909D-C33EABCB70C8/clear 200 646 ms - 76 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2CEB2170-5FF9-4797-909D-C33EABCB70C8/value {"id":"2CEB2170-5FF9-4797-909D-C33EABCB70C8","value":["4111111111111111"]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/2CEB2170-5FF9-4797-909D-C33EABCB70C8/value 200 4163 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 953 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Ok' and @name = 'Ok']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 6515 ms - 168 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/11B6C12D-ADF3-4744-9FED-649F0B3E6F6E/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/11B6C12D-ADF3-4744-9FED-649F0B3E6F6E/location 200 978 ms - 89 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"11B6C12D-ADF3-4744-9FED-649F0B3E6F6E"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2563 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 513 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeScrollView[2]/XCUIElementTypeTable[1]/XCUIElementTypeCell[3]/XCUIElementTypeButton[1]"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3682 ms - 168 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/91F4BB48-D392-4B48-9666-417DF7313338/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/91F4BB48-D392-4B48-9666-417DF7313338/location 200 582 ms - 89 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"91F4BB48-D392-4B48-9666-417DF7313338"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 1637 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 870 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Done' and @name = 'Done']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 5208 ms - 170 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/E308136E-C4CB-43B6-B861-DFA7ECBD1F48/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/E308136E-C4CB-43B6-B861-DFA7ECBD1F48/location 200 974 ms - 88 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"E308136E-C4CB-43B6-B861-DFA7ECBD1F48"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2159 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 492 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeSecureTextField"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3841 ms - 177 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/122C599B-363F-4130-A590-4D859E0D0320/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/122C599B-363F-4130-A590-4D859E0D0320/location 200 722 ms - 89 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/122C599B-363F-4130-A590-4D859E0D0320/clear {"id":"122C599B-363F-4130-A590-4D859E0D0320"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/122C599B-363F-4130-A590-4D859E0D0320/clear 200 615 ms - 76 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/122C599B-363F-4130-A590-4D859E0D0320/value {"id":"122C599B-363F-4130-A590-4D859E0D0320","value":["123"]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/122C599B-363F-4130-A590-4D859E0D0320/value 200 3281 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 781 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Ok' and @name = 'Ok']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 6437 ms - 168 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/C16B6022-D090-4762-A62C-48232D8F6788/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/C16B6022-D090-4762-A62C-48232D8F6788/location 200 975 ms - 89 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"C16B6022-D090-4762-A62C-48232D8F6788"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 2503 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 486 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'Add' and @name = 'Add']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 3822 ms - 169 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/39B8D117-5AE3-440F-B654-643DC697554D/location {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/element/39B8D117-5AE3-440F-B654-643DC697554D/location 200 637 ms - 87 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform {"actions":[{"action":"press","options":{"element":"39B8D117-5AE3-440F-B654-643DC697554D"}},{"action":"wait","options":{"ms":1}},{"action":"release","options":{}}]}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/touch/perform 200 1916 ms - 76 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 665 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Your credit card details have been added successfully and will be validated once you choose to make a payment.' and @name = 'Your credit card details have been added successfully and will be validated once you choose to make a payment.']"}
+[Xcode] dants matching type Alert
+[Xcode]     t =   652.35s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   652.35s     Find: Descendants matching type Sheet
+[Xcode]     t =   652.36s     Long press "Ok" Button
+[Xcode]     t =   652.36s         Wait for app to idle
+[Xcode]     t =   652.56s         Find the "Ok" Button
+[Xcode]     t =   652.56s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   652.88s             Find: Descendants matching type Button
+[Xcode]     t =   652.88s             Find: Element at index 11
+[Xcode]     t =   653.01s             Wait for app to idle
+[Xcode]     t =   653.34s         Synthesize event
+[Xcode]     t =   653.53s         Wait for app to idle
+[Xcode]     t =   654.25s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   654.26s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   654.44s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   654.44s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   654.45s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   654.49s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   654.49s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   654.69s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   654.69s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   654.74s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   654.75s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   654.95s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   654.96s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   657.72s     Get all elements bound by index for: Descendants matching type Button
+[Xcode]     t =   657.78s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.00s         Find: Descendants matching type Button
+[Xcode]     t =   658.01s     Find the Button
+[Xcode]     t =   658.01s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.01s         Find: Descendants matching type Button
+[Xcode]     t =   658.02s         Find: Element at index 0
+[Xcode]     t =   658.02s     Find the Button
+[Xcode]     t =   658.02s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.02s         Find: Descendants matching type Button
+[Xcode]     t =   658.03s         Find: Element at index 1
+[Xcode]     t =   658.03s     Find the Button
+[Xcode]     t =   658.03s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.03s         Find: Descendants matching type Button
+[Xcode]     t =   658.04s         Find: Element at index 2
+[Xcode]     t =   658.04s     Find the Button
+[Xcode]     t =   658.04s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.04s         Find: Descendants matching type Button
+[Xcode]     t =   658.05s         Find: Element at index 3
+[Xcode]     t =   658.05s     Find the Button
+[Xcode]     t =   658.05s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.05s         Find: Descendants matching type Button
+[Xcode]     t =   658.06s         Find: Element at index 4
+[Xcode]     t =   658.06s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.06s     Find: Descendants matching type Alert
+[Xcode]     t =   658.06s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.07s     Find: Descendants matching type Sheet
+[Xcode]     t =   658.07s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   658.07s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   658.25s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   658.26s     Find: Descendants matching type Alert
+[Xcode]     t =   658.26s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   658.26s     Find: Descendants matching type Sheet
+[Xcode]     t =   658.27s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.45s     Find: Descendants matching type Button
+[Xcode]     t =   658.45s     Find: Element at index 4
+[Xcode]     t =   658.45s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.45s     Find: Descendants matching type Button
+[Xcode]     t =   658.46s     Find: Element at index 4
+[Xcode]     t =   658.54s     Find the "Add" Button
+[Xcode]     t =   658.54s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.77s         Find: Descendants matching type Button
+[Xcode]     t =   658.77s         Find: Element at index 4
+[Xcode]     t =   658.78s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.78s     Find: Descendants matching type Alert
+[Xcode]     t =   658.78s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   658.79s     Find: Descendants matching type Sheet
+[Xcode]     t =   658.79s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   658.79s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   658.93s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   658.93s     Find: Descendants matching type Alert
+[Xcode]     t =   658.94s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   658.94s     Find: Descendants matching type Sheet
+[Xcode]     t =   658.94s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   659.16s     Find: Descendants matching type Button
+[Xcode]     t =   659.16s     Find: Element at index 4
+[Xcode]     t =   659.19s     Find the "Add" Button
+[Xcode]     t =   659.20s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   659.39s         Find: Descendants matching type Button
+[Xcode]     t =   659.40s         Find: Element at index 4
+[Xcode]     t =   659.40s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   659.40s     Find: Descendants matching type Alert
+[Xcode]     t =   659.40s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   659.41s     Find: Descendants matching type Sheet
+[Xcode]     t =   659.41s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   659.41s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   659.62s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   659.62s     Find: Descendants matching type Alert
+[Xcode]     t =   659.63s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   659.63s     Find: Descendants matching type Sheet
+[Xcode]     t =   659.63s     Long press "Add" Button
+[Xcode]     t =   659.63s         Wait for app to idle
+[Xcode]     t =   659.83s         Find the "Add" Button
+[Xcode]     t =   659.83s             Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   660.03s             Find: Descendants matching type Button
+[Xcode]     t =   660.04s             Find: Element at index 4
+[Xcode]     t =   660.17s             Wait for app to idle
+[Xcode]     t =   660.34s         Synthesize event
+[Xcode]     t =   660.50s         Wait for app to idle
+[Xcode]     t =   691.23s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   691.23s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   691.52s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   691.52s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   691.52s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   691.57s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   691.57s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   691.76s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   691.76s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   691.83s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   691.83s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   691.99s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   692.00s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode] 2017-09-08 14:22:13.623327+0530 XCTRunner[363:49630] Enqueue Failure: Failure fetching attributes for element <XCAccessibilityElement: 0x170e444d0> Device element: Error Domain=XCTDaemonErrorDomain Code=13 "Error copying attributes -25202" UserInfo={NSLocalizedDescription=Error copying attributes -25202} /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgentRunner/UITestingUITests.m 35 1
+[Xcode] 2017-09-08 14:22:13
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2725 ms - 74 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Your credit card details have been added successfully and will be validated once you choose to make a payment.' and @name = 'Your credit card details have been added successfully and will be validated once you choose to make a payment.']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2250 ms - 74 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 352 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'OK' and @name = 'OK']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2240 ms - 74 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'OK' and @name = 'OK']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2242 ms - 74 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'OK' and @name = 'OK']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2272 ms - 74 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'OK' and @name = 'OK']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2133 ms - 74 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'OK' and @name = 'OK']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2161 ms - 74 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'OK' and @name = 'OK']"}
+[Xcode] .623934+0530 XCTRunner[363:49630] Failed to fetch hit point for Other 0x17017e900: {{0.0, 0.0}, {320.0, 568.0}} - *** -[__NSPlaceholderArray initWithObjects:count:]: attempt to insert nil object from objects[1]
+[Xcode]     t =   694.10s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   694.24s     Find: Descendants matching type Alert
+[Xcode]     t =   694.25s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   694.25s     Find: Descendants matching type Sheet
+[Xcode]     t =   694.25s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   694.26s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   694.45s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   694.46s     Find: Descendants matching type Alert
+[Xcode]     t =   694.46s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   694.46s     Find: Descendants matching type Sheet
+[Xcode]     t =   694.57s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   694.57s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   694.70s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   694.70s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   696.40s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   696.53s     Find: Descendants matching type Alert
+[Xcode]     t =   696.54s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   696.54s     Find: Descendants matching type Sheet
+[Xcode]     t =   696.54s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   696.54s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   696.72s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   696.72s     Find: Descendants matching type Alert
+[Xcode]     t =   696.72s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   696.73s     Find: Descendants matching type Sheet
+[Xcode]     t =   696.82s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   696.82s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   696.95s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   696.95s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   696.96s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   697.00s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   697.00s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   697.13s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   697.13s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   697.19s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   697.19s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   697.35s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   697.35s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.02s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.16s     Find: Descendants matching type Alert
+[Xcode]     t =   699.16s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.16s     Find: Descendants matching type Sheet
+[Xcode]     t =   699.16s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   699.17s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   699.34s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   699.34s     Find: Descendants matching type Alert
+[Xcode]     t =   699.34s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   699.34s     Find: Descendants matching type Sheet
+[Xcode]     t =   699.43s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   699.43s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   699.57s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   699.58s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.28s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.44s     Find: Descendants matching type Alert
+[Xcode]     t =   701.44s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.44s     Find: Descendants matching type Sheet
+[Xcode]     t =   701.44s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   701.45s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   701.58s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   701.58s     Find: Descendants matching type Alert
+[Xcode]     t =   701.59s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   701.59s     Find: Descendants matching type Sheet
+[Xcode]     t =   701.77s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   701.78s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   701.90s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   701.90s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   703.54s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   703.70s     Find: Descendants matching type Alert
+[Xcode]     t =   703.71s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   703.71s     Find: Descendants matching type Sheet
+[Xcode]     t =   703.71s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   703.71s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   703.85s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   703.86s     Find: Descendants matching type Alert
+[Xcode]     t =   703.86s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   703.86s     Find: Descendants matching type Sheet
+[Xcode]     t =   703.95s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   703.95s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   704.07s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   704.08s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   705.69s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   705.85s     Find: Descendants matching type Alert
+[Xcode]     t =   705.85s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   705.85s     Find: Descendants matching type Sheet
+[Xcode]     t =   705.86s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   705.86s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   705.99s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   705.99s     Find: Descendants matching type Alert
+[Xcode]     t =   706.00s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   706.00s     Find: Descendants matching type Sheet
+[Xcode]     t =   706.09s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   706.09s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   706.21s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   706.21s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   707.85s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.01s     Find: Descendants matching type Alert
+[Xcode]     t =   708.01s     Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.02s     Find: Descendants matching type Sheet
+[Xcode]     t =   708.02s     Find the Application "com.apple.springboard" 0x1744af960
+[Xcode]     t =   708.02s         Snapshot accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   708.16s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   708.16s     Find: Descendants matching type Alert
+[Xcode]     t =   708.16s     Use cached accessibility hierarchy for com.apple.springboard
+[Xcode]     t =   708.16s     Find: Descendants matching type Sheet
+[Xcode]     t =   708.26s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   708.27s         Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   708.39s     Find the Application "com.ses.sesdev" 0x1702a0180
+[Xcode]     t =   708.40s         Use cached accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   710.04s     Snapshot accessibility hierarchy for com.ses.sesdev
+[Xcode]     t =   710.19s     Find: Descendants matching type Alert
+[Xcode]     t =   710
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2265 ms - 74 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeButton[@label = 'OK' and @name = 'OK']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2447 ms - 74 
+[HTTP] --> GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size {}
+[HTTP] <-- GET /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/window/current/size 200 483 ms - 98 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Usage' and @name = 'Usage']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2394 ms - 74 
+[HTTP] --> POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements {"using":"xpath","value":"//XCUIElementTypeStaticText[@label = 'Usage' and @name = 'Usage']"}
+[HTTP] <-- POST /wd/hub/session/72542936-d2f3-40fa-b8cb-eb478a74fe9f/elements 200 2319 ms - 74 

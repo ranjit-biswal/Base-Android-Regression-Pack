@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile Automation Test Suite" time="352" tests="0" failures="10" errors="0">
+   <testsuite name="Mobile Automation Test Suite" tests="0" failures="10" errors="0" time="352" timestamp="2017-08-24 11:28:20" hostname="Sahil.Dheer - suslap-2015-112.sus.local" id="Test Suites/Mobile Automation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon_Studio_Windows_64-4.7.1\\Mobile Automation\\Reports\\Mobile Automation Test Suite\\20170824_112817"/>
+         <property name="logFiles" value="E:\\Katalon_Studio_Windows_64-4.7.1\\Mobile Automation\\Reports\\Mobile Automation Test Suite\\20170824_112817\\appium.log, E:\\Katalon_Studio_Windows_64-4.7.1\\Mobile Automation\\Reports\\Mobile Automation Test Suite\\20170824_112817\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sahil.Dheer - suslap-2015-112.sus.local"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="4.7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/PreLogIn" classname="Test Cases/PreLogIn" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'E:\app-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 15 seconds)"/>
+         <system-out><![CDATA[2017-08-24 11:28:20 - [TEST_CASE][FAILED] - Test Cases/PreLogIn: Test Cases/PreLogIn FAILED because (of) Unable to start app at: 'E:\app-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 15 seconds)
+
+2017-08-24 11:28:21 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-08-24 11:28:21 - [TEST_STEP][PASSED] - Statement - transactionId = null: null
+
+2017-08-24 11:28:21 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'E:\app-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 15 seconds)
+
+2017-08-24 11:28:38 - [MESSAGE][FAILED] - Unable to start app at: 'E:\app-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 15 seconds)]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:28:20 - [TEST_CASE][FAILED] - Test Cases/PreLogIn: Test Cases/PreLogIn FAILED because (of) Unable to start app at: 'E:\app-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 15 seconds)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogIn" classname="Test Cases/LogIn" status="FAILED">
+         <failure type="FAILED" message="Failed to set text into element (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-08-24 11:28:38 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)
+
+2017-08-24 11:28:38 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-08-24 11:29:08 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-08-24 11:29:08 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: No application is started yet.)
+
+2017-08-24 11:29:08 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: No application is started yet.)]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:28:38 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Failed to set text into element (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LandingPage" classname="Test Cases/LandingPage" status="FAILED">
+         <failure type="FAILED" message="No application is started yet."/>
+         <system-out><![CDATA[2017-08-24 11:29:08 - [TEST_CASE][FAILED] - Test Cases/LandingPage: Test Cases/LandingPage FAILED because (of) No application is started yet.
+
+2017-08-24 11:29:09 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-08-24 11:29:59 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-08-24 11:29:59 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:29:08 - [TEST_CASE][FAILED] - Test Cases/LandingPage: Test Cases/LandingPage FAILED because (of) No application is started yet.]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Account" classname="Test Cases/My Account" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' visible (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-08-24 11:29:59 - [TEST_CASE][FAILED] - Test Cases/My Account: Test Cases/My Account FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:29:59 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-08-24 11:29:59 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/My Account Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-08-24 11:29:59 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:29:59 - [TEST_STEP][PASSED] - Statement - out.println("My Account is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:29:59 - [TEST_CASE][FAILED] - Test Cases/My Account: Test Cases/My Account FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' visible (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Billing" classname="Test Cases/Billing" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Billing Menu' visible (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-08-24 11:29:59 - [TEST_CASE][FAILED] - Test Cases/Billing: Test Cases/Billing FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Billing Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:30:00 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-08-24 11:30:00 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-08-24 11:30:50 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-08-24 11:30:50 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Billing Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-08-24 11:30:50 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Billing Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:30:50 - [TEST_STEP][PASSED] - Statement - out.println("Billing is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:29:59 - [TEST_CASE][FAILED] - Test Cases/Billing: Test Cases/Billing FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Billing Menu' visible (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Usage" classname="Test Cases/Usage" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' visible (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-08-24 11:30:50 - [TEST_CASE][FAILED] - Test Cases/Usage: Test Cases/Usage FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:30:50 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-08-24 11:30:50 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-08-24 11:31:40 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-08-24 11:31:40 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-08-24 11:31:40 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:31:40 - [TEST_STEP][PASSED] - Statement - out.println("Usage is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:30:50 - [TEST_CASE][FAILED] - Test Cases/Usage: Test Cases/Usage FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' visible (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Outages" classname="Test Cases/Outages" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' visible (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-08-24 11:31:40 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:31:41 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnListOutagesPage = null: null
+
+2017-08-24 11:31:41 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnOutagesDetailsPage = null: null
+
+2017-08-24 11:31:41 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-08-24 11:31:41 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-08-24 11:32:31 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-08-24 11:32:31 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Outages Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-08-24 11:32:31 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:32:31 - [TEST_STEP][PASSED] - Statement - out.println("Outages is not displayed in the Dashboard/Landing Page"): null
+
+2017-08-24 11:32:31 - [TEST_STEP][PASSED] - Statement - If (bResult == true): null]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:31:40 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' visible (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Notifications" classname="Test Cases/Notifications" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Notifications Menu' visible (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-08-24 11:32:31 - [TEST_CASE][FAILED] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Notifications Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:32:31 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-08-24 11:32:31 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-08-24 11:33:21 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-08-24 11:33:21 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Notifications Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-08-24 11:33:21 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Notifications Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:33:21 - [TEST_STEP][PASSED] - Statement - out.println("Notifications is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:32:31 - [TEST_CASE][FAILED] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Notifications Menu' visible (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Compare" classname="Test Cases/Compare" status="FAILED">
+         <failure type="FAILED" message="Cannot swipe on device. (Root cause: No driver found)"/>
+         <system-out><![CDATA[2017-08-24 11:33:21 - [TEST_CASE][FAILED] - Test Cases/Compare: Test Cases/Compare FAILED because (of) Cannot swipe on device. (Root cause: No driver found)
+
+2017-08-24 11:33:21 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-08-24 11:34:11 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-08-24 11:34:11 - [TEST_STEP][FAILED] - swipe: Cannot swipe on device. (Root cause: No driver found)
+
+2017-08-24 11:34:11 - [MESSAGE][FAILED] - Cannot swipe on device. (Root cause: No driver found)]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:33:21 - [TEST_CASE][FAILED] - Test Cases/Compare: Test Cases/Compare FAILED because (of) Cannot swipe on device. (Root cause: No driver found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Electric Vehicle" classname="Test Cases/Electric Vehicle" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/SCM Mobile/LandingPage/EV Menu' visible (Root cause: No application is started yet.)"/>
+         <system-out><![CDATA[2017-08-24 11:34:11 - [TEST_CASE][FAILED] - Test Cases/Electric Vehicle: Test Cases/Electric Vehicle FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/EV Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:34:12 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-08-24 11:34:12 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-08-24 11:34:12 - [TEST_STEP][PASSED] - Statement - bResult1 = true: null
+
+2017-08-24 11:34:12 - [TEST_STEP][PASSED] - Statement - sCar = null: null
+
+2017-08-24 11:34:12 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/EV Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-08-24 11:34:12 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/EV Menu' visible (Root cause: No application is started yet.)
+
+2017-08-24 11:34:12 - [TEST_STEP][PASSED] - Statement - out.println("EV is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-08-24 11:34:11 - [TEST_CASE][FAILED] - Test Cases/Electric Vehicle: Test Cases/Electric Vehicle FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/LandingPage/EV Menu' visible (Root cause: No application is started yet.)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-08-24 11:28:20 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/PreLogIn FAILED because (of) Unable to start app at: 'E:\app-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 15 seconds)]]></system-out>
+      <system-err><![CDATA[2017-08-24 11:28:20 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/PreLogIn FAILED because (of) Unable to start app at: 'E:\app-debug.apk' (Root cause: com.kms.katalon.core.appium.exception.AppiumStartException: Fail to start Appium server in 15 seconds)]]></system-err>
+   </testsuite>
+</testsuites>

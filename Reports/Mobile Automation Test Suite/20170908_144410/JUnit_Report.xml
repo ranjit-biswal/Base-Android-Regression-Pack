@@ -1,0 +1,969 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile Automation Test Suite" time="2149" tests="7" failures="0" errors="0">
+   <testsuite name="Mobile Automation Test Suite" tests="7" failures="0" errors="0" time="2149" timestamp="2017-09-08 14:44:22" hostname="sus - 10.152.0.212" id="Test Suites/Mobile Automation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170908_144410"/>
+         <property name="logFiles" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170908_144410/appium-proxy-server.log, /Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170908_144410/appium.log, /Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170908_144410/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sus - 10.152.0.212"/>
+         <property name="hostAddress" value="10.152.0.212"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.7.0.3"/>
+         <property name="appiumVersion" value="1.6.5"/>
+      </properties>
+      <testcase name="Test Cases/PreLogIn" classname="Test Cases/PreLogIn" status="PASSED">
+         <system-out><![CDATA[2017-09-08 14:44:22 - [TEST_CASE][PASSED] - Test Cases/PreLogIn: Test Cases/PreLogIn
+
+2017-09-08 14:44:23 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-08 14:44:23 - [TEST_STEP][PASSED] - Statement - transactionId = null: null
+
+2017-09-08 14:44:23 - [TEST_STEP][PASSED] - startApplication: Started app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+
+2017-09-08 14:44:47 - [MESSAGE][PASSED] - Started app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+
+2017-09-08 14:44:47 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-08 14:45:17 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-08 14:45:17 - [TEST_STEP][PASSED] - getCurrentOrientation: Current screen orientation of the device is 'portrait'
+
+2017-09-08 14:45:18 - [MESSAGE][PASSED] - Current screen orientation of the device is 'portrait'
+
+2017-09-08 14:45:18 - [TEST_STEP][PASSED] - getDeviceHeight: Current device physical height is 568
+
+2017-09-08 14:45:18 - [MESSAGE][PASSED] - Current device physical height is 568
+
+2017-09-08 14:45:18 - [TEST_STEP][PASSED] - getDeviceOS: Device OS name is: 'iOS'
+
+2017-09-08 14:45:18 - [MESSAGE][PASSED] - Device OS name is: 'iOS'
+
+2017-09-08 14:45:18 - [TEST_STEP][PASSED] - getDeviceOSVersion: Device OS version is: '10.3.3'
+
+2017-09-08 14:45:18 - [MESSAGE][PASSED] - Device OS version is: '10.3.3'
+
+2017-09-08 14:45:18 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-08 14:45:48 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-08 14:45:48 - [TEST_STEP][PASSED] - getDeviceWidth: Current device physical width is 320
+
+2017-09-08 14:45:49 - [MESSAGE][PASSED] - Current device physical width is 320
+
+2017-09-08 14:45:49 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2017-09-08 14:46:49 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2017-09-08 14:46:49 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/PreLogin Client Logo), 3) == true): null
+
+2017-09-08 14:46:54 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/PreLogin Client Logo' is visible
+
+2017-09-08 14:46:54 - [TEST_STEP][PASSED] - Statement - out.println("Client Logo is Displayed"): null
+
+2017-09-08 14:46:54 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu), 3) == true): null
+
+2017-09-08 14:47:00 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu' is visible
+
+2017-09-08 14:47:00 - [TEST_STEP][PASSED] - Statement - out.println("More Option Icon is Displayed"): null
+
+2017-09-08 14:47:00 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu'
+
+2017-09-08 14:47:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu'
+
+2017-09-08 14:47:06 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-09-08 14:47:18 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-09-08 14:47:18 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text), 3) == true): null
+
+2017-09-08 14:47:24 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text' is visible
+
+2017-09-08 14:47:24 - [TEST_STEP][PASSED] - Statement - out.println("Application CopyRight is Displayed"): null
+
+2017-09-08 14:47:24 - [TEST_STEP][PASSED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text), "value", 5, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text' has attribute 'value' is 'Copyright © 2017 Smart Energy Systems | All rights reserved.'
+
+2017-09-08 14:47:30 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text' has attribute 'value' is 'Copyright © 2017 Smart Energy Systems | All rights reserved.'
+
+2017-09-08 14:47:30 - [TEST_STEP][PASSED] - Statement - If (messageText.equals("Copyright © 2017 Smart Energy Systems | All rights reserved.")): null
+
+2017-09-08 14:47:30 - [TEST_STEP][PASSED] - Statement - out.println("Copyright © Text is matching with the Expected Text"): null
+
+2017-09-08 14:47:30 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application Version), 3) == true): null
+
+2017-09-08 14:47:37 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application Version' is visible
+
+2017-09-08 14:47:37 - [TEST_STEP][PASSED] - Statement - out.println("Application Version is Displayed"): null
+
+2017-09-08 14:47:37 - [TEST_STEP][PASSED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application Version), "value", 5, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application Version' has attribute 'value' is 'Version 7.0'
+
+2017-09-08 14:47:43 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application Version' has attribute 'value' is 'Version 7.0'
+
+2017-09-08 14:47:43 - [TEST_STEP][PASSED] - Statement - If (messageText.equals("Version: 7.0")): null
+
+2017-09-08 14:47:43 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-09-08 14:47:43 - [TEST_STEP][PASSED] - Statement - out.println("Application Version Text is not matching with the Expected Text, Expected Text is : Version: 6.7 but Actual Text is " + messageText): null
+
+2017-09-08 14:47:43 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Company Logo), 3) == true): null
+
+2017-09-08 14:47:49 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Company Logo' is visible
+
+2017-09-08 14:47:49 - [TEST_STEP][PASSED] - Statement - out.println("Company Logo is Displayed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogIn" classname="Test Cases/LogIn" status="PASSED">
+         <system-out><![CDATA[2017-09-08 14:47:49 - [TEST_CASE][PASSED] - Test Cases/LogIn: Test Cases/LogIn
+
+2017-09-08 14:47:49 - [TEST_STEP][PASSED] - setText: Text 'swati.pandey@smartusys.com' has been set to element 'Object Repository/SCM Mobile/LogIn/UserName TextBox'
+
+2017-09-08 14:48:09 - [MESSAGE][PASSED] - Text 'swati.pandey@smartusys.com' has been set to element 'Object Repository/SCM Mobile/LogIn/UserName TextBox'
+
+2017-09-08 14:48:09 - [TEST_STEP][PASSED] - setText: Text 'Demo@123' has been set to element 'Object Repository/SCM Mobile/LogIn/Password TextBox'
+
+2017-09-08 14:48:21 - [MESSAGE][PASSED] - Text 'Demo@123' has been set to element 'Object Repository/SCM Mobile/LogIn/Password TextBox'
+
+2017-09-08 14:48:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LogIn/SignIn Button'
+
+2017-09-08 14:48:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LogIn/SignIn Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LandingPage" classname="Test Cases/LandingPage" status="PASSED">
+         <system-out><![CDATA[2017-09-08 14:48:31 - [TEST_CASE][PASSED] - Test Cases/LandingPage: Test Cases/LandingPage
+
+2017-09-08 14:48:32 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-09-08 14:48:32 - [TEST_STEP][PASSED] - Statement - ls = driver.findElementsByClassName("XCUIElementTypeStaticText"): null
+
+2017-09-08 14:48:33 - [TEST_STEP][PASSED] - Statement - println("Below are the Tabs available on the Dashboard : "): null
+
+2017-09-08 14:48:33 - [TEST_STEP][PASSED] - Statement - For ([index = 0, index < ls.size(), (index++)]): null
+
+2017-09-08 14:48:33 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-08 14:48:34 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-08 14:48:34 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-08 14:48:36 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-08 14:48:37 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-08 14:48:38 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-08 14:48:38 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-08 14:48:39 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Account" classname="Test Cases/My Account" status="PASSED">
+         <system-out><![CDATA[2017-09-08 14:48:40 - [TEST_CASE][PASSED] - Test Cases/My Account: Test Cases/My Account
+
+2017-09-08 14:48:40 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-08 14:48:40 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-09-08 14:49:30 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-09-08 14:49:30 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/My Account Menu), 3, CONTINUE_ON_FAILURE) == false): Element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' is visible
+
+2017-09-08 14:49:37 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' is visible
+
+2017-09-08 14:49:37 - [TEST_STEP][PASSED] - Statement - Else: Delayed 30 second(s)
+
+2017-09-08 14:49:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LandingPage/My Account Menu'
+
+2017-09-08 14:49:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LandingPage/My Account Menu'
+
+2017-09-08 14:49:44 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-09-08 14:49:44 - [TEST_STEP][PASSED] - Statement - ls = driver.findElementsByClassName("XCUIElementTypeStaticText"): null
+
+2017-09-08 14:49:46 - [TEST_STEP][PASSED] - Statement - println(ls.size()): null
+
+2017-09-08 14:49:46 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-09-08 14:50:06 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-09-08 14:50:06 - [TEST_STEP][PASSED] - Statement - For ([index = 0, index < ls.size(), (index++)]): null
+
+2017-09-08 14:50:06 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 14:50:09 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): Delayed 10 second(s)
+
+2017-09-08 14:50:10 - [TEST_STEP][PASSED] - Comment - "Veryfing My Account - Profile": null
+
+2017-09-08 14:50:10 - [TEST_STEP][PASSED] - Statement - ls.get(index).click(): null
+
+2017-09-08 14:50:11 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-09-08 14:51:01 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-09-08 14:51:01 - [TEST_STEP][PASSED] - clearText: Element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Alternate Number Text Box' text is cleared
+
+2017-09-08 14:51:11 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Alternate Number Text Box' text is cleared
+
+2017-09-08 14:51:11 - [TEST_STEP][PASSED] - setText: Text '999-999-9999' has been set to element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Alternate Number Text Box'
+
+2017-09-08 14:51:23 - [MESSAGE][PASSED] - Text '999-999-9999' has been set to element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Alternate Number Text Box'
+
+2017-09-08 14:51:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 14:51:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 14:51:34 - [TEST_STEP][PASSED] - delay: Delayed 15 second(s)
+
+2017-09-08 14:51:49 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2017-09-08 14:51:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Save Button'
+
+2017-09-08 14:51:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Save Button'
+
+2017-09-08 14:51:57 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-09-08 14:52:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-09-08 14:52:17 - [TEST_STEP][PASSED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/My Account/Profile/My Account - Profile - Profile Updation Message Text), "value", 15, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Profile Updation Message Text' has attribute 'value' is 'My Account'
+
+2017-09-08 14:52:26 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Profile Updation Message Text' has attribute 'value' is 'My Account'
+
+2017-09-08 14:52:26 - [TEST_STEP][PASSED] - Statement - If (messageText.equals("Your Profile has been updated successfully.")): null
+
+2017-09-08 14:52:26 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-09-08 14:52:26 - [TEST_STEP][PASSED] - Statement - out.println("Account Update Message Text is not matching with the Expected Text, Expected Text is : Your Profile has been updated successfully. but Actual Text is " + messageText): null
+
+2017-09-08 14:52:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Ok Button'
+
+2017-09-08 14:52:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/My Account/Profile/My Account - Profile - Ok Button'
+
+2017-09-08 14:52:34 - [TEST_STEP][PASSED] - delay: Delayed 25 second(s)
+
+2017-09-08 14:52:59 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2017-09-08 14:52:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 14:53:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 14:53:08 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 14:53:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 14:53:18 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 14:53:22 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 14:53:25 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 14:53:29 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 14:53:30 - [TEST_STEP][PASSED] - Statement - Else If (ls.get(index).getText().equals("Payment Information")): Delayed 10 second(s)
+
+2017-09-08 14:53:30 - [TEST_STEP][PASSED] - Comment - "Veryfing My Account - Payment Information": null
+
+2017-09-08 14:53:30 - [TEST_STEP][PASSED] - Statement - ls.get(index).click(): null
+
+2017-09-08 14:53:31 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-09-08 14:54:21 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-09-08 14:54:21 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Add Payment Method Button'
+
+2017-09-08 14:54:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Add Payment Method Button'
+
+2017-09-08 14:54:26 - [TEST_STEP][PASSED] - setText: Text 'John Doe' has been set to element 'Object Repository/SCM Mobile/My Account/Payment Information/Card Holder Name'
+
+2017-09-08 14:54:35 - [MESSAGE][PASSED] - Text 'John Doe' has been set to element 'Object Repository/SCM Mobile/My Account/Payment Information/Card Holder Name'
+
+2017-09-08 14:54:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 14:54:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 14:54:46 - [TEST_STEP][PASSED] - setText: Text '4111111111111111' has been set to element 'Object Repository/SCM Mobile/My Account/Payment Information/Credit Card Number'
+
+2017-09-08 14:54:56 - [MESSAGE][PASSED] - Text '4111111111111111' has been set to element 'Object Repository/SCM Mobile/My Account/Payment Information/Credit Card Number'
+
+2017-09-08 14:54:56 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 14:55:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 14:55:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Calendar Icon'
+
+2017-09-08 14:55:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Calendar Icon'
+
+2017-09-08 14:55:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Calendar Done Button'
+
+2017-09-08 14:55:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Calendar Done Button'
+
+2017-09-08 14:55:23 - [TEST_STEP][PASSED] - setText: Text '123' has been set to element 'Object Repository/SCM Mobile/My Account/Payment Information/Card Security Code'
+
+2017-09-08 14:55:32 - [MESSAGE][PASSED] - Text '123' has been set to element 'Object Repository/SCM Mobile/My Account/Payment Information/Card Security Code'
+
+2017-09-08 14:55:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 14:55:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 14:55:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Add Card Button'
+
+2017-09-08 14:55:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Add Card Button'
+
+2017-09-08 14:55:50 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-08 14:56:20 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-08 14:56:20 - [TEST_STEP][PASSED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/My Account/Payment Information/Payment Method Add Text), "value", 5, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/My Account/Payment Information/Payment Method Add Text' has attribute 'value' is 'Your credit card details have been added successfully and will be validated once you choose to make a payment.'
+
+2017-09-08 14:56:27 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/My Account/Payment Information/Payment Method Add Text' has attribute 'value' is 'Your credit card details have been added successfully and will be validated once you choose to make a payment.'
+
+2017-09-08 14:56:27 - [TEST_STEP][PASSED] - Statement - If (messageText.equals("Your credit card details have been added successfully and will be validated once you choose to make a payment.")): null
+
+2017-09-08 14:56:27 - [TEST_STEP][PASSED] - Statement - out.println("Payment Method Added Successfuly"): null
+
+2017-09-08 14:56:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Add Payment Method Message Popup Ok Button'
+
+2017-09-08 14:56:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/My Account/Payment Information/Add Payment Method Message Popup Ok Button'
+
+2017-09-08 14:56:34 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2017-09-08 14:57:34 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2017-09-08 14:57:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 14:57:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 14:57:40 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 14:57:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 14:57:50 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 14:57:54 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 14:57:55 - [TEST_STEP][PASSED] - Statement - Else If (ls.get(index).getText().equals("Payment Information")): null
+
+2017-09-08 14:57:55 - [TEST_STEP][PASSED] - Statement - Else If (ls.get(index).getText().equals("Marketing Preferences")): Delayed 10 second(s)
+
+2017-09-08 14:57:55 - [TEST_STEP][PASSED] - Comment - "Veryfing My Account - Marketing Preferences": null
+
+2017-09-08 14:57:55 - [TEST_STEP][PASSED] - Statement - ls.get(index).click(): null
+
+2017-09-08 14:57:56 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 14:58:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 14:58:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 14:58:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 14:58:14 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 14:58:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 14:58:24 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 14:58:28 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 14:58:30 - [TEST_STEP][PASSED] - Statement - Else If (ls.get(index).getText().equals("Payment Information")): null
+
+2017-09-08 14:58:30 - [TEST_STEP][PASSED] - Statement - Else If (ls.get(index).getText().equals("Marketing Preferences")): null
+
+2017-09-08 14:58:30 - [TEST_STEP][PASSED] - Statement - Else If (ls.get(index).getText().equals("About My Home")): Delayed 40 second(s)
+
+2017-09-08 14:58:30 - [TEST_STEP][PASSED] - Comment - "Veryfing My Account - About My Home": null
+
+2017-09-08 14:58:30 - [TEST_STEP][PASSED] - Statement - ls.get(index).click(): null
+
+2017-09-08 14:58:31 - [TEST_STEP][PASSED] - delay: Delayed 40 second(s)
+
+2017-09-08 14:59:11 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2017-09-08 14:59:11 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 14:59:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 14:59:21 - [TEST_STEP][PASSED] - delay: Delayed 40 second(s)
+
+2017-09-08 15:00:01 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2017-09-08 15:00:01 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Profile")): null
+
+2017-09-08 15:00:05 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:00:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:00:11 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-08 15:00:41 - [MESSAGE][PASSED] - Delayed 30 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Usage" classname="Test Cases/Usage" status="PASSED">
+         <system-out><![CDATA[2017-09-08 15:00:41 - [TEST_CASE][PASSED] - Test Cases/Usage: Test Cases/Usage
+
+2017-09-08 15:00:41 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-08 15:00:41 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-09-08 15:01:31 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-09-08 15:01:31 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 3, CONTINUE_ON_FAILURE) == false): Element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' is visible
+
+2017-09-08 15:01:37 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' is visible
+
+2017-09-08 15:01:37 - [TEST_STEP][PASSED] - Statement - Else: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:01:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LandingPage/Usage Menu'
+
+2017-09-08 15:01:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LandingPage/Usage Menu'
+
+2017-09-08 15:01:45 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:01:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:01:55 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-09-08 15:01:55 - [TEST_STEP][PASSED] - Statement - ls = driver.findElementsByClassName("XCUIElementTypeStaticText"): null
+
+2017-09-08 15:01:56 - [TEST_STEP][PASSED] - Statement - println(ls.size()): null
+
+2017-09-08 15:01:56 - [TEST_STEP][PASSED] - Statement - For ([index = 0, index < ls.size(), (index++)]): null
+
+2017-09-08 15:01:56 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Power")): null
+
+2017-09-08 15:01:58 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Power")): Delayed 30 second(s)
+
+2017-09-08 15:01:59 - [TEST_STEP][PASSED] - Comment - "Veryfing Usage - Power": null
+
+2017-09-08 15:01:59 - [TEST_STEP][PASSED] - Statement - ls.get(index).click(): null
+
+2017-09-08 15:02:00 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:02:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:02:10 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Usage/Power/kWh Unit), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-09-08 15:02:17 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Usage/Power/kWh Unit' is visible
+
+2017-09-08 15:02:17 - [TEST_STEP][PASSED] - Statement - println("Power kWh unit is displayed"): null
+
+2017-09-08 15:02:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Usage/Power/kWh Unit'
+
+2017-09-08 15:02:24 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Usage/Power/kWh Unit'
+
+2017-09-08 15:02:24 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Usage/Power/Usage HighChart), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-09-08 15:02:32 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Usage/Power/Usage HighChart' is visible
+
+2017-09-08 15:02:32 - [TEST_STEP][PASSED] - Statement - println("Usage - Power - kWh - HighChart is displayed"): null
+
+2017-09-08 15:02:32 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:02:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:02:42 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Usage/Power/Dollar Unit), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-09-08 15:02:49 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Usage/Power/Dollar Unit' is visible
+
+2017-09-08 15:02:49 - [TEST_STEP][PASSED] - Statement - println("Power Dollar unit is displayed"): null
+
+2017-09-08 15:02:49 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Usage/Power/Dollar Unit'
+
+2017-09-08 15:02:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Usage/Power/Dollar Unit'
+
+2017-09-08 15:02:57 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Usage/Power/Usage HighChart), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-09-08 15:03:04 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Usage/Power/Usage HighChart' is visible
+
+2017-09-08 15:03:04 - [TEST_STEP][PASSED] - Statement - println("Usage - Power - Dollar - HighChart is displayed"): null
+
+2017-09-08 15:03:04 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:03:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:03:14 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:03:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:03:22 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-08 15:03:52 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-08 15:03:52 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Power")): null
+
+2017-09-08 15:03:54 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Power")): null
+
+2017-09-08 15:03:56 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Power")): null
+
+2017-09-08 15:03:58 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:04:08 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:04:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:04:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Notifications" classname="Test Cases/Notifications" status="PASSED">
+         <system-out><![CDATA[2017-09-08 15:04:13 - [TEST_CASE][PASSED] - Test Cases/Notifications: Test Cases/Notifications
+
+2017-09-08 15:04:13 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-08 15:04:13 - [TEST_STEP][PASSED] - Statement - x = 0: null
+
+2017-09-08 15:04:13 - [TEST_STEP][PASSED] - Statement - y = 0: null
+
+2017-09-08 15:04:13 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-09-08 15:05:03 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-09-08 15:05:03 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-09-08 15:05:03 - [TEST_STEP][PASSED] - Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20): Finding Test Object with id 'Object Repository/SCM Mobile/LandingPage/Usage Menu'
+
+2017-09-08 15:05:09 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2017-09-08 15:05:09 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Notifications Menu), 3, CONTINUE_ON_FAILURE) == false): Element 'Object Repository/SCM Mobile/LandingPage/Notifications Menu' is visible
+
+2017-09-08 15:05:15 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/LandingPage/Notifications Menu' is visible
+
+2017-09-08 15:05:15 - [TEST_STEP][PASSED] - Statement - Else: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:05:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LandingPage/Notifications Menu'
+
+2017-09-08 15:05:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LandingPage/Notifications Menu'
+
+2017-09-08 15:05:23 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:05:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:05:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Notifications Hamburger Menu'
+
+2017-09-08 15:05:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Notifications Hamburger Menu'
+
+2017-09-08 15:05:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/All Mail Tab'
+
+2017-09-08 15:06:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/All Mail Tab'
+
+2017-09-08 15:06:04 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:06:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:06:14 - [TEST_STEP][PASSED] - Comment - "Deleting a Notification": null
+
+2017-09-08 15:06:14 - [TEST_STEP][PASSED] - Comment - "***********************************************************************************": null
+
+2017-09-08 15:06:14 - [TEST_STEP][PASSED] - Statement - lAllMailMessages = driver.findElementsByClassName("XCUIElementTypeCell"): null
+
+2017-09-08 15:06:16 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:06:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:06:26 - [TEST_STEP][PASSED] - Statement - println(lAllMailMessages.size()): null
+
+2017-09-08 15:06:26 - [TEST_STEP][PASSED] - Statement - If (lAllMailMessages.size() > 0): null
+
+2017-09-08 15:06:26 - [TEST_STEP][PASSED] - Statement - For ([index = 0, index < 1, (index++)]): Delayed 30 second(s)
+
+2017-09-08 15:06:26 - [TEST_STEP][PASSED] - Statement - lAllMailMessages.get(index).click(): null
+
+2017-09-08 15:06:27 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-08 15:06:57 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-08 15:06:57 - [TEST_STEP][PASSED] - Statement - sFirstMessageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Notifications/First Message Text in All Tabs), "value", 15, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/Notifications/First Message Text in All Tabs' has attribute 'value' is 'Outage at your location. We are accessing the cause of outage and will notify you with further progress.'
+
+2017-09-08 15:07:02 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Notifications/First Message Text in All Tabs' has attribute 'value' is 'Outage at your location. We are accessing the cause of outage and will notify you with further progress.'
+
+2017-09-08 15:07:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Trash Icon'
+
+2017-09-08 15:07:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Trash Icon'
+
+2017-09-08 15:07:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Delete Confirmation Yes Button'
+
+2017-09-08 15:07:15 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Delete Confirmation Yes Button'
+
+2017-09-08 15:07:15 - [TEST_STEP][PASSED] - delay: Delayed 25 second(s)
+
+2017-09-08 15:07:40 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2017-09-08 15:07:40 - [TEST_STEP][PASSED] - Statement - sMessageDeletionText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Notifications/Message Deletion Text), "value", 15, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/Notifications/Message Deletion Text' has attribute 'value' is 'Your message(s) has been deleted successfully.'
+
+2017-09-08 15:07:45 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Notifications/Message Deletion Text' has attribute 'value' is 'Your message(s) has been deleted successfully.'
+
+2017-09-08 15:07:45 - [TEST_STEP][PASSED] - Statement - If (sMessageDeletionText.equals("Your message(s) has been deleted successfully.")): null
+
+2017-09-08 15:07:45 - [TEST_STEP][PASSED] - Statement - out.println("Your message(s) has been deleted successfully."): null
+
+2017-09-08 15:07:45 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Delete Confirmation Ok Button'
+
+2017-09-08 15:07:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Delete Confirmation Ok Button'
+
+2017-09-08 15:07:52 - [TEST_STEP][PASSED] - delay: Delayed 25 second(s)
+
+2017-09-08 15:08:17 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2017-09-08 15:08:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Notifications Hamburger Menu'
+
+2017-09-08 15:08:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Notifications Hamburger Menu'
+
+2017-09-08 15:08:27 - [TEST_STEP][PASSED] - Statement - AllMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Notifications/All Mail Tab), 20): Finding Test Object with id 'Object Repository/SCM Mobile/Notifications/All Mail Tab'
+
+2017-09-08 15:08:37 - [TEST_STEP][PASSED] - Statement - x = UsageMenu.getLocation().getX(): null
+
+2017-09-08 15:08:38 - [TEST_STEP][PASSED] - Statement - y = UsageMenu.getLocation().getY(): null
+
+2017-09-08 15:08:39 - [TEST_STEP][PASSED] - Statement - action.press(x, y).moveTo(x, y - 100).release().perform(): null
+
+2017-09-08 15:08:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Trash Tab'
+
+2017-09-08 15:08:54 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Trash Tab'
+
+2017-09-08 15:08:54 - [TEST_STEP][PASSED] - delay: Delayed 40 second(s)
+
+2017-09-08 15:09:34 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2017-09-08 15:09:34 - [TEST_STEP][PASSED] - Statement - lDeleteItems = driver.findElementsByClassName("XCUIElementTypeCell"): null
+
+2017-09-08 15:09:35 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:09:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:09:45 - [TEST_STEP][PASSED] - Statement - println(lDeleteItems.size()): null
+
+2017-09-08 15:09:45 - [TEST_STEP][PASSED] - Statement - For ([index = 0, index < 1, (index++)]): Delayed 20 second(s)
+
+2017-09-08 15:09:45 - [TEST_STEP][PASSED] - Statement - lDeleteItems.get(index).click(): null
+
+2017-09-08 15:09:47 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-09-08 15:10:07 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-09-08 15:10:07 - [TEST_STEP][PASSED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Notifications/First Message Text in All Tabs), "value", 15, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/Notifications/First Message Text in All Tabs' has attribute 'value' is 'This is for Internal Testing'
+
+2017-09-08 15:10:12 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Notifications/First Message Text in All Tabs' has attribute 'value' is 'This is for Internal Testing'
+
+2017-09-08 15:10:12 - [TEST_STEP][PASSED] - Statement - If (sFirstMessageText.equals(messageText)): null
+
+2017-09-08 15:10:12 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-09-08 15:10:12 - [TEST_STEP][PASSED] - Statement - println("Message Deleted from the All Email not found in the Trash Tab"): null
+
+2017-09-08 15:10:12 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:10:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:10:19 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-09-08 15:10:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-09-08 15:10:39 - [TEST_STEP][PASSED] - Comment - "Replying a Notification": null
+
+2017-09-08 15:10:39 - [TEST_STEP][PASSED] - Comment - "***********************************************************************************": null
+
+2017-09-08 15:10:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Notifications Hamburger Menu'
+
+2017-09-08 15:10:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Notifications Hamburger Menu'
+
+2017-09-08 15:10:46 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/All Mail Tab'
+
+2017-09-08 15:10:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/All Mail Tab'
+
+2017-09-08 15:10:55 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:11:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:11:05 - [TEST_STEP][PASSED] - Statement - For ([index = 0, index < 1, (index++)]): Delayed 10 second(s)
+
+2017-09-08 15:11:05 - [TEST_STEP][PASSED] - Statement - lAllMailMessages.get(index).click(): null
+
+2017-09-08 15:11:07 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:11:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:11:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Reply Icon'
+
+2017-09-08 15:11:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Reply Icon'
+
+2017-09-08 15:11:25 - [TEST_STEP][PASSED] - setText: Text 'This is for Internal Testing' has been set to element 'Object Repository/SCM Mobile/Notifications/Email Message Text'
+
+2017-09-08 15:11:36 - [MESSAGE][PASSED] - Text 'This is for Internal Testing' has been set to element 'Object Repository/SCM Mobile/Notifications/Email Message Text'
+
+2017-09-08 15:11:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 15:11:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/KeyBoard Ok Button'
+
+2017-09-08 15:11:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Send Button'
+
+2017-09-08 15:11:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Send Button'
+
+2017-09-08 15:11:57 - [TEST_STEP][PASSED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Notifications/Message Sent Text), "value", 15, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/Notifications/Message Sent Text' has attribute 'value' is 'Message sent successfully.'
+
+2017-09-08 15:12:09 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Notifications/Message Sent Text' has attribute 'value' is 'Message sent successfully.'
+
+2017-09-08 15:12:09 - [TEST_STEP][PASSED] - Statement - If (messageText.equals("Message sent successfully.")): null
+
+2017-09-08 15:12:09 - [TEST_STEP][PASSED] - Statement - out.println("Message Sent Text is matching with the Expeced Text"): null
+
+2017-09-08 15:12:09 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Delete Confirmation Ok Button'
+
+2017-09-08 15:12:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Delete Confirmation Ok Button'
+
+2017-09-08 15:12:18 - [TEST_STEP][PASSED] - delay: Delayed 25 second(s)
+
+2017-09-08 15:12:43 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2017-09-08 15:12:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:12:51 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:12:51 - [TEST_STEP][PASSED] - delay: Delayed 25 second(s)
+
+2017-09-08 15:13:16 - [MESSAGE][PASSED] - Delayed 25 second(s)
+
+2017-09-08 15:13:16 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Notifications Hamburger Menu'
+
+2017-09-08 15:13:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Notifications Hamburger Menu'
+
+2017-09-08 15:13:25 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Notifications/Sent Tab'
+
+2017-09-08 15:13:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Notifications/Sent Tab'
+
+2017-09-08 15:13:33 - [TEST_STEP][PASSED] - delay: Delayed 40 second(s)
+
+2017-09-08 15:14:13 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2017-09-08 15:14:13 - [TEST_STEP][PASSED] - Statement - lSentItems = driver.findElementsByClassName("XCUIElementTypeCell"): null
+
+2017-09-08 15:14:14 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:14:24 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:14:24 - [TEST_STEP][PASSED] - Statement - println(lSentItems.size()): null
+
+2017-09-08 15:14:24 - [TEST_STEP][PASSED] - Statement - For ([index = 0, index < 1, (index++)]): Delayed 20 second(s)
+
+2017-09-08 15:14:24 - [TEST_STEP][PASSED] - Statement - lSentItems.get(index).click(): null
+
+2017-09-08 15:14:25 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-09-08 15:14:45 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-09-08 15:14:45 - [TEST_STEP][PASSED] - Statement - sMessageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Notifications/Message Text in Sent Message Tab), "value", 15, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/Notifications/Message Text in Sent Message Tab' has attribute 'value' is 'This is for Internal Testing'
+
+2017-09-08 15:14:51 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Notifications/Message Text in Sent Message Tab' has attribute 'value' is 'This is for Internal Testing'
+
+2017-09-08 15:14:51 - [TEST_STEP][PASSED] - Statement - If (sMessageText.equals("This is for Internal Testing")): null
+
+2017-09-08 15:14:51 - [TEST_STEP][PASSED] - Statement - println("Message sent from the All Email found in the Sent Items"): null
+
+2017-09-08 15:14:51 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:14:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:14:59 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:15:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Electric Vehicle" classname="Test Cases/Electric Vehicle" status="PASSED">
+         <system-out><![CDATA[2017-09-08 15:15:04 - [TEST_CASE][PASSED] - Test Cases/Electric Vehicle: Test Cases/Electric Vehicle
+
+2017-09-08 15:15:05 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-08 15:15:05 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-09-08 15:15:05 - [TEST_STEP][PASSED] - Statement - bResult1 = true: null
+
+2017-09-08 15:15:05 - [TEST_STEP][PASSED] - Statement - iBeforeCarCount = 0: null
+
+2017-09-08 15:15:05 - [TEST_STEP][PASSED] - Statement - iAfterCarCount = 0: null
+
+2017-09-08 15:15:05 - [TEST_STEP][PASSED] - Statement - sCar = null: null
+
+2017-09-08 15:15:05 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-09-08 15:15:55 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-09-08 15:15:55 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-09-08 15:15:55 - [TEST_STEP][PASSED] - Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20): Finding Test Object with id 'Object Repository/SCM Mobile/LandingPage/Usage Menu'
+
+2017-09-08 15:16:00 - [TEST_STEP][PASSED] - Statement - x = UsageMenu.getLocation().getX(): null
+
+2017-09-08 15:16:01 - [TEST_STEP][PASSED] - Statement - y = UsageMenu.getLocation().getY(): null
+
+2017-09-08 15:16:01 - [TEST_STEP][PASSED] - Statement - action = new io.appium.java_client.TouchAction(driver): null
+
+2017-09-08 15:16:01 - [TEST_STEP][PASSED] - Statement - action.press(x, y).moveTo(x - 450, y).release().perform(): null
+
+2017-09-08 15:16:05 - [TEST_STEP][PASSED] - Statement - action.press(x, y).moveTo(x - 500, y).release().perform(): null
+
+2017-09-08 15:16:10 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-08 15:16:40 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-08 15:16:40 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/EV Menu), 3, CONTINUE_ON_FAILURE) == false): Element 'Object Repository/SCM Mobile/LandingPage/EV Menu' is visible
+
+2017-09-08 15:16:48 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/LandingPage/EV Menu' is visible
+
+2017-09-08 15:16:48 - [TEST_STEP][PASSED] - Statement - Else: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:16:48 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LandingPage/EV Menu'
+
+2017-09-08 15:16:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LandingPage/EV Menu'
+
+2017-09-08 15:16:57 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:17:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:17:07 - [TEST_STEP][PASSED] - Statement - ls = driver.findElementsByClassName("XCUIElementTypeStaticText"): null
+
+2017-09-08 15:17:08 - [TEST_STEP][PASSED] - Statement - For ([index = 1, index < ls.size(), (index++)]): null
+
+2017-09-08 15:17:08 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Electric Vehicle")): Delayed 10 second(s)
+
+2017-09-08 15:17:09 - [TEST_STEP][PASSED] - Statement - ls.get(index).click(): null
+
+2017-09-08 15:17:10 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:17:20 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:17:20 - [TEST_STEP][PASSED] - Statement - lSelectCarBeforeEVUpdate = driver.findElementsByClassName("XCUIElementTypeCell"): null
+
+2017-09-08 15:17:21 - [TEST_STEP][PASSED] - Statement - For ([index1 = 0, index1 < 1, (index1++)]): null
+
+2017-09-08 15:17:21 - [TEST_STEP][PASSED] - Statement - lSelectCarBeforeEVUpdate.get(index1).findElementByClassName("XCUIElementTypeStaticText").click(): null
+
+2017-09-08 15:17:23 - [TEST_STEP][PASSED] - Statement - lCarListBeforeEVUpdate = driver.findElementsByClassName("XCUIElementTypeCell"): null
+
+2017-09-08 15:17:24 - [TEST_STEP][PASSED] - Statement - iBeforeCarCount = lCarListBeforeEVUpdate.size(): null
+
+2017-09-08 15:17:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:17:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:17:30 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Electric Vehicle/EV/Add Button'
+
+2017-09-08 15:17:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Electric Vehicle/EV/Add Button'
+
+2017-09-08 15:17:36 - [TEST_STEP][PASSED] - Statement - lCarList = driver.findElementsByClassName("XCUIElementTypeCell"): null
+
+2017-09-08 15:17:38 - [TEST_STEP][PASSED] - Statement - println(lCarList.size()): null
+
+2017-09-08 15:17:38 - [TEST_STEP][PASSED] - Statement - For ([index2 = 0, index2 < 1, (index2++)]): null
+
+2017-09-08 15:17:38 - [TEST_STEP][PASSED] - Statement - sCar = lCarList.get(index2).findElementByClassName("XCUIElementTypeStaticText").getText(): null
+
+2017-09-08 15:17:40 - [TEST_STEP][PASSED] - Statement - lCarList.get(index2).click(): null
+
+2017-09-08 15:17:41 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Electric Vehicle/EV/Save Button'
+
+2017-09-08 15:17:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Electric Vehicle/EV/Save Button'
+
+2017-09-08 15:17:48 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-09-08 15:18:08 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-09-08 15:18:08 - [TEST_STEP][PASSED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Electric Vehicle/EV/EV Setting Save Text), "value", 5, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/Electric Vehicle/EV/EV Setting Save Text' has attribute 'value' is 'Your settings have been saved successfully.'
+
+2017-09-08 15:18:15 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Electric Vehicle/EV/EV Setting Save Text' has attribute 'value' is 'Your settings have been saved successfully.'
+
+2017-09-08 15:18:15 - [TEST_STEP][PASSED] - Statement - If (messageText.equals(null)): null
+
+2017-09-08 15:18:15 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-09-08 15:18:15 - [TEST_STEP][PASSED] - Statement - If (messageText.equals("Your settings have been saved successfully.")): null
+
+2017-09-08 15:18:15 - [TEST_STEP][PASSED] - Statement - out.println("Your EV settings have been saved successfully."): null
+
+2017-09-08 15:18:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Electric Vehicle/EV/EV Setting Save Popup Ok Button'
+
+2017-09-08 15:18:23 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Electric Vehicle/EV/EV Setting Save Popup Ok Button'
+
+2017-09-08 15:18:23 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-09-08 15:18:43 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-09-08 15:18:43 - [TEST_STEP][PASSED] - Comment - "Checking Selected/UnSelected Car in the Car List DropDown": null
+
+2017-09-08 15:18:43 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Electric Vehicle/EV/EV Side Menu'
+
+2017-09-08 15:18:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Electric Vehicle/EV/EV Side Menu'
+
+2017-09-08 15:18:48 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-09-08 15:19:08 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-09-08 15:19:08 - [TEST_STEP][PASSED] - Statement - lSelectCarAfterEVUpdate = driver.findElementsByClassName("XCUIElementTypeCell"): null
+
+2017-09-08 15:19:09 - [TEST_STEP][PASSED] - Statement - For ([index3 = 0, index3 < 1, (index3++)]): null
+
+2017-09-08 15:19:09 - [TEST_STEP][PASSED] - Statement - lSelectCarAfterEVUpdate.get(index3).findElementByClassName("XCUIElementTypeStaticText").click(): null
+
+2017-09-08 15:19:12 - [TEST_STEP][PASSED] - Statement - lCarListAfterEVUpdate = driver.findElementsByClassName("XCUIElementTypeCell"): null
+
+2017-09-08 15:19:13 - [TEST_STEP][PASSED] - Statement - iAfterCarCount = lCarListAfterEVUpdate.size(): null
+
+2017-09-08 15:19:13 - [TEST_STEP][PASSED] - Statement - If (iBeforeCarCount > iAfterCarCount): null
+
+2017-09-08 15:19:13 - [TEST_STEP][PASSED] - Statement - Else If (iBeforeCarCount < iAfterCarCount): null
+
+2017-09-08 15:19:13 - [TEST_STEP][PASSED] - Statement - For ([index4 = 0, index4 < lCarListAfterEVUpdate.size(), (index4++)]): null
+
+2017-09-08 15:19:13 - [TEST_STEP][PASSED] - Statement - If (lCarListAfterEVUpdate.get(index4).findElementByClassName("XCUIElementTypeStaticText").getText().equals(sCar)): null
+
+2017-09-08 15:19:14 - [TEST_STEP][PASSED] - Statement - If (lCarListAfterEVUpdate.get(index4).findElementByClassName("XCUIElementTypeStaticText").getText().equals(sCar)): null
+
+2017-09-08 15:19:16 - [TEST_STEP][PASSED] - Statement - If (lCarListAfterEVUpdate.get(index4).findElementByClassName("XCUIElementTypeStaticText").getText().equals(sCar)): null
+
+2017-09-08 15:19:17 - [TEST_STEP][PASSED] - Statement - If (lCarListAfterEVUpdate.get(index4).findElementByClassName("XCUIElementTypeStaticText").getText().equals(sCar)): null
+
+2017-09-08 15:19:19 - [TEST_STEP][PASSED] - Statement - If (lCarListAfterEVUpdate.get(index4).findElementByClassName("XCUIElementTypeStaticText").getText().equals(sCar)): null
+
+2017-09-08 15:19:20 - [TEST_STEP][PASSED] - Statement - bResult1 = true: null
+
+2017-09-08 15:19:20 - [TEST_STEP][PASSED] - Statement - Break: null
+
+2017-09-08 15:19:20 - [TEST_STEP][PASSED] - Statement - If (bResult1 == true): null
+
+2017-09-08 15:19:20 - [TEST_STEP][PASSED] - Statement - println("Car Selected from the Add Menu is displayed in the Car List DropDown OR Car UnSelected from the Add Menu is not displayed in the Car List DropDown"): null
+
+2017-09-08 15:19:20 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:19:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:19:26 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:19:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:19:36 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:19:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:19:42 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:19:52 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:19:52 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Electric Vehicle")): null
+
+2017-09-08 15:19:54 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Electric Vehicle")): null
+
+2017-09-08 15:19:55 - [TEST_STEP][PASSED] - Statement - If (ls.get(index).getText().equals("Electric Vehicle")): null
+
+2017-09-08 15:19:56 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-08 15:20:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-08 15:20:06 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:20:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-08 15:20:11 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2017-09-08 15:20:12 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-08 14:44:22 - [TEST_SUITE][PASSED] - Mobile Automation Test Suite: Test Cases/Electric Vehicle]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

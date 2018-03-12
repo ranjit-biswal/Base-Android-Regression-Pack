@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile Automation Test Suite" time="204" tests="1" failures="1" errors="1">
+   <testsuite name="Mobile Automation Test Suite" tests="1" failures="1" errors="1" time="204" timestamp="2017-09-07 11:52:04" hostname="sus - 10.152.0.212" id="Test Suites/Mobile Automation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_115152"/>
+         <property name="logFiles" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_115152/appium-proxy-server.log, /Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_115152/appium.log, /Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_115152/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sus - 10.152.0.212"/>
+         <property name="hostAddress" value="10.152.0.212"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.7.0.3"/>
+         <property name="appiumVersion" value="1.6.5"/>
+      </properties>
+      <testcase name="Test Cases/LogIn" classname="Test Cases/LogIn" status="PASSED">
+         <system-out><![CDATA[2017-09-07 11:52:04 - [TEST_CASE][PASSED] - Test Cases/LogIn: Test Cases/LogIn
+
+2017-09-07 11:52:05 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-07 11:52:35 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-07 11:52:35 - [TEST_STEP][PASSED] - startApplication: Started app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+
+2017-09-07 11:53:01 - [MESSAGE][PASSED] - Started app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+
+2017-09-07 11:53:01 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2017-09-07 11:54:01 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2017-09-07 11:54:01 - [TEST_STEP][PASSED] - setText: Text 'swati.pandey@smartusys.com' has been set to element 'Object Repository/SCM Mobile/LogIn/UserName TextBox'
+
+2017-09-07 11:54:09 - [MESSAGE][PASSED] - Text 'swati.pandey@smartusys.com' has been set to element 'Object Repository/SCM Mobile/LogIn/UserName TextBox'
+
+2017-09-07 11:54:09 - [TEST_STEP][PASSED] - setText: Text 'Demo@123' has been set to element 'Object Repository/SCM Mobile/LogIn/Password TextBox'
+
+2017-09-07 11:54:19 - [MESSAGE][PASSED] - Text 'Demo@123' has been set to element 'Object Repository/SCM Mobile/LogIn/Password TextBox'
+
+2017-09-07 11:54:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LogIn/SignIn Button'
+
+2017-09-07 11:54:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LogIn/SignIn Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Outages" classname="Test Cases/Outages" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-09-07 11:54:28 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' is NOT visible
+
+2017-09-07 11:54:29 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnListOutagesPage = null: null
+
+2017-09-07 11:54:29 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnOutagesDetailsPage = null: null
+
+2017-09-07 11:54:29 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-09-07 11:54:29 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 11:54:29 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Outages Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-09-07 11:54:34 - [MESSAGE][FAILED] - Element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' is NOT visible
+
+2017-09-07 11:54:34 - [TEST_STEP][PASSED] - Statement - out.println("Outages is not displayed in the Dashboard/Landing Page"): null
+
+2017-09-07 11:54:34 - [TEST_STEP][PASSED] - Statement - If (bResult == true): null
+
+2017-09-07 11:54:34 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-07 11:54:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-07 11:54:40 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-07 11:54:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-07 11:54:50 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-07 11:54:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-07 11:54:57 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-07 11:55:07 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-09-07 11:55:07 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-07 11:55:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Common Elements/PressBack'
+
+2017-09-07 11:55:13 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-09-07 11:55:23 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[2017-09-07 11:54:28 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' is NOT visible]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Notifications" classname="Test Cases/Notifications" status="ERROR">
+         <error type="ERROR" message=""/>
+         <system-out><![CDATA[2017-09-07 11:55:23 - [TEST_CASE][ERROR] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) java.lang.NullPointerException: Cannot invoke method getLocation() on null object
+
+2017-09-07 11:55:24 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 11:55:24 - [TEST_STEP][PASSED] - Statement - x = 0: null
+
+2017-09-07 11:55:24 - [TEST_STEP][PASSED] - Statement - y = 0: null
+
+2017-09-07 11:55:24 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-09-07 11:55:24 - [TEST_STEP][PASSED] - Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20): Finding Test Object with id 'Object Repository/SCM Mobile/LandingPage/Usage Menu'
+
+2017-09-07 11:55:27 - [TEST_STEP][PASSED] - Statement - x = UsageMenu.getLocation().getX(): null]]></system-out>
+         <system-err><![CDATA[2017-09-07 11:55:23 - [TEST_CASE][ERROR] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) java.lang.NullPointerException: Cannot invoke method getLocation() on null object]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-07 11:52:04 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' is NOT visible]]></system-out>
+      <system-err><![CDATA[2017-09-07 11:52:04 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' is NOT visible]]></system-err>
+   </testsuite>
+</testsuites>

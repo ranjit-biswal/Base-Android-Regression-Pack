@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Notifications</description>
+   <name>Notifications</name>
+   <tag>Notifications</tag>
+   <comment></comment>
+   <testCaseGuid>e8bcbf34-c11d-4914-9d3b-415dae0fc697</testCaseGuid>
+</TestCaseEntity>

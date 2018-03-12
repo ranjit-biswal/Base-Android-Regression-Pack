@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile Automation Test Suite,,,2017-09-07 11:26:41,2017-09-07 11:46:15,19m - 34.049s,FAILED
+,,,,,,
+Test Cases/LogIn,,LogIn,2017-09-07 11:26:41,2017-09-07 11:29:05,2m - 23.404s,PASSED
+delay,,,2017-09-07 11:26:42,2017-09-07 11:27:12,30.050s,PASSED
+startApplication,,Check Application is Already Installed on Device or Not,2017-09-07 11:27:12,2017-09-07 11:27:38,25.469s,PASSED
+delay,,Delay of 60 Sec,2017-09-07 11:27:38,2017-09-07 11:28:38,1m - 0.006s,PASSED
+setText,,Entering UserName,2017-09-07 11:28:38,2017-09-07 11:28:46,7.991s,PASSED
+setText,,Entering Password,2017-09-07 11:28:46,2017-09-07 11:28:56,10.475s,PASSED
+tap,,Clicking on SignIn Button,2017-09-07 11:28:56,2017-09-07 11:29:05,8.797s,PASSED
+,,,,,,
+Test Cases/My Account,,My Account,2017-09-07 11:29:05,2017-09-07 11:40:33,11m - 28.286s,PASSED
+Statement - messageText = null,,,2017-09-07 11:29:05,2017-09-07 11:29:05,0.004s,PASSED
+delay,,,2017-09-07 11:29:05,2017-09-07 11:29:55,50.004s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/My Account Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking My Account Menu is Displayed on Dashboard or Not,2017-09-07 11:29:55,2017-09-07 11:30:01,5.479s,PASSED
+Statement - Else,,,2017-09-07 11:30:01,2017-09-07 11:40:33,10m - 32.433s,PASSED
+,,,,,,
+Test Cases/Usage,,Usage,2017-09-07 11:40:33,2017-09-07 11:43:05,2m - 32.058s,PASSED
+Statement - messageText = null,,,2017-09-07 11:40:33,2017-09-07 11:40:34,0.009s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking Usage Menu is Displayed on Dashboard or Not,2017-09-07 11:40:34,2017-09-07 11:40:39,5.392s,PASSED
+Statement - Else,,,2017-09-07 11:40:39,2017-09-07 11:43:05,2m - 26.342s,PASSED
+,,,,,,
+Test Cases/Outages,,Outages,2017-09-07 11:43:05,2017-09-07 11:46:11,3m - 5.433s,FAILED
+Statement - sOutageTitleOnListOutagesPage = null,,,2017-09-07 11:43:06,2017-09-07 11:43:06,0.003s,PASSED
+Statement - sOutageTitleOnOutagesDetailsPage = null,,,2017-09-07 11:43:06,2017-09-07 11:43:06,0.001s,PASSED
+Statement - bResult = false,,,2017-09-07 11:43:06,2017-09-07 11:43:06,0.000s,PASSED
+Statement - messageText = null,,,2017-09-07 11:43:06,2017-09-07 11:43:06,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Outages Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking Outages Menu is Displayed on Dashboard or Not,2017-09-07 11:43:06,2017-09-07 11:43:12,5.997s,PASSED
+Statement - Else,,,2017-09-07 11:43:12,2017-09-07 11:44:34,1m - 22.064s,PASSED
+Statement - If (bResult == true),,,2017-09-07 11:44:34,2017-09-07 11:46:11,1m - 37.130s,FAILED
+,,,,,,
+Test Cases/Notifications,,Notifications,2017-09-07 11:46:11,2017-09-07 11:46:14,3.519s,ERROR
+Statement - messageText = null,,,2017-09-07 11:46:11,2017-09-07 11:46:11,0.001s,PASSED
+Statement - x = 0,,,2017-09-07 11:46:11,2017-09-07 11:46:11,0.001s,PASSED
+Statement - y = 0,,,2017-09-07 11:46:11,2017-09-07 11:46:11,0.000s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2017-09-07 11:46:11,2017-09-07 11:46:11,0.000s,PASSED
+"Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20)",,,2017-09-07 11:46:11,2017-09-07 11:46:14,2.972s,PASSED
+Statement - x = UsageMenu.getLocation().getX(),,,2017-09-07 11:46:14,2017-09-07 11:46:14,0.003s,PASSED

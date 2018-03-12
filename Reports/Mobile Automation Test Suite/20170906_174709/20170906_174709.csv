@@ -1,0 +1,68 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mobile Automation Test Suite,,,2017-09-06 17:47:21,2017-09-06 18:12:15,24m - 54.521s,FAILED
+,,,,,,
+Test Cases/PreLogIn,,PreLogIn,2017-09-06 17:47:21,2017-09-06 17:53:28,6m - 6.809s,PASSED
+Statement - messageText = null,,,2017-09-06 17:47:22,2017-09-06 17:47:22,0.002s,PASSED
+Statement - transactionId = null,,,2017-09-06 17:47:22,2017-09-06 17:47:22,0.002s,PASSED
+startApplication,,Installing the Application on the Device,2017-09-06 17:47:22,2017-09-06 17:47:46,24.202s,PASSED
+delay,,Delay of 30 Sec,2017-09-06 17:47:46,2017-09-06 17:48:16,30.025s,PASSED
+getCurrentOrientation,,Getting Device Current Orientation,2017-09-06 17:48:16,2017-09-06 17:48:17,0.625s,PASSED
+getDeviceHeight,,Getting Device Height,2017-09-06 17:48:17,2017-09-06 17:48:17,0.617s,PASSED
+getDeviceOS,,Getting Device OS,2017-09-06 17:48:17,2017-09-06 17:48:17,0.011s,PASSED
+getDeviceOSVersion,,Getting Device OS Version,2017-09-06 17:48:17,2017-09-06 17:48:17,0.011s,PASSED
+delay,,Delay of 30 Sec,2017-09-06 17:48:17,2017-09-06 17:48:47,30.004s,PASSED
+getDeviceWidth,,Getting Device Width,2017-09-06 17:48:47,2017-09-06 17:48:48,0.766s,PASSED
+delay,,Delay of 120 Sec,2017-09-06 17:48:48,2017-09-06 17:52:28,3m - 40.017s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/PreLogin Client Logo), 3) == true)",,Verifying Client Logo is Displayed or Not,2017-09-06 17:52:28,2017-09-06 17:52:33,5.251s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu), 3) == true)",,Verifying More Option Icon is Displayed or Not,2017-09-06 17:52:33,2017-09-06 17:52:38,4.995s,PASSED
+tap,,Clicking on More Options Icon,2017-09-06 17:52:38,2017-09-06 17:52:45,6.414s,PASSED
+delay,,Delay of 12 Sec,2017-09-06 17:52:45,2017-09-06 17:52:57,12.003s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text), 3) == true)",,Verifying CopyRight is Displayed on Not,2017-09-06 17:52:57,2017-09-06 17:53:03,6.352s,PASSED
+"Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text), ""value"", 5, CONTINUE_ON_FAILURE)",,Getting CopyRight in the String Variable,2017-09-06 17:53:03,2017-09-06 17:53:09,6.120s,PASSED
+"Statement - If (messageText.equals(""Copyright © 2017 Smart Energy Systems | All rights reserved.""))",,Checking CopyRight is matching with the Expeced Text or Not,2017-09-06 17:53:09,2017-09-06 17:53:09,0.005s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application Version), 3) == true)",,Verifying Application Version is Displayed on Not,2017-09-06 17:53:09,2017-09-06 17:53:15,6.167s,PASSED
+"Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application Version), ""value"", 5, CONTINUE_ON_FAILURE)",,Getting Application Version in the String Variable,2017-09-06 17:53:15,2017-09-06 17:53:22,6.243s,PASSED
+"Statement - If (messageText.equals(""Version: 7.0""))",,Checking Application Version is matching with the Expeced Text or Not,2017-09-06 17:53:22,2017-09-06 17:53:22,0.000s,PASSED
+Statement - Else,,,2017-09-06 17:53:22,2017-09-06 17:53:22,0.002s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Company Logo), 3) == true)",,Verifying Company Logo is Displayed on Not,2017-09-06 17:53:22,2017-09-06 17:53:28,6.177s,PASSED
+,,,,,,
+Test Cases/LogIn,,LogIn,2017-09-06 17:53:28,2017-09-06 17:55:51,2m - 23.438s,PASSED
+delay,,,2017-09-06 17:53:28,2017-09-06 17:53:58,30.005s,PASSED
+startApplication,,Check Application is Already Installed on Device or Not,2017-09-06 17:53:58,2017-09-06 17:54:19,21.162s,PASSED
+delay,,Delay of 60 Sec,2017-09-06 17:54:19,2017-09-06 17:55:19,1m - 0.006s,PASSED
+setText,,Entering UserName,2017-09-06 17:55:19,2017-09-06 17:55:28,8.924s,PASSED
+setText,,Entering Password,2017-09-06 17:55:28,2017-09-06 17:55:41,12.377s,PASSED
+tap,,Clicking on SignIn Button,2017-09-06 17:55:41,2017-09-06 17:55:51,10.784s,PASSED
+,,,,,,
+Test Cases/LandingPage,,LandingPage,2017-09-06 17:55:51,2017-09-06 17:56:00,8.622s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2017-09-06 17:55:52,2017-09-06 17:55:52,0.001s,PASSED
+"Statement - ls = driver.findElementsByClassName(""XCUIElementTypeStaticText"")",,,2017-09-06 17:55:52,2017-09-06 17:55:54,2.114s,PASSED
+"Statement - println(""Below are the Tabs available on the Dashboard : "")",,,2017-09-06 17:55:54,2017-09-06 17:55:54,0.004s,PASSED
+"Statement - For ([index = 0, index < ls.size(), (index++)])",,,2017-09-06 17:55:54,2017-09-06 17:56:00,6.333s,PASSED
+,,,,,,
+Test Cases/My Account,,My Account,2017-09-06 17:56:00,2017-09-06 18:06:16,10m - 15.820s,PASSED
+Statement - messageText = null,,,2017-09-06 17:56:00,2017-09-06 17:56:00,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/My Account Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking My Account Menu is Displayed on Dashboard or Not,2017-09-06 17:56:00,2017-09-06 17:56:07,6.476s,PASSED
+Statement - Else,,,2017-09-06 17:56:07,2017-09-06 18:06:16,10m - 9.064s,PASSED
+,,,,,,
+Test Cases/Usage,,Usage,2017-09-06 18:06:16,2017-09-06 18:09:01,2m - 44.731s,PASSED
+Statement - messageText = null,,,2017-09-06 18:06:16,2017-09-06 18:06:16,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking Usage Menu is Displayed on Dashboard or Not,2017-09-06 18:06:16,2017-09-06 18:06:23,6.340s,PASSED
+Statement - Else,,,2017-09-06 18:06:23,2017-09-06 18:09:01,2m - 38.135s,PASSED
+,,,,,,
+Test Cases/Outages,,Outages,2017-09-06 18:09:01,2017-09-06 18:12:11,3m - 9.949s,FAILED
+Statement - sOutageTitleOnListOutagesPage = null,,,2017-09-06 18:09:01,2017-09-06 18:09:01,0.001s,PASSED
+Statement - sOutageTitleOnOutagesDetailsPage = null,,,2017-09-06 18:09:01,2017-09-06 18:09:01,0.000s,PASSED
+Statement - bResult = false,,,2017-09-06 18:09:01,2017-09-06 18:09:01,0.000s,PASSED
+Statement - messageText = null,,,2017-09-06 18:09:01,2017-09-06 18:09:01,0.001s,PASSED
+"Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Outages Menu), 3, CONTINUE_ON_FAILURE) == false)",,Checking Outages Menu is Displayed on Dashboard or Not,2017-09-06 18:09:01,2017-09-06 18:09:09,7.528s,PASSED
+Statement - Else,,,2017-09-06 18:09:09,2017-09-06 18:10:32,1m - 23.835s,PASSED
+Statement - If (bResult == true),,,2017-09-06 18:10:32,2017-09-06 18:12:11,1m - 38.319s,FAILED
+,,,,,,
+Test Cases/Notifications,,Notifications,2017-09-06 18:12:11,2017-09-06 18:12:14,3.551s,ERROR
+Statement - messageText = null,,,2017-09-06 18:12:11,2017-09-06 18:12:11,0.001s,PASSED
+Statement - x = 0,,,2017-09-06 18:12:11,2017-09-06 18:12:11,0.000s,PASSED
+Statement - y = 0,,,2017-09-06 18:12:11,2017-09-06 18:12:11,0.001s,PASSED
+Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(),,,2017-09-06 18:12:11,2017-09-06 18:12:11,0.000s,PASSED
+"Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20)",,,2017-09-06 18:12:11,2017-09-06 18:12:14,3.302s,PASSED
+Statement - x = UsageMenu.getLocation().getX(),,,2017-09-06 18:12:14,2017-09-06 18:12:14,0.006s,PASSED

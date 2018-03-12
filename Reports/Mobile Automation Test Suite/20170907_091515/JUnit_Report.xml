@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile Automation Test Suite" time="654" tests="3" failures="3" errors="1">
+   <testsuite name="Mobile Automation Test Suite" tests="3" failures="3" errors="1" time="654" timestamp="2017-09-07 09:15:41" hostname="sus - 10.152.0.212" id="Test Suites/Mobile Automation Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_091515"/>
+         <property name="logFiles" value="/Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_091515/appium-proxy-server.log, /Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_091515/appium.log, /Users/sus/Desktop/Mobile Automation/Reports/Mobile Automation Test Suite/20170907_091515/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sus - 10.152.0.212"/>
+         <property name="hostAddress" value="10.152.0.212"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="4.7.0.3"/>
+         <property name="appiumVersion" value="1.6.5"/>
+      </properties>
+      <testcase name="Test Cases/PreLogIn" classname="Test Cases/PreLogIn" status="PASSED">
+         <system-out><![CDATA[2017-09-07 09:15:42 - [TEST_CASE][PASSED] - Test Cases/PreLogIn: Test Cases/PreLogIn
+
+2017-09-07 09:15:42 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 09:15:42 - [TEST_STEP][PASSED] - Statement - transactionId = null: null
+
+2017-09-07 09:15:42 - [TEST_STEP][PASSED] - startApplication: Started app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+
+2017-09-07 09:16:29 - [MESSAGE][PASSED] - Started app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa'
+
+2017-09-07 09:16:29 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-07 09:16:59 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-07 09:16:59 - [TEST_STEP][PASSED] - getCurrentOrientation: Current screen orientation of the device is 'portrait'
+
+2017-09-07 09:16:59 - [MESSAGE][PASSED] - Current screen orientation of the device is 'portrait'
+
+2017-09-07 09:16:59 - [TEST_STEP][PASSED] - getDeviceHeight: Current device physical height is 568
+
+2017-09-07 09:17:00 - [MESSAGE][PASSED] - Current device physical height is 568
+
+2017-09-07 09:17:00 - [TEST_STEP][PASSED] - getDeviceOS: Device OS name is: 'iOS'
+
+2017-09-07 09:17:00 - [MESSAGE][PASSED] - Device OS name is: 'iOS'
+
+2017-09-07 09:17:00 - [TEST_STEP][PASSED] - getDeviceOSVersion: Device OS version is: '10.3.3'
+
+2017-09-07 09:17:00 - [MESSAGE][PASSED] - Device OS version is: '10.3.3'
+
+2017-09-07 09:17:00 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-07 09:17:30 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-07 09:17:30 - [TEST_STEP][PASSED] - getDeviceWidth: Current device physical width is 320
+
+2017-09-07 09:17:31 - [MESSAGE][PASSED] - Current device physical width is 320
+
+2017-09-07 09:17:31 - [TEST_STEP][PASSED] - delay: Delayed 220 second(s)
+
+2017-09-07 09:21:11 - [MESSAGE][PASSED] - Delayed 220 second(s)
+
+2017-09-07 09:21:11 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/PreLogin Client Logo), 3) == true): null
+
+2017-09-07 09:21:15 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/PreLogin Client Logo' is visible
+
+2017-09-07 09:21:15 - [TEST_STEP][PASSED] - Statement - out.println("Client Logo is Displayed"): null
+
+2017-09-07 09:21:15 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu), 3) == true): null
+
+2017-09-07 09:21:19 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu' is visible
+
+2017-09-07 09:21:19 - [TEST_STEP][PASSED] - Statement - out.println("More Option Icon is Displayed"): null
+
+2017-09-07 09:21:19 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu'
+
+2017-09-07 09:21:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu'
+
+2017-09-07 09:21:25 - [TEST_STEP][PASSED] - delay: Delayed 12 second(s)
+
+2017-09-07 09:21:37 - [MESSAGE][PASSED] - Delayed 12 second(s)
+
+2017-09-07 09:21:37 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text), 3) == true): null
+
+2017-09-07 09:21:42 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text' is visible
+
+2017-09-07 09:21:42 - [TEST_STEP][PASSED] - Statement - out.println("Application CopyRight is Displayed"): null
+
+2017-09-07 09:21:42 - [TEST_STEP][PASSED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text), "value", 5, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text' has attribute 'value' is 'Copyright © 2017 Smart Energy Systems | All rights reserved.'
+
+2017-09-07 09:21:47 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application CopyRight Text' has attribute 'value' is 'Copyright © 2017 Smart Energy Systems | All rights reserved.'
+
+2017-09-07 09:21:47 - [TEST_STEP][PASSED] - Statement - If (messageText.equals("Copyright © 2017 Smart Energy Systems | All rights reserved.")): null
+
+2017-09-07 09:21:47 - [TEST_STEP][PASSED] - Statement - out.println("Copyright © Text is matching with the Expected Text"): null
+
+2017-09-07 09:21:47 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application Version), 3) == true): null
+
+2017-09-07 09:21:52 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application Version' is visible
+
+2017-09-07 09:21:52 - [TEST_STEP][PASSED] - Statement - out.println("Application Version is Displayed"): null
+
+2017-09-07 09:21:52 - [TEST_STEP][PASSED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Application Version), "value", 5, CONTINUE_ON_FAILURE): Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application Version' has attribute 'value' is 'Version 7.0'
+
+2017-09-07 09:21:57 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Application Version' has attribute 'value' is 'Version 7.0'
+
+2017-09-07 09:21:57 - [TEST_STEP][PASSED] - Statement - If (messageText.equals("Version: 7.0")): null
+
+2017-09-07 09:21:57 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-09-07 09:21:57 - [TEST_STEP][PASSED] - Statement - out.println("Application Version Text is not matching with the Expected Text, Expected Text is : Version: 6.7 but Actual Text is " + messageText): null
+
+2017-09-07 09:21:57 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/MoreOptionsMenu Company Logo), 3) == true): null
+
+2017-09-07 09:22:03 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/PreLogin/MoreOptionsMenu Company Logo' is visible
+
+2017-09-07 09:22:03 - [TEST_STEP][PASSED] - Statement - out.println("Company Logo is Displayed"): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogIn" classname="Test Cases/LogIn" status="PASSED">
+         <system-out><![CDATA[2017-09-07 09:22:03 - [TEST_CASE][PASSED] - Test Cases/LogIn: Test Cases/LogIn
+
+2017-09-07 09:22:03 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-09-07 09:22:33 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-09-07 09:22:33 - [TEST_STEP][PASSED] - setText: Text 'swati.pandey@smartusys.com' has been set to element 'Object Repository/SCM Mobile/LogIn/UserName TextBox'
+
+2017-09-07 09:22:52 - [MESSAGE][PASSED] - Text 'swati.pandey@smartusys.com' has been set to element 'Object Repository/SCM Mobile/LogIn/UserName TextBox'
+
+2017-09-07 09:22:52 - [TEST_STEP][PASSED] - setText: Text 'Demo@123' has been set to element 'Object Repository/SCM Mobile/LogIn/Password TextBox'
+
+2017-09-07 09:23:02 - [MESSAGE][PASSED] - Text 'Demo@123' has been set to element 'Object Repository/SCM Mobile/LogIn/Password TextBox'
+
+2017-09-07 09:23:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LogIn/SignIn Button'
+
+2017-09-07 09:23:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LogIn/SignIn Button']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LandingPage" classname="Test Cases/LandingPage" status="PASSED">
+         <system-out><![CDATA[2017-09-07 09:23:11 - [TEST_CASE][PASSED] - Test Cases/LandingPage: Test Cases/LandingPage
+
+2017-09-07 09:23:11 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-09-07 09:23:11 - [TEST_STEP][PASSED] - Statement - ls = driver.findElementsByClassName("XCUIElementTypeStaticText"): null
+
+2017-09-07 09:23:12 - [TEST_STEP][PASSED] - Statement - println("Below are the Tabs available on the Dashboard : "): null
+
+2017-09-07 09:23:12 - [TEST_STEP][PASSED] - Statement - For ([index = 0, index < ls.size(), (index++)]): null
+
+2017-09-07 09:23:12 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-07 09:23:13 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-07 09:23:14 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-07 09:23:14 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-07 09:23:15 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-07 09:23:15 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-07 09:23:16 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null
+
+2017-09-07 09:23:17 - [TEST_STEP][PASSED] - Statement - println(ls.get(index).getText()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Account" classname="Test Cases/My Account" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-09-07 09:23:17 - [TEST_CASE][FAILED] - Test Cases/My Account: Test Cases/My Account FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' not found
+
+2017-09-07 09:23:17 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 09:23:17 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/My Account Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-09-07 09:23:21 - [MESSAGE][FAILED] - Element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' not found
+
+2017-09-07 09:23:21 - [TEST_STEP][PASSED] - Statement - out.println("My Account is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-09-07 09:23:17 - [TEST_CASE][FAILED] - Test Cases/My Account: Test Cases/My Account FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Usage" classname="Test Cases/Usage" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-09-07 09:23:21 - [TEST_CASE][FAILED] - Test Cases/Usage: Test Cases/Usage FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' is NOT visible
+
+2017-09-07 09:23:22 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 09:23:22 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-09-07 09:23:27 - [MESSAGE][FAILED] - Element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' is NOT visible
+
+2017-09-07 09:23:27 - [TEST_STEP][PASSED] - Statement - out.println("Usage is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-09-07 09:23:21 - [TEST_CASE][FAILED] - Test Cases/Usage: Test Cases/Usage FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' is NOT visible]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Outages" classname="Test Cases/Outages" status="FAILED">
+         <failure type="FAILED" message=""/>
+         <system-out><![CDATA[2017-09-07 09:23:27 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found
+
+2017-09-07 09:23:27 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnListOutagesPage = null: null
+
+2017-09-07 09:23:27 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnOutagesDetailsPage = null: null
+
+2017-09-07 09:23:27 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-09-07 09:23:27 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 09:23:27 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Outages Menu), 3, CONTINUE_ON_FAILURE) == false): Element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' is visible
+
+2017-09-07 09:23:33 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/LandingPage/Outages Menu' is visible
+
+2017-09-07 09:23:33 - [TEST_STEP][PASSED] - Statement - Else: Delayed 35 second(s)
+
+2017-09-07 09:23:33 - [TEST_STEP][PASSED] - Statement - bResult = true: null
+
+2017-09-07 09:23:33 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/LandingPage/Outages Menu'
+
+2017-09-07 09:23:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/LandingPage/Outages Menu'
+
+2017-09-07 09:23:40 - [TEST_STEP][PASSED] - delay: Delayed 40 second(s)
+
+2017-09-07 09:24:20 - [MESSAGE][PASSED] - Delayed 40 second(s)
+
+2017-09-07 09:24:20 - [TEST_STEP][PASSED] - delay: Delayed 35 second(s)
+
+2017-09-07 09:24:55 - [MESSAGE][PASSED] - Delayed 35 second(s)
+
+2017-09-07 09:24:55 - [TEST_STEP][FAILED] - Statement - If (bResult == true): Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)
+
+2017-09-07 09:24:55 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Outages/Current Outages Text if Current Outages are not available), 3, CONTINUE_ON_FAILURE) == true): Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found
+
+2017-09-07 09:24:58 - [MESSAGE][FAILED] - Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found
+
+2017-09-07 09:24:58 - [TEST_STEP][FAILED] - Statement - Else: Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)
+
+2017-09-07 09:24:58 - [TEST_STEP][PASSED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Outages/Current Outages Tab), 10, CONTINUE_ON_FAILURE) == false): Element 'Object Repository/SCM Mobile/Outages/Current Outages Tab' is visible
+
+2017-09-07 09:25:02 - [MESSAGE][PASSED] - Element 'Object Repository/SCM Mobile/Outages/Current Outages Tab' is visible
+
+2017-09-07 09:25:02 - [TEST_STEP][FAILED] - Statement - Else: Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)
+
+2017-09-07 09:25:02 - [TEST_STEP][PASSED] - Statement - out.println("Current Outages Tab is displayed in the Outages Menu"): null
+
+2017-09-07 09:25:02 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Outages/Current Outages Tab'
+
+2017-09-07 09:25:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Outages/Current Outages Tab'
+
+2017-09-07 09:25:07 - [TEST_STEP][PASSED] - delay: Delayed 35 second(s)
+
+2017-09-07 09:25:42 - [MESSAGE][PASSED] - Delayed 35 second(s)
+
+2017-09-07 09:25:42 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/SCM Mobile/Outages/Outages List View'
+
+2017-09-07 09:25:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/SCM Mobile/Outages/Outages List View'
+
+2017-09-07 09:25:48 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnListOutagesPage = null: null
+
+2017-09-07 09:25:48 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnOutagesDetailsPage = null: null
+
+2017-09-07 09:25:48 - [TEST_STEP][FAILED] - Statement - sOutageTitleOnListOutagesPage = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Outages/Outage Title on Outage Details Page_Map), "value", 5, CONTINUE_ON_FAILURE): Object Object Repository/SCM Mobile/Outages/Outage Title on Outage Details Page_Map not found
+
+2017-09-07 09:25:55 - [MESSAGE][FAILED] - Object Object Repository/SCM Mobile/Outages/Outage Title on Outage Details Page_Map not found
+
+2017-09-07 09:25:55 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)
+
+2017-09-07 09:26:32 - [MESSAGE][FAILED] - Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found
+
+2017-09-07 09:26:32 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page' (Root cause: Object Object Repository/SCM Mobile/Outages/Outage Title on the Outage List View Page not found)]]></system-out>
+         <system-err><![CDATA[2017-09-07 09:23:27 - [TEST_CASE][FAILED] - Test Cases/Outages: Test Cases/Outages FAILED because (of) Element 'Object Repository/SCM Mobile/Outages/Current Outages Text if Current Outages are not available' not found]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Notifications" classname="Test Cases/Notifications" status="ERROR">
+         <error type="ERROR" message=""/>
+         <system-out><![CDATA[2017-09-07 09:26:32 - [TEST_CASE][ERROR] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) java.lang.NullPointerException: Cannot invoke method getLocation() on null object
+
+2017-09-07 09:26:32 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-09-07 09:26:32 - [TEST_STEP][PASSED] - Statement - x = 0: null
+
+2017-09-07 09:26:32 - [TEST_STEP][PASSED] - Statement - y = 0: null
+
+2017-09-07 09:26:32 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-09-07 09:26:32 - [TEST_STEP][PASSED] - Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20): Finding Test Object with id 'Object Repository/SCM Mobile/LandingPage/Usage Menu'
+
+2017-09-07 09:26:35 - [TEST_STEP][PASSED] - Statement - x = UsageMenu.getLocation().getX(): null]]></system-out>
+         <system-err><![CDATA[2017-09-07 09:26:32 - [TEST_CASE][ERROR] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) java.lang.NullPointerException: Cannot invoke method getLocation() on null object]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-09-07 09:15:41 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/My Account FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' not found]]></system-out>
+      <system-err><![CDATA[2017-09-07 09:15:41 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/My Account FAILED because (of) Element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' not found]]></system-err>
+   </testsuite>
+</testsuites>

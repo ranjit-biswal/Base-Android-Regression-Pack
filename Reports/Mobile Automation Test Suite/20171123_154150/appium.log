@@ -1,0 +1,736 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 49752
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 49753
+[Appium]   tmpDir: C:\Users\SAHIL~1.DHE\AppData\Local\Temp\\Katalon\Appium\Temp1511431924898
+[Appium] Appium REST http interface listener started on 0.0.0.0:49752
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 64 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"E:\\app-debug.apk","autoGrantPermissions":true,"deviceId":"","deviceName":"samsung GT-I9500 5.0.1","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"4d00c4b5b0a160b9"},"capabilities":{"desiredCapabilities":{"app":"E:\\app-debug.apk","autoGrantPermissions":true,"deviceId":"","deviceName":"samsung GT-I9500 5.0.1","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"4d00c4b5b0a160b9"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'E:\\app-debug.apk'
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceId: ''
+[Appium]   deviceName: 'samsung GT-I9500 5.0.1'
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: 'ANDROID'
+[Appium]   platformName: 'Android'
+[Appium]   udid: '4d00c4b5b0a160b9'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: deviceId, platform.
+[BaseDriver] Session created with session id: 3668cbed-c070-4bfc-b33f-208d823fc2b2
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Katalon_Studio_Windows_64-5.1.0.1\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 4d00c4b5b0a160b9
+[ADB] Checking whether adb is present
+[ADB] Using adb.exe from E:\Katalon_Studio_Windows_64-5.1.0.1\configuration\resources\tools\android_sdk\platform-tools\adb.exe
+[BaseDriver] Using local app 'E:\app-debug.apk'
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from E:\Katalon_Studio_Windows_64-5.1.0.1\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Cannot read version codes of C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\app\build\outputs\apk\settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from E:\Katalon_Studio_Windows_64-5.1.0.1\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/844b4411220d5b2a3bd13678167da37f.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[AndroidDriver] Will remove /data/local/tmp/c5833f70602d9ed881f1dcc47a3d0979.apk
+[AndroidDriver] Pushing com.sus.scm_mobile to device. Will wait up to 90000 milliseconds before aborting
+[ADB] App was not uninstalled, maybe it wasn't on device?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt.exe from E:\Katalon_Studio_Windows_64-5.1.0.1\configuration\resources\tools\android_sdk\build-tools\23.0.3\aapt.exe
+[ADB] Extracting package and launch activity from manifest
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 3668cbed-c070-4bfc-b33f-208d823fc2b2 added to master session list
+[HTTP] <-- POST /wd/hub/session 200 45363 ms - 1079 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 49 ms - 83 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context {}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context 200 5 ms - 84 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/contexts {}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/contexts 200 109 ms - 86 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context 200 84 ms - 76 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/orientation {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"orientation","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: orientation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Current rotation: ROTATION_0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"PORTRAIT"}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/orientation 200 16 ms - 82 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context 200 74 ms - 76 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context {}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context 200 2 ms - 84 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/contexts {}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/contexts 200 83 ms - 86 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context 200 78 ms - 76 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/window/current/size 200 19 ms - 100 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context 200 90 ms - 76 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context {}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context 200 1 ms - 84 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/contexts {}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/contexts 200 184 ms - 86 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context 200 78 ms - 76 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/window/current/size 200 7 ms - 100 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context {"name":"NATIVE_APP"}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/context 200 83 ms - 76 
+[HTTP] --> GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1920,"width":1080}}
+[HTTP] <-- GET /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/window/current/size 200 8 ms - 100 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 94 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 82 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 200 ms - 74 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 63 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 211 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 79 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 74 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 141 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 89 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 195 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 73 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 72 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 207 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 74 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 210 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 77 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 75 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 202 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 76 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 205 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 59 ms - 74 
+[HTTP] --> POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements {"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"-android uiautomator","selector":"new UiSelector().className(\"android.widget.ImageView\").resourceId(\"com.sus.scm_mobile:id/suslogo\").instance(0)","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Failed to locate element. Clearing Accessibility cache and retrying.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding 'new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)' using 'ANDROID_UIAUTOMATOR' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Parsing selector: new UiSelector().className("android.widget.ImageView").resourceId("com.sus.scm_mobile:id/suslogo").instance(0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: java.lang.Class<T> arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "android.widget.ImageView"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: class java.lang.String arg: "com.sus.scm_mobile:id/suslogo"
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] UiSelector coerce type: int arg: 0
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Element[] is null: (0)
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements tmp selector:UiSelector[CLASS=android.widget.ImageView, INSTANCE=0, RESOURCE_ID=com.sus.scm_mobile:id/suslogo]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[]}
+[HTTP] <-- POST /wd/hub/session/3668cbed-c070-4bfc-b33f-208d823fc2b2/elements 200 198 ms - 74 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 164 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"E:\\app-debug.apk","autoGrantPermissions":true,"deviceId":"","deviceName":"samsung GT-I9500 5.0.1","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"4d00c4b5b0a160b9"},"capabilities":{"desiredCapabilities":{"app":"E:\\app-debug.apk","autoGrantPermissions":true,"deviceId":"","deviceName":"samsung GT-I9500 5.0.1","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"4d00c4b5b0a160b9"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: 'E:\\app-debug.apk'
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceId: ''
+[Appium]   deviceName: 'samsung GT-I9500 5.0.1'
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: 'ANDROID'
+[Appium]   platformName: 'Android'
+[Appium]   udid: '4d00c4b5b0a160b9'
+[HTTP] <-- POST /wd/hub/session 500 9 ms - 193 
+Error: write EPIPE
+    at exports._errnoException (util.js:1018:11)
+    at Socket._writeGeneric (net.js:711:26)
+    at Socket._write (net.js:730:8)
+    at doWrite (_stream_writable.js:331:12)
+    at writeOrBuffer (_stream_writable.js:317:5)
+    at Socket.Writable.write (_stream_writable.js:243:11)
+    at Socket.write (net.js:657:40)
+    at Socket.stream.write (C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\ansi\lib\newlines.js:36:21)
+    at Console.log (C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\transports\console.js:119:20)
+    at transportLog (C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:234:15)
+    at C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:157:13
+    at _each (C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:57:9)
+    at Object.async.each (C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\winston\node_modules\async\lib\async.js:156:9)
+    at Logger.log (C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\logger.js:246:9)
+    at target.(anonymous function) [as error] (C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\winston\lib\winston\common.js:54:18)
+    at EventEmitter.<anonymous> (../../lib/logsink.js:197:22)
+    at emitOne (events.js:96:13)
+    at EventEmitter.emit (events.js:188:7)
+    at EventEmitter.<anonymous> (C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:158:8)
+    at EventEmitter.<anonymous> (C:\Users\sahil.dheer\AppData\Roaming\npm\node_modules\appium\node_modules\npmlog\log.js:231:21)
+    at SubProcess.<anonymous> (../../lib/uiautomator.js:43:15)
+    at emitTwo (events.js:106:13)
+    at SubProcess.emit (events.js:191:7)
+    at ChildProcess.<anonymous> (../../lib/teen_process.js:205:14)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)

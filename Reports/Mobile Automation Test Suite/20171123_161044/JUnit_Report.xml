@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mobile Automation Test Suite" time="1198" tests="0" failures="11" errors="2">
+   <testsuite name="Mobile Automation Test Suite" tests="0" failures="11" errors="2" time="1198" timestamp="2017-11-23 16:10:51" hostname="Sahil.Dheer - suslap-2015-112.sus.local" id="Test Suites/Mobile Automation Test Suite">
+      <properties>
+         <property name="deviceName" value="samsung GT-I9500 5.0.1"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Mobile Automation\\Base Android App Regression Pack\\Reports\\Mobile Automation Test Suite\\20171123_161044"/>
+         <property name="logFiles" value="E:\\Mobile Automation\\Base Android App Regression Pack\\Reports\\Mobile Automation Test Suite\\20171123_161044\\appium.log, E:\\Mobile Automation\\Base Android App Regression Pack\\Reports\\Mobile Automation Test Suite\\20171123_161044\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Sahil.Dheer - suslap-2015-112.sus.local"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.1.0.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.6.5"/>
+         <property name="deviceModel" value="GT-I9500"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="4d00c4b5b0a160b9"/>
+         <property name="deviceName" value="samsung GT-I9500 5.0.1"/>
+         <property name="deviceOSVersion" value="5.0.1"/>
+      </properties>
+      <testcase name="Test Cases/PreLogIn" classname="Test Cases/PreLogIn" status="FAILED">
+         <failure type="FAILED" message="Failed to check for element 'Object Repository/SCM Mobile/PreLogin/PreLogin Client Logo' visible (Root cause: java.lang.NullPointerException)"/>
+         <system-out><![CDATA[2017-11-23 16:10:51 - [TEST_CASE][FAILED] - Test Cases/PreLogIn: Test Cases/PreLogIn FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/PreLogin/PreLogin Client Logo' visible (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:10:52 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-11-23 16:10:52 - [TEST_STEP][PASSED] - startApplication: Started app at: 'E:\app-debug.apk'
+
+2017-11-23 16:11:32 - [MESSAGE][PASSED] - Started app at: 'E:\app-debug.apk'
+
+2017-11-23 16:11:32 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-11-23 16:12:02 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-11-23 16:12:02 - [TEST_STEP][PASSED] - getCurrentOrientation: Current screen orientation of the device is 'portrait'
+
+2017-11-23 16:12:02 - [MESSAGE][PASSED] - Current screen orientation of the device is 'portrait'
+
+2017-11-23 16:12:03 - [TEST_STEP][PASSED] - getDeviceHeight: Current device physical height is 1920
+
+2017-11-23 16:12:03 - [MESSAGE][PASSED] - Current device physical height is 1920
+
+2017-11-23 16:12:03 - [TEST_STEP][PASSED] - getDeviceOS: Device OS name is: 'Android'
+
+2017-11-23 16:12:03 - [MESSAGE][PASSED] - Device OS name is: 'Android'
+
+2017-11-23 16:12:03 - [TEST_STEP][PASSED] - getDeviceOSVersion: Device OS version is: '5.0.1'
+
+2017-11-23 16:12:03 - [MESSAGE][PASSED] - Device OS version is: '5.0.1'
+
+2017-11-23 16:12:03 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-11-23 16:12:33 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-11-23 16:12:33 - [TEST_STEP][PASSED] - Statement - sDeviceVersion = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getDeviceOSVersion(): Device OS version is: '5.0.1'
+
+2017-11-23 16:12:33 - [MESSAGE][PASSED] - Device OS version is: '5.0.1'
+
+2017-11-23 16:12:33 - [TEST_STEP][PASSED] - Statement - s2 = sDeviceVersion.split("\."): null
+
+2017-11-23 16:12:33 - [TEST_STEP][PASSED] - Statement - s3 = s2[0]: null
+
+2017-11-23 16:12:33 - [TEST_STEP][PASSED] - Statement - iAndroidVersion = java.lang.Integer.parseInt(s3): null
+
+2017-11-23 16:12:33 - [TEST_STEP][PASSED] - getDeviceWidth: Current device physical width is 1080
+
+2017-11-23 16:12:33 - [MESSAGE][PASSED] - Current device physical width is 1080
+
+2017-11-23 16:12:33 - [TEST_STEP][PASSED] - Statement - If (iAndroidVersion > 5): null
+
+2017-11-23 16:12:33 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:12:33 - [TEST_STEP][PASSED] - Statement - out.println("Device Version less than 5.0, so no permissions displayed"): null
+
+2017-11-23 16:12:33 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin/PreLogin Client Logo), 3, CONTINUE_ON_FAILURE) == true): Failed to check for element 'Object Repository/SCM Mobile/PreLogin/PreLogin Client Logo' visible (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:12:34 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/PreLogin/PreLogin Client Logo' visible (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:12:34 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:12:34 - [TEST_STEP][PASSED] - Statement - out.println("Client Logo is not Displayed"): null]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:10:51 - [TEST_CASE][FAILED] - Test Cases/PreLogIn: Test Cases/PreLogIn FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/PreLogin/PreLogin Client Logo' visible (Root cause: java.lang.NullPointerException)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LogIn" classname="Test Cases/LogIn" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:12:34 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:12:34 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:12:35 - [MESSAGE][FAILED] - Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:12:35 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2017-11-23 16:13:35 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2017-11-23 16:13:35 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:13:40 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:13:40 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:13:46 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:13:46 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:13:52 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:12:34 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 16 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LandingPage" classname="Test Cases/LandingPage" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:13:52 - [TEST_CASE][FAILED] - Test Cases/LandingPage: Test Cases/LandingPage FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:13:52 - [TEST_STEP][PASSED] - Statement - x = 0: null
+
+2017-11-23 16:13:52 - [TEST_STEP][PASSED] - Statement - y = 0: null
+
+2017-11-23 16:13:52 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/LogIn' (Root cause: Call Test Case 'Test Cases/LogIn' failed)
+
+2017-11-23 16:13:52 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:13:52 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:13:52 - [MESSAGE][FAILED] - Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:13:52 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2017-11-23 16:14:52 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2017-11-23 16:14:52 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:14:57 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:14:57 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:15:03 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:15:03 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:15:08 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:15:08 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/LogIn' (Root cause: Call Test Case 'Test Cases/LogIn' failed)
+
+2017-11-23 16:15:08 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-11-23 16:15:38 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-11-23 16:15:38 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/Common Elements/Mic Button), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-11-23 16:15:44 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/Common Elements/Mic Button' visible (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:15:44 - [TEST_STEP][PASSED] - Statement - out.println("Mic icon is not displayed in the Dashboard/Landing Page"): null
+
+2017-11-23 16:15:44 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-11-23 16:15:44 - [TEST_STEP][FAILED] - Statement - sPageIndicator = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/PageIndicator), "value", 15, CONTINUE_ON_FAILURE): Object Object Repository/SCM Mobile/LandingPage/PageIndicator not found
+
+2017-11-23 16:15:59 - [MESSAGE][FAILED] - Object Object Repository/SCM Mobile/LandingPage/PageIndicator not found
+
+2017-11-23 16:15:59 - [TEST_STEP][PASSED] - Statement - s1 = sPageIndicator.split("\s"): null]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:13:52 - [TEST_CASE][FAILED] - Test Cases/LandingPage: Test Cases/LandingPage FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Account" classname="Test Cases/My Account" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:15:59 - [TEST_CASE][FAILED] - Test Cases/My Account: Test Cases/My Account FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:16:00 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-11-23 16:16:00 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-11-23 16:16:00 - [TEST_STEP][PASSED] - Statement - bResult1 = false: null
+
+2017-11-23 16:16:00 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/LogIn' (Root cause: Call Test Case 'Test Cases/LogIn' failed)
+
+2017-11-23 16:16:00 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:16:00 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:16:01 - [MESSAGE][FAILED] - Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:16:01 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2017-11-23 16:17:01 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2017-11-23 16:17:01 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:17:07 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:17:07 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:17:12 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:17:12 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:17:17 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:17:17 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/LogIn' (Root cause: Call Test Case 'Test Cases/LogIn' failed)
+
+2017-11-23 16:17:17 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-11-23 16:18:07 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-11-23 16:18:07 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/My Account Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-11-23 16:18:12 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/My Account Menu' visible (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:18:12 - [TEST_STEP][PASSED] - Statement - out.println("My Account is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:15:59 - [TEST_CASE][FAILED] - Test Cases/My Account: Test Cases/My Account FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Usage" classname="Test Cases/Usage" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:18:12 - [TEST_CASE][FAILED] - Test Cases/Usage: Test Cases/Usage FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:18:13 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-11-23 16:18:13 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/LogIn' (Root cause: Call Test Case 'Test Cases/LogIn' failed)
+
+2017-11-23 16:18:13 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:18:13 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:18:13 - [MESSAGE][FAILED] - Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:18:13 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2017-11-23 16:19:13 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2017-11-23 16:19:13 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:19:19 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:19:19 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:19:24 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:19:24 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:19:30 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:19:30 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/LogIn' (Root cause: Call Test Case 'Test Cases/LogIn' failed)
+
+2017-11-23 16:19:30 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-11-23 16:20:20 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-11-23 16:20:20 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-11-23 16:20:25 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Usage Menu' visible (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:20:25 - [TEST_STEP][PASSED] - Statement - out.println("Usage is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:18:12 - [TEST_CASE][FAILED] - Test Cases/Usage: Test Cases/Usage FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Notifications" classname="Test Cases/Notifications" status="ERROR">
+         <error type="ERROR" message="Test Cases/Notifications FAILED because (of) java.lang.NullPointerException"/>
+         <system-out><![CDATA[2017-11-23 16:20:26 - [TEST_CASE][ERROR] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) java.lang.NullPointerException
+
+2017-11-23 16:20:26 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-11-23 16:20:26 - [TEST_STEP][PASSED] - Statement - x = 0: null
+
+2017-11-23 16:20:26 - [TEST_STEP][PASSED] - Statement - y = 0: null
+
+2017-11-23 16:20:26 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-11-23 16:21:16 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-11-23 16:21:16 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-11-23 16:21:16 - [TEST_STEP][PASSED] - Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20): Finding Test Object with id 'Object Repository/SCM Mobile/LandingPage/Usage Menu']]></system-out>
+         <system-err><![CDATA[2017-11-23 16:20:26 - [TEST_CASE][ERROR] - Test Cases/Notifications: Test Cases/Notifications FAILED because (of) java.lang.NullPointerException]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Electric Vehicle" classname="Test Cases/Electric Vehicle" status="ERROR">
+         <error type="ERROR" message="Test Cases/Electric Vehicle FAILED because (of) java.lang.NullPointerException"/>
+         <system-out><![CDATA[2017-11-23 16:21:21 - [TEST_CASE][ERROR] - Test Cases/Electric Vehicle: Test Cases/Electric Vehicle FAILED because (of) java.lang.NullPointerException
+
+2017-11-23 16:21:22 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-11-23 16:21:22 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-11-23 16:21:22 - [TEST_STEP][PASSED] - Statement - bResult1 = true: null
+
+2017-11-23 16:21:22 - [TEST_STEP][PASSED] - Statement - iBeforeCarCount = 0: null
+
+2017-11-23 16:21:22 - [TEST_STEP][PASSED] - Statement - iAfterCarCount = 0: null
+
+2017-11-23 16:21:22 - [TEST_STEP][PASSED] - Statement - sCar = null: null
+
+2017-11-23 16:21:22 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-11-23 16:22:12 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-11-23 16:22:12 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-11-23 16:22:12 - [TEST_STEP][PASSED] - Statement - UsageMenu = com.kms.katalon.core.mobile.helper.MobileElementCommonHelper.findElement(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Usage Menu), 20): Finding Test Object with id 'Object Repository/SCM Mobile/LandingPage/Usage Menu']]></system-out>
+         <system-err><![CDATA[2017-11-23 16:21:21 - [TEST_CASE][ERROR] - Test Cases/Electric Vehicle: Test Cases/Electric Vehicle FAILED because (of) java.lang.NullPointerException]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Efficiency" classname="Test Cases/Efficiency" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:22:24 - [TEST_CASE][FAILED] - Test Cases/Efficiency: Test Cases/Efficiency FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:22:25 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/LogIn' (Root cause: Call Test Case 'Test Cases/LogIn' failed)
+
+2017-11-23 16:22:25 - [TEST_CASE][FAILED] - Test Cases/LogIn: Test Cases/LogIn FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:22:25 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:22:25 - [MESSAGE][FAILED] - Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:22:25 - [TEST_STEP][PASSED] - delay: Delayed 60 second(s)
+
+2017-11-23 16:23:25 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2017-11-23 16:23:25 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:23:37 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:23:37 - [TEST_STEP][FAILED] - setText: Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:23:48 - [MESSAGE][FAILED] - Failed to set text into element (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:23:48 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:24:01 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/LogIn/SignIn Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:24:01 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/LogIn' (Root cause: Call Test Case 'Test Cases/LogIn' failed)
+
+2017-11-23 16:24:01 - [TEST_STEP][PASSED] - delay: Delayed 50 second(s)
+
+2017-11-23 16:24:51 - [MESSAGE][PASSED] - Delayed 50 second(s)
+
+2017-11-23 16:24:51 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-11-23 16:24:51 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/LandingPage/Efficiency Menu), 3, CONTINUE_ON_FAILURE) == false): null
+
+2017-11-23 16:25:03 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/LandingPage/Efficiency Menu' visible (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:25:03 - [TEST_STEP][PASSED] - Statement - out.println("Efficiency is not displayed in the Dashboard/Landing Page"): null]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:22:24 - [TEST_CASE][FAILED] - Test Cases/Efficiency: Test Cases/Efficiency FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PreLogin Efficiency" classname="Test Cases/PreLogin Efficiency" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:25:03 - [TEST_CASE][FAILED] - Test Cases/PreLogin Efficiency: Test Cases/PreLogin Efficiency FAILED because (of) Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:25:04 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:25:09 - [MESSAGE][FAILED] - Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:25:09 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-11-23 16:25:39 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-11-23 16:25:39 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/PreLogin Efficiency/PreLogin Efficiency Menu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:25:52 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/PreLogin Efficiency/PreLogin Efficiency Menu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:25:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-23 16:25:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-23 16:25:57 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-11-23 16:25:57 - [TEST_STEP][PASSED] - Statement - ls = driver.findElementsByClassName("XCUIElementTypeStaticText"): null
+
+2017-11-23 16:25:57 - [TEST_STEP][PASSED] - Statement - println(ls.size()): null
+
+2017-11-23 16:25:57 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-11-23 16:26:17 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-11-23 16:26:17 - [TEST_STEP][PASSED] - Statement - For ([index = 0, index < ls.size(), (index++)]): null
+
+2017-11-23 16:26:17 - [TEST_STEP][FAILED] - tap: Object Object Repository/SCM Mobile/Common Elements/PressBack not found
+
+2017-11-23 16:26:33 - [MESSAGE][FAILED] - Object Object Repository/SCM Mobile/Common Elements/PressBack not found
+
+2017-11-23 16:26:33 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-23 16:26:43 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:25:03 - [TEST_CASE][FAILED] - Test Cases/PreLogin Efficiency: Test Cases/PreLogin Efficiency FAILED because (of) Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 7 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PreLogin MoreOptions Menu" classname="Test Cases/PreLogin MoreOptions Menu" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:26:43 - [TEST_CASE][FAILED] - Test Cases/PreLogin MoreOptions Menu: Test Cases/PreLogin MoreOptions Menu FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:26:43 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-11-23 16:26:43 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-11-23 16:26:43 - [TEST_STEP][PASSED] - Statement - bResult1 = false: null
+
+2017-11-23 16:26:43 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:26:44 - [MESSAGE][FAILED] - Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:26:44 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-11-23 16:27:14 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-11-23 16:27:14 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver(): null
+
+2017-11-23 16:27:14 - [TEST_STEP][FAILED] - Statement - If (com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu), 3, CONTINUE_ON_FAILURE) == true): Failed to check for element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' visible (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:27:26 - [MESSAGE][FAILED] - Failed to check for element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' visible (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:27:26 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:27:26 - [TEST_STEP][PASSED] - Statement - out.println("MoreOptionsMenu Icon is not Displayed"): null
+
+2017-11-23 16:27:26 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:27:38 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:27:38 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-23 16:27:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-23 16:27:43 - [TEST_STEP][PASSED] - Comment - "***********************************************": null
+
+2017-11-23 16:27:43 - [TEST_STEP][PASSED] - Statement - If (bResult == true && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Heading), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-11-23 16:27:43 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:27:43 - [TEST_STEP][PASSED] - Statement - out.println("MoreOptionsMenu Heading is not Displayed"): null
+
+2017-11-23 16:27:43 - [TEST_STEP][FAILED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Heading), "value", 5, CONTINUE_ON_FAILURE): Object Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Heading not found
+
+2017-11-23 16:27:48 - [MESSAGE][FAILED] - Object Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Heading not found
+
+2017-11-23 16:27:48 - [TEST_STEP][PASSED] - Statement - If (messageText.equals(sMoreOptionsMenuHeadingText)): null
+
+2017-11-23 16:27:48 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:27:48 - [TEST_STEP][PASSED] - Statement - out.println("MoreOptionsMenu Heading is not matching with the Expected Text, Expected Text is : " + sMoreOptionsMenuHeadingText + "but Actual Text is " + messageText): null
+
+2017-11-23 16:27:48 - [TEST_STEP][PASSED] - Comment - "***********************************************": null
+
+2017-11-23 16:27:48 - [TEST_STEP][PASSED] - Statement - If (bResult == true && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Application CopyRight Text), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-11-23 16:27:48 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:27:48 - [TEST_STEP][PASSED] - Statement - out.println("Application CopyRight is not Displayed"): null
+
+2017-11-23 16:27:48 - [TEST_STEP][FAILED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Application CopyRight Text), "value", 5, CONTINUE_ON_FAILURE): Failed to get attribute 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Application CopyRight Text' on element 'value' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:28:01 - [MESSAGE][FAILED] - Failed to get attribute 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Application CopyRight Text' on element 'value' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:28:01 - [TEST_STEP][PASSED] - Statement - If (messageText.equals(sCopyRight)): null
+
+2017-11-23 16:28:01 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:28:01 - [TEST_STEP][PASSED] - Statement - out.println("Copyright © Text is not matching with the Expected Text, Expected Text is : " + sCopyRight + "but Actual Text is " + messageText): null
+
+2017-11-23 16:28:01 - [TEST_STEP][PASSED] - Comment - "***********************************************": null
+
+2017-11-23 16:28:01 - [TEST_STEP][PASSED] - Statement - If (bResult == true && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Application Version), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-11-23 16:28:01 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:28:01 - [TEST_STEP][PASSED] - Statement - out.println("Application Version is not Displayed"): null
+
+2017-11-23 16:28:01 - [TEST_STEP][FAILED] - Statement - messageText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Application Version), "value", 5, CONTINUE_ON_FAILURE): Failed to get attribute 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Application Version' on element 'value' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:28:13 - [MESSAGE][FAILED] - Failed to get attribute 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Application Version' on element 'value' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Statement - If (messageText.equals(sApplicationVersion)): null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Statement - out.println("Application Version Text is not matching with the Expected Text, Expected Text is :" + sApplicationVersion + " but Actual Text is " + messageText): null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Comment - "***********************************************": null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Statement - If (bResult == true && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Company Logo), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Statement - out.println("Company Logo is not Displayed"): null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Comment - "***********************************************": null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Statement - If (bResult == true && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Language Tab), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:28:13 - [TEST_STEP][PASSED] - Statement - out.println("MoreOptionsMenu Language Tab is not Displayed"): null
+
+2017-11-23 16:28:13 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:28:25 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:28:25 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-23 16:28:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-23 16:28:30 - [TEST_STEP][PASSED] - Comment - "***********************************************": null
+
+2017-11-23 16:28:30 - [TEST_STEP][PASSED] - Statement - If (bResult == true && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu Terms and Conditions Tab), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-11-23 16:28:30 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:28:30 - [TEST_STEP][PASSED] - Statement - out.println("MoreOptionsMenu T&C Tab is not Displayed"): null
+
+2017-11-23 16:28:30 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:28:43 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:28:43 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-23 16:28:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-23 16:28:48 - [TEST_STEP][PASSED] - Comment - "***********************************************": null
+
+2017-11-23 16:28:48 - [TEST_STEP][PASSED] - Statement - If (bResult == true && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu FAQs Tab), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-11-23 16:28:48 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:28:48 - [TEST_STEP][PASSED] - Statement - out.println("MoreOptionsMenu FAQs Tab is not Displayed"): null
+
+2017-11-23 16:28:48 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:29:00 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:29:00 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-23 16:29:10 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-23 16:29:10 - [TEST_STEP][PASSED] - Comment - "***********************************************": null
+
+2017-11-23 16:29:10 - [TEST_STEP][PASSED] - Statement - If (bResult == true && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu SCM Website Tab), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-11-23 16:29:10 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:29:10 - [TEST_STEP][PASSED] - Statement - out.println("MoreOptionsMenu SCM Website Tab is not Displayed"): null
+
+2017-11-23 16:29:10 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:29:19 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/PreLogin MoreOptionsMenu/MoreOptionsMenu' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:29:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2017-11-23 16:29:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2017-11-23 16:29:24 - [TEST_STEP][PASSED] - Comment - "***********************************************": null
+
+2017-11-23 16:29:24 - [TEST_STEP][PASSED] - Statement - If (bResult == true && com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.verifyElementVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(SCM Mobile/PreLogin MoreOptionsMenu/Login Help/MoreOptionsMenu Login Help Tab), 3, CONTINUE_ON_FAILURE) == true): null
+
+2017-11-23 16:29:24 - [TEST_STEP][PASSED] - Statement - Else: null
+
+2017-11-23 16:29:24 - [TEST_STEP][PASSED] - Statement - out.println("MoreOptionsMenu Login Help Tab is not Displayed"): null]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:26:43 - [TEST_CASE][FAILED] - Test Cases/PreLogin MoreOptions Menu: Test Cases/PreLogin MoreOptions Menu FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PreLogin Outages" classname="Test Cases/PreLogin Outages" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:29:24 - [TEST_CASE][FAILED] - Test Cases/PreLogin Outages: Test Cases/PreLogin Outages FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:29:24 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnListOutagesPage = null: null
+
+2017-11-23 16:29:24 - [TEST_STEP][PASSED] - Statement - sOutageTitleOnOutagesDetailsPage = null: null
+
+2017-11-23 16:29:24 - [TEST_STEP][PASSED] - Statement - bResult = false: null
+
+2017-11-23 16:29:24 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-11-23 16:29:24 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:29:25 - [MESSAGE][FAILED] - Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:29:24 - [TEST_CASE][FAILED] - Test Cases/PreLogin Outages: Test Cases/PreLogin Outages FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 9 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PreLogin PayBill" classname="Test Cases/PreLogin PayBill" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:29:25 - [TEST_CASE][FAILED] - Test Cases/PreLogin PayBill: Test Cases/PreLogin PayBill FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:29:25 - [TEST_STEP][PASSED] - Statement - messageText = null: null
+
+2017-11-23 16:29:25 - [TEST_STEP][PASSED] - Statement - transactionId = null: null
+
+2017-11-23 16:29:25 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:29:25 - [MESSAGE][FAILED] - Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:29:25 - [TEST_CASE][FAILED] - Test Cases/PreLogin PayBill: Test Cases/PreLogin PayBill FAILED because (of) Unable to start app at: 'E:/app-debug.apk' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Registration" classname="Test Cases/Registration" status="FAILED">
+         <failure type="FAILED" message="Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)"/>
+         <system-out><![CDATA[2017-11-23 16:29:25 - [TEST_CASE][FAILED] - Test Cases/Registration: Test Cases/Registration FAILED because (of) Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:29:26 - [TEST_STEP][FAILED] - startApplication: Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:29:30 - [MESSAGE][FAILED] - Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)
+
+2017-11-23 16:29:30 - [TEST_STEP][PASSED] - delay: Delayed 30 second(s)
+
+2017-11-23 16:30:00 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+2017-11-23 16:30:00 - [TEST_STEP][PASSED] - delay: Delayed 20 second(s)
+
+2017-11-23 16:30:20 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2017-11-23 16:30:20 - [TEST_STEP][FAILED] - tap: Failed to tap on element 'Object Repository/SCM Mobile/Registration/Register Now Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:30:33 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/SCM Mobile/Registration/Register Now Button' (Root cause: java.lang.NullPointerException)
+
+2017-11-23 16:30:33 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2017-11-23 16:30:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2017-11-23 16:30:43 - [TEST_STEP][PASSED] - Statement - sCustomerTypeQuery = ";WITH UnRegisteredCustomer AS (SELECT c.CustomerID, U.MobilePhone,(CASE WHEN CA.AddressType = 1 THEN 'Residential' ELSE 'Commercial' END) AS AddressType, MAX(CA.UtilityAccountNumber) AS UtilityAccountNumber FROM Customer c(NOLOCK) JOIN CustomerAddress CA(NOLOCK) ON c.CustomerID = ca.CustomerID JOIN Account a(NOLOCK) ON ca.AddressID = a.AddressID JOIN UserAccount UA(NOLOCK) ON a.UtilityAccountNumber = UA.UtilityAccountNumber JOIN [User] U(NOLOCK) ON UA.UserID = U.UserID WHERE a.STATUS = 3 AND c.CustomerID NOT IN (1,- 1) GROUP BY c.CustomerID, U.MobilePhone,(CASE WHEN CA.AddressType = 1	THEN 'Residential' ELSE 'Commercial' END)) SELECT TOP 1 R.AddressType FROM CustomerAddress CA(NOLOCK) JOIN UnRegisteredCustomer R(NOLOCK) ON CA.UtilityAccountNumber = R.UtilityAccountNumber AND CA.CustomerID = R.CustomerID": null
+
+2017-11-23 16:30:43 - [TEST_STEP][PASSED] - Statement - sCustomerType = database.DataBaseUtil.executeSQLQuery(sCustomerTypeQuery): null]]></system-out>
+         <system-err><![CDATA[2017-11-23 16:29:25 - [TEST_CASE][FAILED] - Test Cases/Registration: Test Cases/Registration FAILED because (of) Unable to start app at: '//Users//sus//Desktop//SCM iOS Build//SCM_DEV_Sept5.ipa' (Root cause: org.openqa.selenium.SessionNotCreatedException: A new session could not be created. Details: Problem getting session data for driver type AndroidDriver; does it implement 'get driverData'? (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'SUSLAP-2015-112', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: SwipeableAndroidDriver)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2017-11-23 16:10:51 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/PreLogIn FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/PreLogin/PreLogin Client Logo' visible (Root cause: java.lang.NullPointerException)]]></system-out>
+      <system-err><![CDATA[2017-11-23 16:10:51 - [TEST_SUITE][FAILED] - Mobile Automation Test Suite: Test Cases/PreLogIn FAILED because (of) Failed to check for element 'Object Repository/SCM Mobile/PreLogin/PreLogin Client Logo' visible (Root cause: java.lang.NullPointerException)]]></system-err>
+   </testsuite>
+</testsuites>
